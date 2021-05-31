@@ -1,0 +1,51 @@
+Dataset Name,Variation,Synthetic/Real
+aggregation,shape,Synthetic
+compound,shape,Synthetic
+pathbased,shape,Synthetic
+3-spiral,shape,Synthetic
+jain,shape,Synthetic
+R15,shape,Synthetic
+D31,shape,Synthetic
+Flame,shape,Synthetic
+donut1,shape,Synthetic
+donut2,shape,Synthetic
+donut3,shape,Synthetic
+donutcurves,shape,Synthetic
+rings,shape,Synthetic
+hepta,shape,Synthetic
+hypercube,shape,Synthetic
+3d-10c-no0,number of clusters,Synthetic
+3d-12c-no0,number of clusters,Synthetic
+3d-15c-no0,number of clusters,Synthetic
+3d-20c-no0,number of clusters,Synthetic
+3d-25c-no0,number of clusters,Synthetic
+3d-40c-no0,number of clusters,Synthetic
+2d-10c-no0,number of clusters,Synthetic
+2d-12c-no0,number of clusters,Synthetic
+2d-15c-no0,number of clusters,Synthetic
+2d-20c-no0,number of clusters,Synthetic
+2d-25c-no0,number of clusters,Synthetic
+2d-40c-no0,number of clusters,Synthetic
+disk-6000n,large & noisy datasets,Synthetic
+cluto-t4-8k,large & noisy datasets,Synthetic
+cluto-t5-8k,large & noisy datasets,Synthetic
+cluto-t8-8k,large & noisy datasets,Synthetic
+cluto-t7-10k,large & noisy datasets,Synthetic
+dim032,dimensionality,Synthetic
+dim064,dimensionality,Synthetic
+dim128,dimensionality,Synthetic
+dim256,dimensionality,Synthetic
+dim512,dimensionality,Synthetic
+dim1024,dimensionality,Synthetic
+dense-disk-3000,dense datasets,Synthetic
+dense-disk-5000,dense datasets,Synthetic
+glass,UCI,Real
+iris,UCI,Real
+ecoli,UCI,Real
+iono,UCI,Real
+arrhythmia,UCI,Real
+s1,Overlap,Synthetic
+s2,Overlap,Synthetic
+s3,Overlap,Synthetic
+s4,Overlap,Synthetic
+unbalance,Unbalanced & Gaussian Clusters,Synthetic
