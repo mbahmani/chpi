@@ -5,11 +5,14 @@ import glob
 import warnings
 import time
 from sklearn.cluster import KMeans
+from sys import stdout
+
 URL=os.path.join( os.getcwd(), 'datasets/iris.csv' )  
 df=pd.read_csv(URL)
 print(df.head())
 
 N= 10
+
 params_kmeans={
 "n_clusters": np.random.uniform(2,40,N),
 "init": ['k-means++','random'],
