@@ -15,7 +15,7 @@ from sklearn.cluster import KMeans
 from sys import stdout
 
 
-N= 1
+N= 50
 
 params_kmeans={
 "n_clusters": np.random.choice(np.arange(2, 30, 1), N),
