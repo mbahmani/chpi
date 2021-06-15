@@ -4,21 +4,25 @@ import os
 import glob
 import warnings
 import time
+from os import listdir
+from os.path import isfile, join
+from sklearn.preprocessing import StandardScaler
+from sklearn.preprocessing import LabelEncoder
+from sklearn.preprocessing import LabelBinarizer
+from sklearn.model_selection import StratifiedKFold
+from sklearn.metrics import  adjusted_rand_score, silhouette_score, rand_score, adjusted_mutual_info_score, normalized_mutual_info_score
 from sklearn.cluster import KMeans
 from sys import stdout
 
-URL=os.path.join( os.getcwd(), 'datasets/iris.csv' )  
-df=pd.read_csv(URL)
-print(df.head())
 
-N= 10
+N= 1
 
 params_kmeans={
-"n_clusters": np.random.uniform(2,40,N),
-"init": ['k-means++','random'],
-"max_iter": np.random.choice(np.arange(100, 501, 1), N),
-"algorithm": ['auto' 'full', 'elkan'],
-"n_init": np.random.choice(np.arange(2, 21, 1), N),
+"n_clusters": np.random.choice(np.arange(2, 30, 1), N),
+"init": np.random.choice(['k-means++','random'], N),
+"max_iter": np.random.choice(np.arange(100, 500, 1), N),
+"algorithm": np.random.choice(['auto' ,'full', 'elkan'], N), 
+"n_init": np.random.choice(np.arange(2, 30, 1), N),
 }
 
 
@@ -45,7 +49,7 @@ def clusering_per_algorithm(path, algorithm):
         algorithm {str} -- [description] (default: {"kmeans"})
     """
     warnings.filterwarnings("ignore")
-    all_files = glob.glob(path + '*.csv')
+    all_files = [f for f in listdir(path) if isfile(join(path, f))]
     all_datasets = len(all_files)
     
 
@@ -55,10 +59,10 @@ def clusering_per_algorithm(path, algorithm):
     for index, file in enumerate(all_files):
         print('Dataset {}({}) out of {} \n'.format(index + 1, file, all_datasets), flush=True)
         try:
-            file_logs = clustering_per_dataset(file, algorithm, models, parameters)
+            file_logs = clustering_per_dataset(path,file, algorithm, models, parameters)
             results = pd.concat([results, file_logs], axis=0)
 
-            results.to_csv('{}_results.csv'.format(algorithm),
+            results.to_csv('performance_data/{}_results.csv'.format(algorithm),
                             header=True,
                             index=False)
         except Exception as e:
@@ -69,17 +73,19 @@ def clusering_per_algorithm(path, algorithm):
     print('Total time: {} hours'.format(time_taken))
 
 
-def clustering_per_dataset(file,algorithm, models,parameters):
+def clustering_per_dataset(path, file, algorithm, models,parameters):
     """
     Obtaining performance information for each random configuration on the given dataset for the specific clustering algorithm.
 
     Arguments:
-        file {[str]} -- [description]
+        path {[str]} -- [path of the dataset]
+        file {[str]} -- [dataset name]
         algorithm {[type]} -- [description]
         models {[type]} -- [description]
         parameters {[type]} -- [description]
     """
-    data = pd.read_csv(file,
+    path=path + file
+    data = pd.read_csv(path,
                 index_col=None,
                 header=0,
                 na_values='?')
@@ -127,7 +133,7 @@ def clustering_per_dataset(file,algorithm, models,parameters):
             final_logs = pd.concat([final_logs, logs], axis=0)
 
     else:
-        num_imput_type = None
+        num_imput_type = "None"
 
         final_logs = get_logs(data, num_imput_type, algorithm,
                             file, combinations, models)
@@ -176,33 +182,29 @@ def get_logs(data, num_imput_type, algorithm, file, combinations, models):
 
     num_labels = len(np.unique(y))
 
-    # binarizing the labels for some of the metrics
-    # in case of more than 2 labels
-    if num_labels > 2:
-        multilabel = True
-        lb = LabelBinarizer()
-        lb.fit(y)
-        y_sparse = lb.transform(y)
-    else:
-        multilabel = False
+
 
     # scaling the input in case of SVM algorithm
-    if algorithm == 'SVM':
-        scaler = StandardScaler()
-        X = scaler.fit_transform(X)
-        scaled = True
-    else:
-        scaled = False
-
-    # setting the number of folds of the Cross-Validation
-    k = 10
-    kf = StratifiedKFold(n_splits=k, shuffle=True)
-
+    
+    scaler = StandardScaler()
+    X = scaler.fit_transform(X)
+    scaled = True
+   
+    
     logs = combinations.copy()
     n_comb = logs.shape[0]
     logs.insert(loc=0, column='dataset', value=file)
     logs['imputation'] = num_imput_type
-
+    
+    ## check being real or synthetic for dataset
+    # remove .csv
+    file_name = file[:-4]
+    real_dataset_check = file_name[-3:]
+    if real_dataset_check=="_RL":
+        logs['dataset_type'] = "Real"
+    else:
+        logs['dataset_type'] = "Synthetic"
+    
     for index in range(n_comb):
         print('{}/{}'.format(index + 1, n_comb))
         
@@ -212,71 +214,33 @@ def get_logs(data, num_imput_type, algorithm, file, combinations, models):
         model = models[algorithm]
         model.set_params(**params)
 
-        i = 0
+       
 
-        cv_train_time = np.zeros(k)
-        cv_test_time = np.zeros(k)
-        acc_tr = np.zeros(k)
-        accuracy = np.zeros(k)
-        f1 = np.zeros(k)
-        recall = np.zeros(k)
-        precision = np.zeros(k)
-        auc = np.zeros(k)
 
-        for train_index, test_index in kf.split(X, y):
-            stdout.write("\rCV {}/{}".format(i+1, k))
 
-            if not scaled:
-                X_train, X_test = X.iloc[train_index, :], X.iloc[test_index, :]
-            else:
-                X_train, X_test = X[train_index, :], X[test_index, :]
-            
-            y_train, y_test = y[train_index], y[test_index]
+        start_tr = time.perf_counter()
+        model.fit(X)
+        end_tr = time.perf_counter()
+        train_time = end_tr - start_tr
 
-            start_tr = time.perf_counter()
-            model.fit(X_train, y_train)
-            end_tr = time.perf_counter()
-            train_time = end_tr - start_tr
+        predictions_tr = model.predict(X)
 
-            predictions_tr = model.predict(X_train)
-            acc_tr[i] = accuracy_score(y_train, predictions_tr)
-            start_ts = time.perf_counter()
-            predictions = model.predict(X_test)
-            end_ts = time.perf_counter()
-            test_time = end_ts - start_ts
-            cv_train_time[i] = train_time
-            cv_test_time[i] = test_time
-            accuracy[i] = accuracy_score(y_test, predictions)
+         
 
-            if multilabel:
-                y_true = y_sparse[test_index, :]
-                predictions = lb.transform(predictions)
-            else:
-                y_true = y_test
+        rnd_score = rand_score(y, predictions_tr)
+        adj_rnd_score=adjusted_rand_score(y, predictions_tr)
+        sil_score=silhouette_score(X, predictions_tr)
+        adj_mut_score=adjusted_mutual_info_score(y, predictions_tr)
+        nrm_mut_score=normalized_mutual_info_score(y, predictions_tr)
+        stdout.flush()
 
-            f1[i], recall[i], precision[i], auc[i] = other_metrics(y_true,
-                                                                   predictions,
-                                                                   multilabel)
-            i += 1
-
-            stdout.flush()
-
-        logs.loc[index, "Mean_Train_time"] = np.mean(cv_train_time)
-        logs.loc[index, "Std_Train_time"] = np.std(cv_train_time)
-        logs.loc[index, "Mean_Test_time"] = np.mean(cv_test_time)
-        logs.loc[index, "Std_Test_time"] = np.std(cv_test_time)
-        logs.loc[index, 'CV_accuracy_train'] = np.mean(acc_tr)
-        logs.loc[index, 'CV_accuracy'] = np.mean(accuracy)
-        logs.loc[index, 'CV_f1_score'] = np.mean(f1)
-        logs.loc[index, 'CV_recall'] = np.mean(recall)
-        logs.loc[index, 'CV_precision'] = np.mean(precision)
-        logs.loc[index, 'CV_auc'] = np.mean(auc)
-        logs.loc[index, 'Std_accuracy_train'] = np.std(acc_tr)
-        logs.loc[index, 'Std_accuracy'] = np.std(accuracy)
-        logs.loc[index, 'Std_f1_score'] = np.std(f1)
-        logs.loc[index, 'Std_recall'] = np.std(recall)
-        logs.loc[index, 'Std_precision'] = np.std(precision)
-        logs.loc[index, 'Std_auc'] = np.std(auc)
+        logs.loc[index, "Train_time"] = np.mean(train_time)
+        logs.loc[index, 'rand_score'] = np.mean(rnd_score)
+        logs.loc[index, 'adjusted_rand_score'] = np.mean(adj_rnd_score)
+        logs.loc[index, 'silhouette_score'] = np.mean(sil_score)
+        logs.loc[index, 'adjusted_mutual_info_score'] = np.mean(adj_mut_score)
+        logs.loc[index, 'normalized_mutual_info_score'] = np.mean(nrm_mut_score)
+        
 
         print('\n')
 

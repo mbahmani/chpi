@@ -1,6 +1,7 @@
-from tools.functions import clusering_per_algorithm,clustering_per_dataset
-
+from tools.functions import clusering_per_algorithm
+import os 
+from tools.cvi import Validation
 
 if __name__ == '__main__':
-    path_to_datasets="datasets"
-    clusering_per_algorithm(path=path_to_datasets, algorithm="kmeans")
+    
+    clusering_per_algorithm(path="datasets/", algorithm="Kmeans")
