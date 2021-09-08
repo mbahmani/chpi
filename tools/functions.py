@@ -20,9 +20,10 @@ N= 50
 params_kmeans={
 "n_clusters": np.random.choice(np.arange(2, 30, 1), N),
 "init": np.random.choice(['k-means++','random'], N),
-"max_iter": np.random.choice(np.arange(100, 500, 1), N),
+"max_iter": np.random.choice(np.arange(50, 501, 1), N),
 "algorithm": np.random.choice(['auto' ,'full', 'elkan'], N), 
 "n_init": np.random.choice(np.arange(2, 30, 1), N),
+'tol': np.random.uniform(10 ** (-5), 10 ** (-1), N),
 }
 
 

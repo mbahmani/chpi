@@ -1,6 +1,7 @@
 import collections
 import copy
 import json
+import matplotlib
 import matplotlib.pyplot as plt
 from statistics import median
 import numpy as np
@@ -10,12 +11,13 @@ import pickle
 import scipy.stats
 import seaborn as sns
 import warnings
+import matplotlib.font_manager as fm
 
 """
 Credit to https://github.com/janvanrijn/openml-pimp
 """
 
-
+warnings.filterwarnings("ignore")
 
 def rank_dict(dictionary, reverse=False):
     '''
@@ -105,19 +107,41 @@ def obtain_marginal_contributions(df):
 
 def marginal_plots(sorted_values, keys, fig_title):
 
+    sns.set_style("darkgrid")
+    
+    font = {
+        'family' : 'serif',
+        'size'   : 26}
+
+    matplotlib.rc('font', **font)
+    fm._rebuild()
     sorted_values=sorted_values[0:8]
     keys=keys[0:8]
     plt.figure(figsize=(12,10))
-    plt.violinplot(list(sorted_values), list(range(len(sorted_values))), showmeans=True )
-    plt.plot([-0.5, len(sorted_values) - 0.5], [0, 0], 'k-', linestyle='--', lw=1)
+    
+    
+    lst_arr=[]
+    lst_arr.append(list(sorted_values))
+    lst_arr.append(list(range(len(sorted_values))))
+    
+    sns.violinplot(data=list(sorted_values),inner='box', scale='width', cut=0, linewidth=2  )
+   
     keys = [format_name(key) for key in keys]
+    
+  
+  
+    ax=plt.gcf()
+    
     plt.xticks(list(range(len(sorted_values))), list(keys), rotation=45, ha='right')
     plt.ylabel('marginal contribution')
+    sns.set_palette("RdBu")
+    sns.set_style("darkgrid")
     plt.title(fig_title)
-    plt.show()
+    # plt.show()
     plt.savefig("output_plots/"+fig_title+".jpg" ,bbox_inches = 'tight',pad_inches = 0)
     plt.close()
-
+    print("Plot saved. Finished!")
+    return 0
 def format_name(name):
     '''
     Format hyperparameter names!

@@ -7,7 +7,7 @@ import fanova
 from sklearn.preprocessing import LabelEncoder
 
 
-def do_fanova(dataset_name, algorithm, st=0, end=6):
+def do_fanova(dataset_name, algorithm, st=0, end=68):
     """
     Derive importance of hyperparameter combinations
     on the performance data for the given algorithm
@@ -53,7 +53,7 @@ def do_fanova(dataset_name, algorithm, st=0, end=6):
             df['time_taken'] = time_taken
 
             results = pd.concat([results, df], axis=0)
-            results.to_csv('performace_data/{}_fANOVA_results.csv'.format(algorithm),
+            results.to_csv('performance_data/{}_fANOVA_results.csv'.format(algorithm),
                            header=True,
                            index=False)
         except Exception as e:
@@ -121,7 +121,7 @@ def fanova_to_df(data, algorithm, missing_values, cs1, cs2):
     return df, time_taken
 
 
-def cs_rf():
+
     """
     Defining the configuration space in case of
     Random Forest and Extra Trees Classifiers
@@ -129,7 +129,7 @@ def cs_rf():
     """
     cs1 = ConfigSpace.ConfigurationSpace()
     cs2 = ConfigSpace.ConfigurationSpace()
-
+ 
     hp1 = csh.CategoricalHyperparameter('bootstrap',
                                         choices=['0', '1'])
     hp2 = csh.CategoricalHyperparameter('criterion',
@@ -151,32 +151,7 @@ def cs_rf():
     return cs1, cs2
 
 
-def cs_ab():
-    """
-    Defining the configuration space in case of
-    AdaBoost Classifier
 
-    """
-    cs1 = ConfigSpace.ConfigurationSpace()
-    cs2 = ConfigSpace.ConfigurationSpace()
-
-    hp1 = csh.CategoricalHyperparameter('algorithm', choices=['0', '1'])
-    hp2 = csh.CategoricalHyperparameter('imputation', choices=['0', '1', '2'])
-
-    hp3 = csh.UniformIntegerHyperparameter('max_depth',
-                                           lower=1, upper=10, log=False)
-    hp4 = csh.UniformFloatHyperparameter('learning_rate',
-                                         lower=0.01, upper=2, log=True)
-    hp5 = csh.UniformIntegerHyperparameter('n_estimators',
-                                           lower=50, upper=500, log=False)
-
-    # imputation case
-    cs1.add_hyperparameters([hp1, hp2, hp3, hp4, hp5])
-
-    # no imputation case
-    cs2.add_hyperparameters([hp1, hp3, hp4, hp5])
-
-    return cs1, cs2
 def cs_km():
     """
     Defining the configuration space in case of
@@ -204,147 +179,27 @@ def cs_km():
 
     return cs1, cs2
 
-def cs_svm(per_kernel=False):
-    """
-    Defining the configuration space in case of
-    SVM
-
-    """
-    cs1 = ConfigSpace.ConfigurationSpace()
-    cs2 = ConfigSpace.ConfigurationSpace()
-
-    hp1 = csh.CategoricalHyperparameter('shrinking', choices=['0', '1'])
-    hp2 = csh.CategoricalHyperparameter('imputation', choices=['0', '1', '2'])
-    hp3 = csh.CategoricalHyperparameter('kernel', choices=['0', '1'])
-
-    hp4 = csh.UniformFloatHyperparameter('C', lower=2**(-5),
-                                         upper=2**15, log=True)
-    hp5 = csh.UniformFloatHyperparameter('coef0', lower=-1, upper=1, log=False)
-    hp6 = csh.UniformFloatHyperparameter('gamma', lower=2**(-15),
-                                         upper=2**3, log=True)
-    hp7 = csh.UniformFloatHyperparameter('tol', lower=10**(-5),
-                                         upper=10**(-1), log=True)
-
-    if per_kernel:
-        cs1.add_hyperparameters([hp1, hp2, hp4, hp5, hp6, hp7])
-        cs2.add_hyperparameters([hp1, hp4, hp5, hp6, hp7])
-    else:
-        cs1.add_hyperparameters([hp1, hp2, hp3, hp4, hp5, hp6, hp7])
-        cs2.add_hyperparameters([hp1, hp3, hp4, hp5, hp6, hp7])
-
-    return cs1, cs2
 
 
-def cs_gb():
-    """
-    Defining the configuration space in case of
-    GradientBoosting Classifier
-
-    """
-    cs1 = ConfigSpace.ConfigurationSpace()
-    cs2 = ConfigSpace.ConfigurationSpace()
-
-    hp1 = csh.CategoricalHyperparameter('criterion', choices=['0', '1'])
-    hp2 = csh.CategoricalHyperparameter('imputation', choices=['0', '1', '2'])
-
-    hp3 = csh.UniformIntegerHyperparameter('max_depth',
-                                           lower=1, upper=10, log=False)
-    hp4 = csh.UniformFloatHyperparameter('learning_rate',
-                                         lower=0.01, upper=1, log=True)
-    hp5 = csh.UniformIntegerHyperparameter('n_estimators',
-                                           lower=50, upper=500, log=False)
-    hp6 = csh.UniformFloatHyperparameter('max_features',
-                                         lower=0.1, upper=0.9, log=False)
-    hp7 = csh.UniformIntegerHyperparameter('min_samples_leaf',
-                                           lower=1,
-                                           upper=20, log=False)
-    hp8 = csh.UniformIntegerHyperparameter('min_samples_split', lower=2,
-                                           upper=20, log=False)
-
-    # imputation case
-    cs1.add_hyperparameters([hp1, hp2, hp3, hp4, hp5, hp6, hp7, hp8])
-
-    # no imputation case
-    cs2.add_hyperparameters([hp1, hp3, hp4, hp5, hp6, hp7, hp8])
-
-    return cs1, cs2
 
 
-def cs_dt():
-    """
-    Defining the configuration space in case of
-    Decision Tree Classifier
-    """
-    cs1 = ConfigSpace.ConfigurationSpace()
-    cs2 = ConfigSpace.ConfigurationSpace()
 
-    hp1 = csh.CategoricalHyperparameter('criterion',
-                                        choices=['0', '1'])
-    hp2 = csh.CategoricalHyperparameter('imputation',
-                                        choices=['0', '1', '2'])
 
-    hp3 = csh.UniformFloatHyperparameter('max_features', lower=0.1,
-                                         upper=0.9, log=False)
-    hp4 = csh.UniformIntegerHyperparameter('min_samples_leaf', lower=1,
-                                           upper=20, log=False)
-    hp5 = csh.UniformIntegerHyperparameter('min_samples_split', lower=2,
-                                           upper=20, log=False)
 
-    # imputation case
-    cs1.add_hyperparameters([hp1, hp2, hp3, hp4, hp5])
-
-    # no imputation case
-    cs2.add_hyperparameters([hp1, hp3, hp4, hp5])
-
-    return cs1, cs2
 
 
 config_space = {'kmeans': cs_km(),
-                'RandomForest': cs_rf(),
-                'AdaBoost': cs_ab(),
-                'ExtraTrees': cs_rf(),
-                'SVM': cs_svm(),
-                'SVM_rbf': cs_svm(per_kernel=True),
-                'SVM_sigmoid': cs_svm(per_kernel=True),
-                'GradientBoosting': cs_gb(),
-                'DecisionTree': cs_dt()}
+                }
 
 km_cols = ["dataset", "n_clusters", "init",
            "max_iter", "algorithm", "n_init",
-           "imputation", 'silhouette_score']
+           "imputation", 'normalized_mutual_info_score']
 
-RF_cols = ["dataset", "bootstrap", "criterion",
-           "max_features", "min_samples_leaf", "min_samples_split",
-           "imputation", 'CV_accuracy']
 
-AB_cols = ['dataset', 'algorithm', 'max_depth',
-           'learning_rate', 'n_estimators', 'imputation',
-           'CV_accuracy']
 
-SVM_cols = ['dataset', 'kernel', 'C', 'coef0', 'gamma',
-            'shrinking', 'tol',
-            'imputation', 'CV_accuracy']
-
-GB_cols = ['dataset', 'criterion', 'learning_rate',
-           'max_depth', 'max_features',
-           'min_samples_leaf', 'min_samples_split',
-           'n_estimators', 'imputation', 'CV_accuracy']
-
-DT_cols = ["dataset", "criterion",
-           "max_features", "min_samples_leaf", "min_samples_split",
-           "imputation", 'CV_accuracy']
-
-SVM_without_kernel = SVM_cols[SVM_cols != SVM_cols[1]]
 
 col_names = {'kmeans': km_cols,
-             'RandomForest': RF_cols,
-             'AdaBoost': AB_cols,
-             'ExtraTrees': RF_cols,
-             'SVM': SVM_cols,
-             'SVM_rbf': SVM_without_kernel,
-             'SVM_sigmoid': SVM_without_kernel,
-             'GradientBoosting': GB_cols,
-             'DecisionTree': DT_cols}
+             }
 
 
 def label_encoding(data, algorithm):
