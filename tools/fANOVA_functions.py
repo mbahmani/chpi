@@ -7,7 +7,7 @@ import fanova
 from sklearn.preprocessing import LabelEncoder
 
 
-def do_fanova(dataset_name, algorithm, st=0, end=68):
+def do_fanova(dataset_name, algorithm, st=0, end=99):
     """
     Derive importance of hyperparameter combinations
     on the performance data for the given algorithm
@@ -166,16 +166,18 @@ def cs_km():
     hp3 = csh.CategoricalHyperparameter('init', choices=['0', '1'])
     
     hp4 = csh.UniformIntegerHyperparameter('n_clusters',
-                                           lower=2, upper=30, log=False)
+                                           lower=2, upper=40, log=False)
     hp5 = csh.UniformIntegerHyperparameter('max_iter',
-                                           lower=50, upper=500, log=False)
+                                           lower=50, upper=501, log=False)
     hp6 = csh.UniformIntegerHyperparameter('n_init',
                                            lower=2, upper=30, log=False)
+    hp7= csh.UniformFloatHyperparameter('tol', lower=0.00001,
+                                         upper=0.1, log=False)
     # imputation case
-    cs1.add_hyperparameters([hp1, hp2, hp3, hp4, hp5, hp6])
+    cs1.add_hyperparameters([hp1, hp2, hp3, hp4, hp5, hp6,hp7])
 
     # no imputation case
-    cs2.add_hyperparameters([hp1, hp3, hp4, hp5, hp6])
+    cs2.add_hyperparameters([hp1, hp3, hp4, hp5, hp6,hp7])
 
     return cs1, cs2
 
@@ -192,7 +194,7 @@ config_space = {'kmeans': cs_km(),
                 }
 
 km_cols = ["dataset", "n_clusters", "init",
-           "max_iter", "algorithm", "n_init",
+           "max_iter", "algorithm", "n_init", "tol",
            "imputation", 'normalized_mutual_info_score']
 
 

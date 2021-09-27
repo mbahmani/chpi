@@ -1,51 +1,101 @@
-Dataset Name,Variation,Synthetic/Real
-aggregation,shape,Synthetic
-compound,shape,Synthetic
-pathbased,shape,Synthetic
-3-spiral,shape,Synthetic
-jain,shape,Synthetic
-R15,shape,Synthetic
-D31,shape,Synthetic
-Flame,shape,Synthetic
-donut1,shape,Synthetic
-donut2,shape,Synthetic
-donut3,shape,Synthetic
-donutcurves,shape,Synthetic
-rings,shape,Synthetic
-hepta,shape,Synthetic
-hypercube,shape,Synthetic
-3d-10c-no0,number of clusters,Synthetic
-3d-12c-no0,number of clusters,Synthetic
-3d-15c-no0,number of clusters,Synthetic
-3d-20c-no0,number of clusters,Synthetic
-3d-25c-no0,number of clusters,Synthetic
-3d-40c-no0,number of clusters,Synthetic
-2d-10c-no0,number of clusters,Synthetic
-2d-12c-no0,number of clusters,Synthetic
-2d-15c-no0,number of clusters,Synthetic
-2d-20c-no0,number of clusters,Synthetic
-2d-25c-no0,number of clusters,Synthetic
-2d-40c-no0,number of clusters,Synthetic
-disk-6000n,large & noisy datasets,Synthetic
-cluto-t4-8k,large & noisy datasets,Synthetic
-cluto-t5-8k,large & noisy datasets,Synthetic
-cluto-t8-8k,large & noisy datasets,Synthetic
-cluto-t7-10k,large & noisy datasets,Synthetic
-dim032,dimensionality,Synthetic
-dim064,dimensionality,Synthetic
-dim128,dimensionality,Synthetic
-dim256,dimensionality,Synthetic
-dim512,dimensionality,Synthetic
-dim1024,dimensionality,Synthetic
-dense-disk-3000,dense datasets,Synthetic
-dense-disk-5000,dense datasets,Synthetic
-glass,UCI,Real
-iris,UCI,Real
-ecoli,UCI,Real
-iono,UCI,Real
-arrhythmia,UCI,Real
-s1,Overlap,Synthetic
-s2,Overlap,Synthetic
-s3,Overlap,Synthetic
-s4,Overlap,Synthetic
-unbalance,Unbalanced & Gaussian Clusters,Synthetic
+Dataset Name,Variation,Synthetic/Real,No. of records,features,No. of cluster
+arrhythmia_RL,UCI,Real,452,279,16
+Balance_Scale_RL,UCI,Real,625,4,3
+Breast tissue_RL,UCI,Real,106,9,6
+Breast Wisconsin_RL,UCI,Real,699,9,2
+dermatology_RL,UCI,Real,366,34,6
+Ecoli_RL,UCI,Real,336,7,8
+German_RL,UCI,Real,1000,20,2
+glass_RL,UCI,Real,214,9,6
+Haberman,UCI,Real,306,3,2
+Ionosphere,UCI,Real,351,34,2
+ISOLET,UCI,Real,7797,617,26
+Letter_RL,UCI,Real,2000,16,26
+Movement libras,UCI,Real,360,90,15
+Musk,UCI,Real,476,166,2
+Parkinsons,UCI,Real,195,22,2
+pendigits_RL,UCI,Real,10992,16,10
+segment_RL,UCI,Real,2310,19,7
+Sonar_RL,UCI,Real,208,60,2
+Spectf,UCI,Real,267,44,2
+Statlog,UCI,Real,6435,35,7
+TAE,UCI,Real,151,5,3
+THy,UCI,Real,214,5,3
+Transfusion,UCI,Real,748,4,2
+Vehicle_RL,UCI,Real,846,18,4
+Vertebral_RL,UCI,Real,310,6,2
+vowel_RL,UCI,Real,990,10,11
+wine_RL,UCI,Real,178,13,3
+Winequality red,UCI,Real,1599,11,6
+Yeast,UCI,Real,1448,8,10
+zoo_RL,UCI,Real,101,17,7
+dense-disk-3000,dense datasets,Synthetic,3000,2,2
+dense-disk-5000,dense datasets,Synthetic,5000,2,2
+dim032,dimensionality,Synthetic,1024,32,16
+dim064,dimensionality,Synthetic,1024,64,16
+dim128,dimensionality,Synthetic,1024,128,16
+dim256,dimensionality,Synthetic,1024,256,16
+dim512,dimensionality,Synthetic,1024,512,16
+cluto-t4-8k,large & noisy datasets,Synthetic,7236,2,6
+cluto-t5-8k,large & noisy datasets,Synthetic,6847,2,6
+cluto-t7-10k,large & noisy datasets,Synthetic,9208,2,9
+cluto-t8-8k,large & noisy datasets,Synthetic,7677,2,8
+disk_1000n,large & noisy datasets,Synthetic,1000,2,2
+disk_4000n,large & noisy datasets,Synthetic,4000,2,2
+disk_4500n,large & noisy datasets,Synthetic,4500,2,2
+disk_4600n,large & noisy datasets,Synthetic,4600,2,2
+disk_5000n,large & noisy datasets,Synthetic,5000,2,2
+disk-6000n,large & noisy datasets,Synthetic,6000,2,2
+2d-10c-no0,number of clusters,Synthetic,741,2,10
+2d-12c-no0,number of clusters,Synthetic,831,2,12
+2d-15c-no0,number of clusters,Synthetic,931,2,15
+2d-20c-no0,number of clusters,Synthetic,1191,2,20
+2d-25c-no0,number of clusters,Synthetic,1419,2,25
+2d-40c-no0,number of clusters,Synthetic,2197,2,40
+3d-10c-no0,number of clusters,Synthetic,694,3,10
+3d-15c-no0,number of clusters,Synthetic,892,3,15
+3d-20c-no0,number of clusters,Synthetic,1259,3,20
+3d-25c-no0,number of clusters,Synthetic,1533,3,25
+3d-40c-no0,number of clusters,Synthetic,2332,3,40
+target,outlier,Synthetic,770,2,6
+s1,Overlap,Synthetic,5000,2,15
+s2,Overlap,Synthetic,5000,2,15
+s3,Overlap,Synthetic,5000,2,15
+s4,Overlap,Synthetic,5000,2,15
+aggregation,shape,Synthetic,788,2,7
+compound,shape,Synthetic,399,2,6
+curves2,shape,Synthetic,999,2,2
+d31,shape,Synthetic,3100,2,31
+donut1,shape,Synthetic,1000,2,2
+donut2,shape,Synthetic,1000,2,2
+donut3,shape,Synthetic,1000,2,3
+donutcurves,shape,Synthetic,1000,2,4
+Flame,shape,Synthetic,240,2,2
+triangle1,shape,Synthetic,1000,2,4
+triangle2,shape,Synthetic,1000,2,4
+hepta,shape,Synthetic,212,3,7
+hypercube,shape,Synthetic,800,3,8
+jain,shape,Synthetic,373,2,2
+pathbased,shape,Synthetic,300,2,3
+r15,shape,Synthetic,600,2,15
+rings,shape,Synthetic,1000,2,3
+spiral,shape,Synthetic,312,2,3
+Worms,shape,Synthetic,105600,64,25
+spherical_4_3,Shape,Synthetic,400,3,4
+spherical_5_2,Shape,Synthetic,250,2,5
+spherical_6_2,Shape,Synthetic,300,2,6
+st900,Shape,Synthetic,900,2,9
+unbalance,Unbalanced & Gaussian Clusters,Synthetic,6500,2,8
+Atom,different variances and linear not separable,Synthetic,800,3,2
+banana,instances belongs to several clusters(shape),Synthetic,5300,2,2
+blobs,shape,Synthetic,300,2,3
+chainlink, linear not separable,Synthetic,1000,3,2
+Circle,shape,Synthetic,1000,2,2
+Cuboids,shape,Synthetic,1002,3,4
+dartboard,shape,Synthetic,1000,2,4
+elliptical_10_2,shape,Synthetic,500,2,10
+EngyTime,gaussian mixture,Synthetic,4114,2,2
+Fourty,number of clusters,Synthetic,1000,2,40
+golfball,no cluster at all,Synthetic,4021,3,1
+impossible,large & noisy datasets,Synthetic,4682,2,7
+lsun,different variances and inter cluster distances,Synthetic,400,2,3

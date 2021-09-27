@@ -11,14 +11,14 @@ from sklearn.preprocessing import LabelEncoder
 from sklearn.preprocessing import LabelBinarizer
 from sklearn.model_selection import StratifiedKFold
 from sklearn.metrics import  adjusted_rand_score, silhouette_score, rand_score, adjusted_mutual_info_score, normalized_mutual_info_score
-from sklearn.cluster import KMeans
+from sklearn.cluster import KMeans, AffinityPropagation,AgglomerativeClustering, DBSCAN,MeanShift,SpectralClustering
 from sys import stdout
 
 
-N= 50
+N= 5
 
 params_kmeans={
-"n_clusters": np.random.choice(np.arange(2, 30, 1), N),
+"n_clusters": np.random.choice(np.arange(2, 40, 1), N),
 "init": np.random.choice(['k-means++','random'], N),
 "max_iter": np.random.choice(np.arange(50, 501, 1), N),
 "algorithm": np.random.choice(['auto' ,'full', 'elkan'], N), 
@@ -26,14 +26,62 @@ params_kmeans={
 'tol': np.random.uniform(10 ** (-5), 10 ** (-1), N),
 }
 
+params_affinitypropagation={
+"affinity": np.random.choice(['euclidean','precomputed'], N),
+"max_iter": np.random.choice(np.arange(50, 501, 1), N),
+"convergence_iter": np.random.choice(np.arange(2, 30, 1), N),
+'damping': np.random.uniform(0.5, 1, N),
+}
+
+# we did not add distance_threshold as hyperparameter
+params_agglomerativeclustering={
+"n_clusters": np.random.choice(np.arange(2, 40, 1), N),
+"affinity": np.random.choice(['euclidean','l1','l2','manhattan','cosine'], N),
+"linkage": np.random.choice(['ward', 'complete', 'average', 'single'], N),
+"compute_full_tree": np.random.choice(['auto', 'True', 'False'], N),
+}
+
+params_dbscan={
+'eps': np.random.uniform(0.01, 1, N),    
+"min_samples": np.random.choice(np.arange(2, 20, 1), N),
+"metric": np.random.choice(['euclidean','l1','l2','manhattan','cosine'], N),
+"algorithm": np.random.choice(['auto','ball_tree','kd_tree','brute'], N),
+"leaf_size": np.random.choice(np.arange(2, 50, 1), N),
+}
+
+params_meanshift={
+'bin_seeding': np.random.choice(['True','False'], N), 
+"cluster_all": np.random.choice(['True','False'], N), 
+"max_iter": np.random.choice(np.arange(50, 501, 1), N),
+ 
+}
+
+params_spectralclustering={
+# 'bin_seeding': np.random.choice(['True','False'], N), 
+# "cluster_all": np.random.choice(['True','False'], N), 
+# "max_iter": np.random.choice(np.arange(50, 501, 1), N),
+ 
+}
+
 
 parameters ={
-    'Kmeans':params_kmeans,
+    'Kmeans' : params_kmeans,
+    "affinitypropagation" : params_affinitypropagation,
+    "agglomerativeclustering" : params_agglomerativeclustering,
+    "dbscan" : params_dbscan,
+    "meanshift" : params_meanshift,
+    "spectralclustering" : params_spectralclustering,
+    
+      
 }
 
 models = {
     'Kmeans': KMeans(),
-
+    "affinitypropagation" : AffinityPropagation(),
+    "agglomerativeclustering" : AgglomerativeClustering(),
+    "dbscan" : DBSCAN(),
+    "meanshift" : MeanShift(),
+    "spectralclustering" : SpectralClustering(),
 }
 
 
