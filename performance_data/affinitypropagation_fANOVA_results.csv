@@ -1,0 +1,476 @@
+param,importance,dataset,imputation,time_taken
+convergence_iter,0.13433631959020803,vertebral_RL.csv,True,6.504331774000093
+damping,0.21833618793693818,vertebral_RL.csv,True,6.504331774000093
+imputation,0.0,vertebral_RL.csv,True,6.504331774000093
+max_iter,0.07920957747800689,vertebral_RL.csv,True,6.504331774000093
+"('convergence_iter', 'damping')",0.16649447804225953,vertebral_RL.csv,True,6.504331774000093
+"('damping', 'max_iter')",0.13535556784542113,vertebral_RL.csv,True,6.504331774000093
+"('convergence_iter', 'max_iter')",0.11911823489765563,vertebral_RL.csv,True,6.504331774000093
+"('damping', 'imputation')",3.0244998171012e-17,vertebral_RL.csv,True,6.504331774000093
+"('convergence_iter', 'imputation')",1.4657267562187794e-17,vertebral_RL.csv,True,6.504331774000093
+"('imputation', 'max_iter')",1.2795881354815847e-17,vertebral_RL.csv,True,6.504331774000093
+"('max_iter', 'convergence_iter', 'damping')",0.1471496342095106,vertebral_RL.csv,True,6.504331774000093
+"('imputation', 'damping', 'convergence_iter')",3.356263157940766e-17,vertebral_RL.csv,True,6.504331774000093
+convergence_iter,0.06601778782896528,dense-disk-5000.csv,True,5.358503294999991
+damping,0.3113519248669745,dense-disk-5000.csv,True,5.358503294999991
+imputation,5.496218520190669e-18,dense-disk-5000.csv,True,5.358503294999991
+max_iter,0.09950214452893749,dense-disk-5000.csv,True,5.358503294999991
+"('damping', 'max_iter')",0.15808069614250334,dense-disk-5000.csv,True,5.358503294999991
+"('convergence_iter', 'damping')",0.1560966585382608,dense-disk-5000.csv,True,5.358503294999991
+"('convergence_iter', 'max_iter')",0.07983789576219308,dense-disk-5000.csv,True,5.358503294999991
+"('damping', 'imputation')",3.13926897135778e-17,dense-disk-5000.csv,True,5.358503294999991
+"('imputation', 'max_iter')",2.2056781628747634e-17,dense-disk-5000.csv,True,5.358503294999991
+"('convergence_iter', 'imputation')",1.2516197697285702e-17,dense-disk-5000.csv,True,5.358503294999991
+"('max_iter', 'convergence_iter', 'damping')",0.1291128923321655,dense-disk-5000.csv,True,5.358503294999991
+"('imputation', 'damping', 'convergence_iter')",2.5383806538319334e-17,dense-disk-5000.csv,True,5.358503294999991
+convergence_iter,0.08770515183502724,wine_RL.csv,True,6.094288270000106
+damping,0.13227382472518384,wine_RL.csv,True,6.094288270000106
+imputation,1.2410919070449822e-17,wine_RL.csv,True,6.094288270000106
+max_iter,0.17719337029454807,wine_RL.csv,True,6.094288270000106
+"('convergence_iter', 'max_iter')",0.1803620370744728,wine_RL.csv,True,6.094288270000106
+"('damping', 'max_iter')",0.17604495363119496,wine_RL.csv,True,6.094288270000106
+"('convergence_iter', 'damping')",0.10805120370987152,wine_RL.csv,True,6.094288270000106
+"('damping', 'imputation')",4.237236186113833e-17,wine_RL.csv,True,6.094288270000106
+"('imputation', 'max_iter')",2.2636695341696408e-17,wine_RL.csv,True,6.094288270000106
+"('convergence_iter', 'imputation')",1.2067363220756265e-17,wine_RL.csv,True,6.094288270000106
+"('max_iter', 'convergence_iter', 'damping')",0.13836945872970252,wine_RL.csv,True,6.094288270000106
+"('imputation', 'damping', 'convergence_iter')",2.8429060431406487e-17,wine_RL.csv,True,6.094288270000106
+convergence_iter,0.06425048095434822,disk_4500n.csv,True,5.896197683000082
+damping,0.28891057240676704,disk_4500n.csv,True,5.896197683000082
+imputation,1.2707003528736215e-18,disk_4500n.csv,True,5.896197683000082
+max_iter,0.12756953934276394,disk_4500n.csv,True,5.896197683000082
+"('damping', 'max_iter')",0.18616107760636935,disk_4500n.csv,True,5.896197683000082
+"('convergence_iter', 'damping')",0.12358459653307897,disk_4500n.csv,True,5.896197683000082
+"('convergence_iter', 'max_iter')",0.09222078053457122,disk_4500n.csv,True,5.896197683000082
+"('imputation', 'max_iter')",3.715394133217477e-17,disk_4500n.csv,True,5.896197683000082
+"('damping', 'imputation')",3.4379433151379885e-17,disk_4500n.csv,True,5.896197683000082
+"('convergence_iter', 'imputation')",7.444885739806554e-18,disk_4500n.csv,True,5.896197683000082
+"('max_iter', 'convergence_iter', 'damping')",0.1173029526221012,disk_4500n.csv,True,5.896197683000082
+"('imputation', 'damping', 'convergence_iter')",6.422729898702823e-17,disk_4500n.csv,True,5.896197683000082
+convergence_iter,0.05778972525441182,disk_5000n.csv,True,5.956570399999691
+damping,0.28146644833825757,disk_5000n.csv,True,5.956570399999691
+imputation,7.969513657588274e-18,disk_5000n.csv,True,5.956570399999691
+max_iter,0.12339441536976697,disk_5000n.csv,True,5.956570399999691
+"('damping', 'max_iter')",0.20727800633136179,disk_5000n.csv,True,5.956570399999691
+"('convergence_iter', 'damping')",0.12753932575628243,disk_5000n.csv,True,5.956570399999691
+"('convergence_iter', 'max_iter')",0.07385084202467947,disk_5000n.csv,True,5.956570399999691
+"('damping', 'imputation')",3.245188357515457e-17,disk_5000n.csv,True,5.956570399999691
+"('imputation', 'max_iter')",1.3768140059805227e-17,disk_5000n.csv,True,5.956570399999691
+"('convergence_iter', 'imputation')",9.939674811038181e-18,disk_5000n.csv,True,5.956570399999691
+"('max_iter', 'convergence_iter', 'damping')",0.12868123692523994,disk_5000n.csv,True,5.956570399999691
+"('imputation', 'damping', 'convergence_iter')",4.828738958337806e-17,disk_5000n.csv,True,5.956570399999691
+convergence_iter,0.17250965325304043,blobs.csv,True,10.60421852799982
+damping,0.1315677695624662,blobs.csv,True,10.60421852799982
+imputation,0.0,blobs.csv,True,10.60421852799982
+max_iter,0.11439398819526549,blobs.csv,True,10.60421852799982
+"('convergence_iter', 'damping')",0.19991349537886272,blobs.csv,True,10.60421852799982
+"('convergence_iter', 'max_iter')",0.13923705498911765,blobs.csv,True,10.60421852799982
+"('damping', 'max_iter')",0.10499887127627391,blobs.csv,True,10.60421852799982
+"('convergence_iter', 'imputation')",3.5757480058500265e-17,blobs.csv,True,10.60421852799982
+"('damping', 'imputation')",3.382830306672586e-17,blobs.csv,True,10.60421852799982
+"('imputation', 'max_iter')",2.3428411835995255e-17,blobs.csv,True,10.60421852799982
+"('max_iter', 'convergence_iter', 'damping')",0.13737916734497316,blobs.csv,True,10.60421852799982
+"('imputation', 'damping', 'convergence_iter')",2.5111184141155835e-17,blobs.csv,True,10.60421852799982
+convergence_iter,0.1464846549672768,3d-40c-no0.csv,True,12.099460902999908
+damping,0.10892503056367267,3d-40c-no0.csv,True,12.099460902999908
+imputation,0.0,3d-40c-no0.csv,True,12.099460902999908
+max_iter,0.1379552654963249,3d-40c-no0.csv,True,12.099460902999908
+"('convergence_iter', 'damping')",0.1708009348808582,3d-40c-no0.csv,True,12.099460902999908
+"('convergence_iter', 'max_iter')",0.1601960663381456,3d-40c-no0.csv,True,12.099460902999908
+"('damping', 'max_iter')",0.1355577619762943,3d-40c-no0.csv,True,12.099460902999908
+"('convergence_iter', 'imputation')",1.8912504511736778e-17,3d-40c-no0.csv,True,12.099460902999908
+"('imputation', 'max_iter')",1.6860744920593982e-17,3d-40c-no0.csv,True,12.099460902999908
+"('damping', 'imputation')",1.6245988227514373e-17,3d-40c-no0.csv,True,12.099460902999908
+"('max_iter', 'convergence_iter', 'damping')",0.14008028577742931,3d-40c-no0.csv,True,12.099460902999908
+"('imputation', 'damping', 'convergence_iter')",2.1760576152641797e-17,3d-40c-no0.csv,True,12.099460902999908
+convergence_iter,0.11241065205335676,triangle2.csv,True,12.798748530000012
+damping,0.1207646042471259,triangle2.csv,True,12.798748530000012
+imputation,4.520858871615726e-18,triangle2.csv,True,12.798748530000012
+max_iter,0.1504370349459463,triangle2.csv,True,12.798748530000012
+"('convergence_iter', 'max_iter')",0.18540712503781892,triangle2.csv,True,12.798748530000012
+"('damping', 'max_iter')",0.15278596478093662,triangle2.csv,True,12.798748530000012
+"('convergence_iter', 'damping')",0.1282757377610792,triangle2.csv,True,12.798748530000012
+"('damping', 'imputation')",1.9344742722146923e-17,triangle2.csv,True,12.798748530000012
+"('imputation', 'max_iter')",1.0322062791728305e-17,triangle2.csv,True,12.798748530000012
+"('convergence_iter', 'imputation')",8.632139879260572e-18,triangle2.csv,True,12.798748530000012
+"('max_iter', 'convergence_iter', 'damping')",0.14991888117373522,triangle2.csv,True,12.798748530000012
+"('imputation', 'damping', 'convergence_iter')",2.3235231596926218e-17,triangle2.csv,True,12.798748530000012
+convergence_iter,0.10752346628704976,2d-20c-no0.csv,True,8.212209908000204
+damping,0.15996995168496653,2d-20c-no0.csv,True,8.212209908000204
+imputation,0.0,2d-20c-no0.csv,True,8.212209908000204
+max_iter,0.14440449670287991,2d-20c-no0.csv,True,8.212209908000204
+"('damping', 'max_iter')",0.16175047110048577,2d-20c-no0.csv,True,8.212209908000204
+"('convergence_iter', 'damping')",0.14905470781431424,2d-20c-no0.csv,True,8.212209908000204
+"('convergence_iter', 'max_iter')",0.13850445338823655,2d-20c-no0.csv,True,8.212209908000204
+"('damping', 'imputation')",2.5930606804564984e-17,2d-20c-no0.csv,True,8.212209908000204
+"('imputation', 'max_iter')",2.0715834207208717e-17,2d-20c-no0.csv,True,8.212209908000204
+"('convergence_iter', 'imputation')",1.671001607425649e-17,2d-20c-no0.csv,True,8.212209908000204
+"('max_iter', 'convergence_iter', 'damping')",0.13879245302206725,2d-20c-no0.csv,True,8.212209908000204
+"('imputation', 'damping', 'convergence_iter')",2.2191577343339012e-17,2d-20c-no0.csv,True,8.212209908000204
+convergence_iter,0.04744090229961319,s2.csv,True,4.328787802000079
+damping,0.30936209390537606,s2.csv,True,4.328787802000079
+imputation,7.378583725950655e-18,s2.csv,True,4.328787802000079
+max_iter,0.15097629115467998,s2.csv,True,4.328787802000079
+"('damping', 'max_iter')",0.2096954186697969,s2.csv,True,4.328787802000079
+"('convergence_iter', 'damping')",0.10144237241377915,s2.csv,True,4.328787802000079
+"('convergence_iter', 'max_iter')",0.07734336022126385,s2.csv,True,4.328787802000079
+"('damping', 'imputation')",4.511345615467648e-17,s2.csv,True,4.328787802000079
+"('imputation', 'max_iter')",1.8790222104462827e-17,s2.csv,True,4.328787802000079
+"('convergence_iter', 'imputation')",1.0210634225482951e-17,s2.csv,True,4.328787802000079
+"('max_iter', 'convergence_iter', 'damping')",0.10373956133549028,s2.csv,True,4.328787802000079
+"('imputation', 'damping', 'convergence_iter')",2.7661243313438582e-17,s2.csv,True,4.328787802000079
+convergence_iter,0.061351720207646884,2d-15c-no2.csv,True,8.431544654999925
+damping,0.20529626303066673,2d-15c-no2.csv,True,8.431544654999925
+imputation,2.868227522934716e-18,2d-15c-no2.csv,True,8.431544654999925
+max_iter,0.1266192100021407,2d-15c-no2.csv,True,8.431544654999925
+"('damping', 'max_iter')",0.22007107376278923,2d-15c-no2.csv,True,8.431544654999925
+"('convergence_iter', 'damping')",0.13655569477740787,2d-15c-no2.csv,True,8.431544654999925
+"('convergence_iter', 'max_iter')",0.1163978055498809,2d-15c-no2.csv,True,8.431544654999925
+"('damping', 'imputation')",3.179808808650422e-17,2d-15c-no2.csv,True,8.431544654999925
+"('imputation', 'max_iter')",2.5075862744046544e-17,2d-15c-no2.csv,True,8.431544654999925
+"('convergence_iter', 'imputation')",1.2120492662141136e-17,2d-15c-no2.csv,True,8.431544654999925
+"('max_iter', 'convergence_iter', 'damping')",0.1337082326694675,2d-15c-no2.csv,True,8.431544654999925
+"('imputation', 'damping', 'convergence_iter')",4.562917027549027e-17,2d-15c-no2.csv,True,8.431544654999925
+convergence_iter,0.18495182789150766,spherical_4_3.csv,True,9.987638333999712
+damping,0.11704660134802455,spherical_4_3.csv,True,9.987638333999712
+imputation,0.0,spherical_4_3.csv,True,9.987638333999712
+max_iter,0.09737779410949995,spherical_4_3.csv,True,9.987638333999712
+"('convergence_iter', 'damping')",0.17038418996476662,spherical_4_3.csv,True,9.987638333999712
+"('convergence_iter', 'max_iter')",0.16437175728096962,spherical_4_3.csv,True,9.987638333999712
+"('damping', 'max_iter')",0.11410931881938222,spherical_4_3.csv,True,9.987638333999712
+"('convergence_iter', 'imputation')",4.6048390951003743e-17,spherical_4_3.csv,True,9.987638333999712
+"('damping', 'imputation')",2.3458217200567676e-17,spherical_4_3.csv,True,9.987638333999712
+"('imputation', 'max_iter')",1.8378550438245234e-17,spherical_4_3.csv,True,9.987638333999712
+"('max_iter', 'convergence_iter', 'damping')",0.15175851058584905,spherical_4_3.csv,True,9.987638333999712
+"('imputation', 'damping', 'convergence_iter')",1.959438915639327e-17,spherical_4_3.csv,True,9.987638333999712
+convergence_iter,0.04107885091555077,s1.csv,True,4.826542708000034
+damping,0.27506090965275953,s1.csv,True,4.826542708000034
+imputation,4.012266052997768e-18,s1.csv,True,4.826542708000034
+max_iter,0.15371493740494788,s1.csv,True,4.826542708000034
+"('damping', 'max_iter')",0.2149975825918808,s1.csv,True,4.826542708000034
+"('convergence_iter', 'max_iter')",0.10489073193026073,s1.csv,True,4.826542708000034
+"('convergence_iter', 'damping')",0.10171818498312504,s1.csv,True,4.826542708000034
+"('damping', 'imputation')",4.367030685139675e-17,s1.csv,True,4.826542708000034
+"('imputation', 'max_iter')",2.168060080566427e-17,s1.csv,True,4.826542708000034
+"('convergence_iter', 'imputation')",6.391902192806135e-18,s1.csv,True,4.826542708000034
+"('max_iter', 'convergence_iter', 'damping')",0.10853880252147508,s1.csv,True,4.826542708000034
+"('imputation', 'damping', 'convergence_iter')",2.5592871589536695e-17,s1.csv,True,4.826542708000034
+convergence_iter,0.1353612796094189,jain.csv,True,10.99236281200001
+damping,0.10961768260481322,jain.csv,True,10.99236281200001
+imputation,0.0,jain.csv,True,10.99236281200001
+max_iter,0.14317968389381322,jain.csv,True,10.99236281200001
+"('convergence_iter', 'max_iter')",0.18255825822008492,jain.csv,True,10.99236281200001
+"('damping', 'max_iter')",0.16484418453152422,jain.csv,True,10.99236281200001
+"('convergence_iter', 'damping')",0.11326347063455502,jain.csv,True,10.99236281200001
+"('imputation', 'max_iter')",3.747155662129178e-17,jain.csv,True,10.99236281200001
+"('convergence_iter', 'imputation')",3.586975236249929e-17,jain.csv,True,10.99236281200001
+"('damping', 'imputation')",2.631146069163029e-17,jain.csv,True,10.99236281200001
+"('max_iter', 'convergence_iter', 'damping')",0.15117544050579051,jain.csv,True,10.99236281200001
+"('imputation', 'damping', 'convergence_iter')",2.0473981491060535e-17,jain.csv,True,10.99236281200001
+convergence_iter,0.06438815653190258,letter_RL.csv,True,2.8491832449999492
+damping,0.31892331448977806,letter_RL.csv,True,2.8491832449999492
+imputation,2.8665459464365163e-18,letter_RL.csv,True,2.8491832449999492
+max_iter,0.11244327352447367,letter_RL.csv,True,2.8491832449999492
+"('damping', 'max_iter')",0.22080924561455106,letter_RL.csv,True,2.8491832449999492
+"('convergence_iter', 'damping')",0.11633079578309788,letter_RL.csv,True,2.8491832449999492
+"('convergence_iter', 'max_iter')",0.061048439809795095,letter_RL.csv,True,2.8491832449999492
+"('damping', 'imputation')",2.3201730749404723e-17,letter_RL.csv,True,2.8491832449999492
+"('imputation', 'max_iter')",1.6090544081997588e-17,letter_RL.csv,True,2.8491832449999492
+"('convergence_iter', 'imputation')",1.3498356617736699e-17,letter_RL.csv,True,2.8491832449999492
+"('max_iter', 'convergence_iter', 'damping')",0.10605677424640148,letter_RL.csv,True,2.8491832449999492
+"('imputation', 'damping', 'convergence_iter')",4.845163554681509e-17,letter_RL.csv,True,2.8491832449999492
+convergence_iter,0.14664571673099944,3d-25c-no0.csv,True,12.776232978999815
+damping,0.12214806358253402,3d-25c-no0.csv,True,12.776232978999815
+imputation,0.0,3d-25c-no0.csv,True,12.776232978999815
+max_iter,0.10401316586305225,3d-25c-no0.csv,True,12.776232978999815
+"('convergence_iter', 'max_iter')",0.1880444599163018,3d-25c-no0.csv,True,12.776232978999815
+"('convergence_iter', 'damping')",0.15440650063431877,3d-25c-no0.csv,True,12.776232978999815
+"('damping', 'max_iter')",0.14064487204656334,3d-25c-no0.csv,True,12.776232978999815
+"('imputation', 'max_iter')",3.987568793318351e-17,3d-25c-no0.csv,True,12.776232978999815
+"('convergence_iter', 'imputation')",3.841666590148167e-17,3d-25c-no0.csv,True,12.776232978999815
+"('damping', 'imputation')",1.2105227880247038e-17,3d-25c-no0.csv,True,12.776232978999815
+"('max_iter', 'convergence_iter', 'damping')",0.14409722122622992,3d-25c-no0.csv,True,12.776232978999815
+"('imputation', 'damping', 'convergence_iter')",3.16345380362161e-17,3d-25c-no0.csv,True,12.776232978999815
+convergence_iter,0.05358228071357795,dim064.csv,True,1.8552553979998265
+damping,0.39503345078523966,dim064.csv,True,1.8552553979998265
+imputation,0.0,dim064.csv,True,1.8552553979998265
+max_iter,0.06214356544438703,dim064.csv,True,1.8552553979998265
+"('damping', 'max_iter')",0.16058579178846813,dim064.csv,True,1.8552553979998265
+"('convergence_iter', 'damping')",0.14107312066105335,dim064.csv,True,1.8552553979998265
+"('convergence_iter', 'max_iter')",0.07502447963804462,dim064.csv,True,1.8552553979998265
+"('damping', 'imputation')",3.5179790317110584e-17,dim064.csv,True,1.8552553979998265
+"('convergence_iter', 'imputation')",1.292115211906275e-17,dim064.csv,True,1.8552553979998265
+"('imputation', 'max_iter')",6.604020420424724e-18,dim064.csv,True,1.8552553979998265
+"('max_iter', 'convergence_iter', 'damping')",0.11255731096922905,dim064.csv,True,1.8552553979998265
+"('imputation', 'damping', 'convergence_iter')",4.116918909355314e-17,dim064.csv,True,1.8552553979998265
+convergence_iter,0.1021070358145743,2d-12c-no0.csv,True,7.84687031500016
+damping,0.16254310962531515,2d-12c-no0.csv,True,7.84687031500016
+imputation,0.0,2d-12c-no0.csv,True,7.84687031500016
+max_iter,0.11230303081794321,2d-12c-no0.csv,True,7.84687031500016
+"('convergence_iter', 'max_iter')",0.18576473340278277,2d-12c-no0.csv,True,7.84687031500016
+"('damping', 'max_iter')",0.15052428154079225,2d-12c-no0.csv,True,7.84687031500016
+"('convergence_iter', 'damping')",0.1375374130278471,2d-12c-no0.csv,True,7.84687031500016
+"('damping', 'imputation')",2.9117934836791527e-17,2d-12c-no0.csv,True,7.84687031500016
+"('imputation', 'max_iter')",1.8069691841682136e-17,2d-12c-no0.csv,True,7.84687031500016
+"('convergence_iter', 'imputation')",1.5749624254460122e-17,2d-12c-no0.csv,True,7.84687031500016
+"('max_iter', 'convergence_iter', 'damping')",0.14922039577074514,2d-12c-no0.csv,True,7.84687031500016
+"('imputation', 'damping', 'convergence_iter')",1.6748754867405985e-17,2d-12c-no0.csv,True,7.84687031500016
+convergence_iter,0.052610431791328044,golfball.csv,True,0.7531641099999433
+damping,0.36348301009459405,golfball.csv,True,0.7531641099999433
+imputation,4.9312264960376595e-19,golfball.csv,True,0.7531641099999433
+max_iter,0.07900419481908844,golfball.csv,True,0.7531641099999433
+"('damping', 'max_iter')",0.17443489716083943,golfball.csv,True,0.7531641099999433
+"('convergence_iter', 'damping')",0.16718411237813607,golfball.csv,True,0.7531641099999433
+"('convergence_iter', 'max_iter')",0.05988692829985092,golfball.csv,True,0.7531641099999433
+"('damping', 'imputation')",4.72572678014186e-17,golfball.csv,True,0.7531641099999433
+"('imputation', 'max_iter')",1.2109138019812368e-17,golfball.csv,True,0.7531641099999433
+"('convergence_iter', 'imputation')",8.912295000554797e-18,golfball.csv,True,0.7531641099999433
+"('max_iter', 'convergence_iter', 'damping')",0.103396425456163,golfball.csv,True,0.7531641099999433
+"('imputation', 'damping', 'convergence_iter')",6.214435226553961e-17,golfball.csv,True,0.7531641099999433
+convergence_iter,0.13368106788731604,d31.csv,True,6.997901222999644
+damping,0.15792928094164055,d31.csv,True,6.997901222999644
+imputation,0.0,d31.csv,True,6.997901222999644
+max_iter,0.098934401144906,d31.csv,True,6.997901222999644
+"('convergence_iter', 'damping')",0.16676727890781337,d31.csv,True,6.997901222999644
+"('convergence_iter', 'max_iter')",0.15592251678624244,d31.csv,True,6.997901222999644
+"('damping', 'max_iter')",0.14428388387033986,d31.csv,True,6.997901222999644
+"('imputation', 'max_iter')",3.439977570693472e-17,d31.csv,True,6.997901222999644
+"('damping', 'imputation')",2.652706813846152e-17,d31.csv,True,6.997901222999644
+"('convergence_iter', 'imputation')",2.4671190488256472e-17,d31.csv,True,6.997901222999644
+"('max_iter', 'convergence_iter', 'damping')",0.14248157046174187,d31.csv,True,6.997901222999644
+"('imputation', 'damping', 'convergence_iter')",4.628851894658945e-17,d31.csv,True,6.997901222999644
+convergence_iter,0.14127548333625453,cuboids.csv,True,12.930381037000188
+damping,0.09112185444303207,cuboids.csv,True,12.930381037000188
+imputation,0.0,cuboids.csv,True,12.930381037000188
+max_iter,0.15334117309703366,cuboids.csv,True,12.930381037000188
+"('convergence_iter', 'max_iter')",0.1884243776843022,cuboids.csv,True,12.930381037000188
+"('convergence_iter', 'damping')",0.14309099353473048,cuboids.csv,True,12.930381037000188
+"('damping', 'max_iter')",0.13298009726437635,cuboids.csv,True,12.930381037000188
+"('convergence_iter', 'imputation')",3.9536982248195444e-17,cuboids.csv,True,12.930381037000188
+"('imputation', 'max_iter')",2.1195616829425233e-17,cuboids.csv,True,12.930381037000188
+"('damping', 'imputation')",1.2344980329815498e-17,cuboids.csv,True,12.930381037000188
+"('max_iter', 'convergence_iter', 'damping')",0.14976602064027156,cuboids.csv,True,12.930381037000188
+"('imputation', 'damping', 'convergence_iter')",2.3593443191947317e-17,cuboids.csv,True,12.930381037000188
+convergence_iter,0.07699489060853912,disk_4000n.csv,True,7.097654932999831
+damping,0.23694525233386632,disk_4000n.csv,True,7.097654932999831
+imputation,0.0,disk_4000n.csv,True,7.097654932999831
+max_iter,0.12636640227187756,disk_4000n.csv,True,7.097654932999831
+"('damping', 'max_iter')",0.16274739289388818,disk_4000n.csv,True,7.097654932999831
+"('convergence_iter', 'damping')",0.13469059591377594,disk_4000n.csv,True,7.097654932999831
+"('convergence_iter', 'max_iter')",0.12250465849382623,disk_4000n.csv,True,7.097654932999831
+"('damping', 'imputation')",4.3894640649042175e-17,disk_4000n.csv,True,7.097654932999831
+"('convergence_iter', 'imputation')",1.8337074765894583e-17,disk_4000n.csv,True,7.097654932999831
+"('imputation', 'max_iter')",1.0951643529119624e-17,disk_4000n.csv,True,7.097654932999831
+"('max_iter', 'convergence_iter', 'damping')",0.13975080748422647,disk_4000n.csv,True,7.097654932999831
+"('imputation', 'damping', 'convergence_iter')",2.5007256037754015e-17,disk_4000n.csv,True,7.097654932999831
+convergence_iter,0.08643523765386982,2d-25c-no0.csv,True,8.853751469999679
+damping,0.194794510614906,2d-25c-no0.csv,True,8.853751469999679
+imputation,1.390187285092157e-18,2d-25c-no0.csv,True,8.853751469999679
+max_iter,0.1410796766729308,2d-25c-no0.csv,True,8.853751469999679
+"('damping', 'max_iter')",0.18511914092906706,2d-25c-no0.csv,True,8.853751469999679
+"('convergence_iter', 'damping')",0.14374858353365064,2d-25c-no0.csv,True,8.853751469999679
+"('convergence_iter', 'max_iter')",0.11346909707865838,2d-25c-no0.csv,True,8.853751469999679
+"('damping', 'imputation')",3.4264176868879334e-17,2d-25c-no0.csv,True,8.853751469999679
+"('imputation', 'max_iter')",2.216110276696198e-17,2d-25c-no0.csv,True,8.853751469999679
+"('convergence_iter', 'imputation')",1.916138244092982e-17,2d-25c-no0.csv,True,8.853751469999679
+"('max_iter', 'convergence_iter', 'damping')",0.13535375351691653,2d-25c-no0.csv,True,8.853751469999679
+"('imputation', 'damping', 'convergence_iter')",1.869582590701904e-17,2d-25c-no0.csv,True,8.853751469999679
+convergence_iter,0.10965578128333278,yeast_RL.csv,True,10.10346351699991
+damping,0.17880495807945118,yeast_RL.csv,True,10.10346351699991
+imputation,0.0,yeast_RL.csv,True,10.10346351699991
+max_iter,0.15164761434873741,yeast_RL.csv,True,10.10346351699991
+"('damping', 'max_iter')",0.15580642242286857,yeast_RL.csv,True,10.10346351699991
+"('convergence_iter', 'max_iter')",0.13453265297462355,yeast_RL.csv,True,10.10346351699991
+"('convergence_iter', 'damping')",0.1342008149753932,yeast_RL.csv,True,10.10346351699991
+"('imputation', 'max_iter')",4.1712248968839204e-17,yeast_RL.csv,True,10.10346351699991
+"('damping', 'imputation')",2.5788154907464362e-17,yeast_RL.csv,True,10.10346351699991
+"('convergence_iter', 'imputation')",2.4160889648703828e-17,yeast_RL.csv,True,10.10346351699991
+"('max_iter', 'convergence_iter', 'damping')",0.1353517559155942,yeast_RL.csv,True,10.10346351699991
+"('imputation', 'damping', 'convergence_iter')",2.1435308975388306e-17,yeast_RL.csv,True,10.10346351699991
+convergence_iter,0.11057737340849205,2d-15c-no0.csv,True,7.997628825999982
+damping,0.1596247067789276,2d-15c-no0.csv,True,7.997628825999982
+imputation,8.402462815387676e-18,2d-15c-no0.csv,True,7.997628825999982
+max_iter,0.13122256869259824,2d-15c-no0.csv,True,7.997628825999982
+"('damping', 'max_iter')",0.16837378741898373,2d-15c-no0.csv,True,7.997628825999982
+"('convergence_iter', 'max_iter')",0.14862617336239542,2d-15c-no0.csv,True,7.997628825999982
+"('convergence_iter', 'damping')",0.14153187507572174,2d-15c-no0.csv,True,7.997628825999982
+"('convergence_iter', 'imputation')",3.3041067528547405e-17,2d-15c-no0.csv,True,7.997628825999982
+"('damping', 'imputation')",2.3448984494979854e-17,2d-15c-no0.csv,True,7.997628825999982
+"('imputation', 'max_iter')",1.807450804232158e-17,2d-15c-no0.csv,True,7.997628825999982
+"('max_iter', 'convergence_iter', 'damping')",0.140043515262881,2d-15c-no0.csv,True,7.997628825999982
+"('imputation', 'damping', 'convergence_iter')",6.99387690912759e-17,2d-15c-no0.csv,True,7.997628825999982
+convergence_iter,0.14026030721731622,tetra.csv,True,8.112559343000157
+damping,0.10809800244896062,tetra.csv,True,8.112559343000157
+imputation,2.201217157604068e-18,tetra.csv,True,8.112559343000157
+max_iter,0.13277565065218838,tetra.csv,True,8.112559343000157
+"('convergence_iter', 'max_iter')",0.1741939122887007,tetra.csv,True,8.112559343000157
+"('convergence_iter', 'damping')",0.16446500087514923,tetra.csv,True,8.112559343000157
+"('damping', 'max_iter')",0.13724479955593366,tetra.csv,True,8.112559343000157
+"('convergence_iter', 'imputation')",3.4904925935246075e-17,tetra.csv,True,8.112559343000157
+"('damping', 'imputation')",2.967250538184365e-17,tetra.csv,True,8.112559343000157
+"('imputation', 'max_iter')",1.6847626896595195e-17,tetra.csv,True,8.112559343000157
+"('max_iter', 'convergence_iter', 'damping')",0.14296232696175032,tetra.csv,True,8.112559343000157
+"('imputation', 'damping', 'convergence_iter')",2.2256524983171613e-17,tetra.csv,True,8.112559343000157
+convergence_iter,0.06153977137513783,impossible.csv,True,4.309980319999795
+damping,0.30136994954358387,impossible.csv,True,4.309980319999795
+imputation,0.0,impossible.csv,True,4.309980319999795
+max_iter,0.12416317915958122,impossible.csv,True,4.309980319999795
+"('damping', 'max_iter')",0.2083358306380606,impossible.csv,True,4.309980319999795
+"('convergence_iter', 'damping')",0.10734702770151658,impossible.csv,True,4.309980319999795
+"('convergence_iter', 'max_iter')",0.08022547719801264,impossible.csv,True,4.309980319999795
+"('damping', 'imputation')",4.120041127658948e-17,impossible.csv,True,4.309980319999795
+"('imputation', 'max_iter')",1.8232854136043777e-17,impossible.csv,True,4.309980319999795
+"('convergence_iter', 'imputation')",1.2315703678573806e-17,impossible.csv,True,4.309980319999795
+"('max_iter', 'convergence_iter', 'damping')",0.11701876438410728,impossible.csv,True,4.309980319999795
+"('imputation', 'damping', 'convergence_iter')",1.2873395050343795e-17,impossible.csv,True,4.309980319999795
+convergence_iter,0.12094011479479012,german_RL.csv,True,6.2370094060001975
+damping,0.2018569627088081,german_RL.csv,True,6.2370094060001975
+imputation,0.0,german_RL.csv,True,6.2370094060001975
+max_iter,0.1248536468222261,german_RL.csv,True,6.2370094060001975
+"('convergence_iter', 'damping')",0.15986662731534743,german_RL.csv,True,6.2370094060001975
+"('damping', 'max_iter')",0.13810223982517147,german_RL.csv,True,6.2370094060001975
+"('convergence_iter', 'max_iter')",0.12352734942152929,german_RL.csv,True,6.2370094060001975
+"('damping', 'imputation')",2.1015179959513692e-17,german_RL.csv,True,6.2370094060001975
+"('imputation', 'max_iter')",1.8452750028924698e-17,german_RL.csv,True,6.2370094060001975
+"('convergence_iter', 'imputation')",1.802494404364224e-17,german_RL.csv,True,6.2370094060001975
+"('max_iter', 'convergence_iter', 'damping')",0.13085305911212725,german_RL.csv,True,6.2370094060001975
+"('imputation', 'damping', 'convergence_iter')",1.3714713403501009e-17,german_RL.csv,True,6.2370094060001975
+convergence_iter,0.10486189078308905,glass_RL.csv,True,7.95683437300022
+damping,0.11131062086231627,glass_RL.csv,True,7.95683437300022
+imputation,0.0,glass_RL.csv,True,7.95683437300022
+max_iter,0.18634916642527916,glass_RL.csv,True,7.95683437300022
+"('convergence_iter', 'max_iter')",0.19890124818441723,glass_RL.csv,True,7.95683437300022
+"('damping', 'max_iter')",0.16299095943635572,glass_RL.csv,True,7.95683437300022
+"('convergence_iter', 'damping')",0.10152295386290294,glass_RL.csv,True,7.95683437300022
+"('imputation', 'max_iter')",2.891731256064685e-17,glass_RL.csv,True,7.95683437300022
+"('convergence_iter', 'imputation')",2.696961283337957e-17,glass_RL.csv,True,7.95683437300022
+"('damping', 'imputation')",2.531774194404749e-17,glass_RL.csv,True,7.95683437300022
+"('max_iter', 'convergence_iter', 'damping')",0.13406316044564073,glass_RL.csv,True,7.95683437300022
+"('imputation', 'damping', 'convergence_iter')",1.8234751941680234e-17,glass_RL.csv,True,7.95683437300022
+convergence_iter,0.11916985408860227,fourty.csv,True,11.804367630999877
+damping,0.11356930327604099,fourty.csv,True,11.804367630999877
+imputation,7.983114525787017e-18,fourty.csv,True,11.804367630999877
+max_iter,0.13536055582853207,fourty.csv,True,11.804367630999877
+"('convergence_iter', 'max_iter')",0.20017811551376946,fourty.csv,True,11.804367630999877
+"('convergence_iter', 'damping')",0.14190511071572953,fourty.csv,True,11.804367630999877
+"('damping', 'max_iter')",0.1389146826442152,fourty.csv,True,11.804367630999877
+"('imputation', 'max_iter')",3.406646831029408e-17,fourty.csv,True,11.804367630999877
+"('convergence_iter', 'imputation')",2.8187824786504317e-17,fourty.csv,True,11.804367630999877
+"('damping', 'imputation')",2.145682427757023e-17,fourty.csv,True,11.804367630999877
+"('max_iter', 'convergence_iter', 'damping')",0.1509023779331108,fourty.csv,True,11.804367630999877
+"('imputation', 'damping', 'convergence_iter')",3.172779606654616e-17,fourty.csv,True,11.804367630999877
+convergence_iter,0.09635366908792567,tae_RL.csv,True,6.652067999000337
+damping,0.1466068497720045,tae_RL.csv,True,6.652067999000337
+imputation,4.9350063416081266e-18,tae_RL.csv,True,6.652067999000337
+max_iter,0.16984985421222754,tae_RL.csv,True,6.652067999000337
+"('damping', 'max_iter')",0.17811438270109192,tae_RL.csv,True,6.652067999000337
+"('convergence_iter', 'max_iter')",0.14997130331610728,tae_RL.csv,True,6.652067999000337
+"('convergence_iter', 'damping')",0.11881114460422128,tae_RL.csv,True,6.652067999000337
+"('damping', 'imputation')",2.519032411503604e-17,tae_RL.csv,True,6.652067999000337
+"('imputation', 'max_iter')",2.0379462628747612e-17,tae_RL.csv,True,6.652067999000337
+"('convergence_iter', 'imputation')",2.0137329110718598e-17,tae_RL.csv,True,6.652067999000337
+"('max_iter', 'convergence_iter', 'damping')",0.14029279630642233,tae_RL.csv,True,6.652067999000337
+"('imputation', 'damping', 'convergence_iter')",3.9768301795581503e-17,tae_RL.csv,True,6.652067999000337
+convergence_iter,0.054249945178078726,dim128.csv,True,2.3240323719996923
+damping,0.3645516786019211,dim128.csv,True,2.3240323719996923
+imputation,1.2261378208438115e-18,dim128.csv,True,2.3240323719996923
+max_iter,0.08958805776721168,dim128.csv,True,2.3240323719996923
+"('damping', 'max_iter')",0.1565322868238752,dim128.csv,True,2.3240323719996923
+"('convergence_iter', 'damping')",0.13855412252685848,dim128.csv,True,2.3240323719996923
+"('convergence_iter', 'max_iter')",0.07412759221633755,dim128.csv,True,2.3240323719996923
+"('damping', 'imputation')",8.468752570931421e-17,dim128.csv,True,2.3240323719996923
+"('convergence_iter', 'imputation')",1.161306864405861e-17,dim128.csv,True,2.3240323719996923
+"('imputation', 'max_iter')",8.54583381969956e-18,dim128.csv,True,2.3240323719996923
+"('max_iter', 'convergence_iter', 'damping')",0.12239631688571756,dim128.csv,True,2.3240323719996923
+"('imputation', 'damping', 'convergence_iter')",3.5128529995299883e-17,dim128.csv,True,2.3240323719996923
+convergence_iter,0.06299123133808464,dim512.csv,True,1.9684184660000028
+damping,0.37100082298622405,dim512.csv,True,1.9684184660000028
+imputation,4.879792877588426e-18,dim512.csv,True,1.9684184660000028
+max_iter,0.06320980651787064,dim512.csv,True,1.9684184660000028
+"('convergence_iter', 'damping')",0.17128553322292378,dim512.csv,True,1.9684184660000028
+"('damping', 'max_iter')",0.1445021466122831,dim512.csv,True,1.9684184660000028
+"('convergence_iter', 'max_iter')",0.07088045163022687,dim512.csv,True,1.9684184660000028
+"('damping', 'imputation')",5.4285914033528306e-17,dim512.csv,True,1.9684184660000028
+"('convergence_iter', 'imputation')",1.6277581084388977e-17,dim512.csv,True,1.9684184660000028
+"('imputation', 'max_iter')",1.1815875856886656e-17,dim512.csv,True,1.9684184660000028
+"('max_iter', 'convergence_iter', 'damping')",0.11613000769238682,dim512.csv,True,1.9684184660000028
+"('imputation', 'damping', 'convergence_iter')",2.5966615501719504e-17,dim512.csv,True,1.9684184660000028
+convergence_iter,0.12033182679652162,3d-15c-no0.csv,True,12.774640433000059
+damping,0.10449600131948396,3d-15c-no0.csv,True,12.774640433000059
+imputation,4.314991628215858e-18,3d-15c-no0.csv,True,12.774640433000059
+max_iter,0.13956013406666354,3d-15c-no0.csv,True,12.774640433000059
+"('convergence_iter', 'max_iter')",0.1920896803023158,3d-15c-no0.csv,True,12.774640433000059
+"('convergence_iter', 'damping')",0.1644595474238043,3d-15c-no0.csv,True,12.774640433000059
+"('damping', 'max_iter')",0.1310441012826855,3d-15c-no0.csv,True,12.774640433000059
+"('convergence_iter', 'imputation')",2.5271388666375874e-17,3d-15c-no0.csv,True,12.774640433000059
+"('imputation', 'max_iter')",2.1648852841690748e-17,3d-15c-no0.csv,True,12.774640433000059
+"('damping', 'imputation')",1.4458737123783727e-17,3d-15c-no0.csv,True,12.774640433000059
+"('max_iter', 'convergence_iter', 'damping')",0.14801870880852616,3d-15c-no0.csv,True,12.774640433000059
+"('imputation', 'damping', 'convergence_iter')",3.6065889938337714e-17,3d-15c-no0.csv,True,12.774640433000059
+convergence_iter,0.10308889679635987,Statlog_RL.csv,True,11.968156472999908
+damping,0.14645506673261888,Statlog_RL.csv,True,11.968156472999908
+imputation,7.922652220077707e-18,Statlog_RL.csv,True,11.968156472999908
+max_iter,0.1496476635658271,Statlog_RL.csv,True,11.968156472999908
+"('convergence_iter', 'max_iter')",0.16209795874854446,Statlog_RL.csv,True,11.968156472999908
+"('damping', 'max_iter')",0.15470390226976322,Statlog_RL.csv,True,11.968156472999908
+"('convergence_iter', 'damping')",0.13396274900248328,Statlog_RL.csv,True,11.968156472999908
+"('damping', 'imputation')",2.27201438463691e-17,Statlog_RL.csv,True,11.968156472999908
+"('imputation', 'max_iter')",1.7252056987916942e-17,Statlog_RL.csv,True,11.968156472999908
+"('convergence_iter', 'imputation')",1.2435801470815793e-17,Statlog_RL.csv,True,11.968156472999908
+"('max_iter', 'convergence_iter', 'damping')",0.15004376288440424,Statlog_RL.csv,True,11.968156472999908
+"('imputation', 'damping', 'convergence_iter')",2.6722413840731098e-17,Statlog_RL.csv,True,11.968156472999908
+convergence_iter,0.12455871337941786,ecoli_RL.csv,True,6.828871790999983
+damping,0.22708828691716593,ecoli_RL.csv,True,6.828871790999983
+imputation,2.715624252845169e-18,ecoli_RL.csv,True,6.828871790999983
+max_iter,0.09325660999645936,ecoli_RL.csv,True,6.828871790999983
+"('damping', 'max_iter')",0.1476976075220634,ecoli_RL.csv,True,6.828871790999983
+"('convergence_iter', 'damping')",0.14731459462879704,ecoli_RL.csv,True,6.828871790999983
+"('convergence_iter', 'max_iter')",0.12699489437620823,ecoli_RL.csv,True,6.828871790999983
+"('damping', 'imputation')",4.5524382556353596e-17,ecoli_RL.csv,True,6.828871790999983
+"('convergence_iter', 'imputation')",1.8556123035461657e-17,ecoli_RL.csv,True,6.828871790999983
+"('imputation', 'max_iter')",1.412739772142514e-17,ecoli_RL.csv,True,6.828871790999983
+"('max_iter', 'convergence_iter', 'damping')",0.13308929317988805,ecoli_RL.csv,True,6.828871790999983
+"('imputation', 'damping', 'convergence_iter')",5.3361194926941866e-17,ecoli_RL.csv,True,6.828871790999983
+convergence_iter,0.13455872773502836,spiral.csv,True,12.066874424999696
+damping,0.13511776717731822,spiral.csv,True,12.066874424999696
+imputation,0.0,spiral.csv,True,12.066874424999696
+max_iter,0.11467265102182911,spiral.csv,True,12.066874424999696
+"('damping', 'max_iter')",0.15818734831655112,spiral.csv,True,12.066874424999696
+"('convergence_iter', 'damping')",0.1549610045882647,spiral.csv,True,12.066874424999696
+"('convergence_iter', 'max_iter')",0.15265381306951148,spiral.csv,True,12.066874424999696
+"('convergence_iter', 'imputation')",2.715709328068828e-17,spiral.csv,True,12.066874424999696
+"('damping', 'imputation')",2.4345617266282772e-17,spiral.csv,True,12.066874424999696
+"('imputation', 'max_iter')",9.293691574764981e-18,spiral.csv,True,12.066874424999696
+"('max_iter', 'convergence_iter', 'damping')",0.1498486880914977,spiral.csv,True,12.066874424999696
+"('imputation', 'damping', 'convergence_iter')",4.4284850940463766e-17,spiral.csv,True,12.066874424999696
+convergence_iter,0.0844178094739699,dermatology_RL.csv,False,23.08410096100033
+damping,0.08233046614766165,dermatology_RL.csv,False,23.08410096100033
+max_iter,0.13316395595894384,dermatology_RL.csv,False,23.08410096100033
+"('damping', 'max_iter')",0.21437559697088215,dermatology_RL.csv,False,23.08410096100033
+"('convergence_iter', 'max_iter')",0.1822052589830438,dermatology_RL.csv,False,23.08410096100033
+"('convergence_iter', 'damping')",0.09940990657214635,dermatology_RL.csv,False,23.08410096100033
+"('max_iter', 'convergence_iter', 'damping')",0.20409700589335208,dermatology_RL.csv,False,23.08410096100033
+convergence_iter,0.12897265939376923,target.csv,True,11.21847079600002
+damping,0.15638884960087315,target.csv,True,11.21847079600002
+imputation,0.0,target.csv,True,11.21847079600002
+max_iter,0.10622228530604534,target.csv,True,11.21847079600002
+"('damping', 'max_iter')",0.16496543083465345,target.csv,True,11.21847079600002
+"('convergence_iter', 'damping')",0.16288850574337693,target.csv,True,11.21847079600002
+"('convergence_iter', 'max_iter')",0.13537165948398425,target.csv,True,11.21847079600002
+"('damping', 'imputation')",3.4865002296279475e-17,target.csv,True,11.21847079600002
+"('convergence_iter', 'imputation')",3.419860514980237e-17,target.csv,True,11.21847079600002
+"('imputation', 'max_iter')",1.604791786964223e-17,target.csv,True,11.21847079600002
+"('max_iter', 'convergence_iter', 'damping')",0.14519060963729863,target.csv,True,11.21847079600002
+"('imputation', 'damping', 'convergence_iter')",1.7176092882462148e-17,target.csv,True,11.21847079600002
+convergence_iter,0.03701996133809314,Transfusion_RL.csv,True,1.980899949999639
+damping,0.2936134469084608,Transfusion_RL.csv,True,1.980899949999639
+imputation,0.0,Transfusion_RL.csv,True,1.980899949999639
+max_iter,0.1755069019755433,Transfusion_RL.csv,True,1.980899949999639
+"('damping', 'max_iter')",0.17379385910600642,Transfusion_RL.csv,True,1.980899949999639
+"('convergence_iter', 'damping')",0.11790950238554837,Transfusion_RL.csv,True,1.980899949999639
+"('convergence_iter', 'max_iter')",0.0880085651086222,Transfusion_RL.csv,True,1.980899949999639
+"('imputation', 'max_iter')",2.2283161771776792e-17,Transfusion_RL.csv,True,1.980899949999639
+"('damping', 'imputation')",1.639656677284846e-17,Transfusion_RL.csv,True,1.980899949999639
+"('convergence_iter', 'imputation')",6.000272398043547e-18,Transfusion_RL.csv,True,1.980899949999639
+"('max_iter', 'convergence_iter', 'damping')",0.11414776317772553,Transfusion_RL.csv,True,1.980899949999639
+"('imputation', 'damping', 'convergence_iter')",3.4278240201367854e-17,Transfusion_RL.csv,True,1.980899949999639

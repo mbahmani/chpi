@@ -15,7 +15,7 @@ from sklearn.cluster import KMeans, AffinityPropagation,AgglomerativeClustering,
 from sys import stdout
 
 
-N= 5
+N= 100
 
 params_kmeans={
 "n_clusters": np.random.choice(np.arange(2, 40, 1), N),
@@ -30,7 +30,7 @@ params_affinitypropagation={
 "affinity": np.random.choice(['euclidean','precomputed'], N),
 "max_iter": np.random.choice(np.arange(50, 501, 1), N),
 "convergence_iter": np.random.choice(np.arange(2, 30, 1), N),
-'damping': np.random.uniform(0.5, 1, N),
+'damping': np.random.uniform(0.5, 0.999, N),
 }
 
 # we did not add distance_threshold as hyperparameter
@@ -44,7 +44,7 @@ params_agglomerativeclustering={
 params_dbscan={
 'eps': np.random.uniform(0.01, 1, N),    
 "min_samples": np.random.choice(np.arange(2, 20, 1), N),
-"metric": np.random.choice(['euclidean','l1','l2','manhattan','cosine'], N),
+"metric": np.random.choice(['euclidean','l1','l2','manhattan'], N),
 "algorithm": np.random.choice(['auto','ball_tree','kd_tree','brute'], N),
 "leaf_size": np.random.choice(np.arange(2, 50, 1), N),
 }
@@ -53,14 +53,18 @@ params_meanshift={
 'bin_seeding': np.random.choice(['True','False'], N), 
 "cluster_all": np.random.choice(['True','False'], N), 
 "max_iter": np.random.choice(np.arange(50, 501, 1), N),
+'bandwidth': np.random.uniform(0.1, 2.5,N),
  
 }
 
 params_spectralclustering={
-# 'bin_seeding': np.random.choice(['True','False'], N), 
-# "cluster_all": np.random.choice(['True','False'], N), 
-# "max_iter": np.random.choice(np.arange(50, 501, 1), N),
- 
+"n_clusters": np.random.choice(np.arange(2, 40, 1), N),
+# "eigen_solver":  np.random.choice(['arpack','lobpcg','amg'], N),
+# "n_components": np.random.choice(np.arange(2, 40, 1), N),
+"n_init":  np.random.choice(np.arange(2, 30, 1), N),
+"affinity":  np.random.choice(['nearest_neighbors','rbf'], N),
+"n_neighbors": np.random.choice(np.arange(2, 40, 1), N),
+"assign_labels":np.random.choice(['kmeans','discretize'], N),
 }
 
 
@@ -71,7 +75,7 @@ parameters ={
     "dbscan" : params_dbscan,
     "meanshift" : params_meanshift,
     "spectralclustering" : params_spectralclustering,
-    
+
       
 }
 
@@ -138,6 +142,7 @@ def clustering_per_dataset(path, file, algorithm, models,parameters):
                 index_col=None,
                 header=0,
                 na_values='?')
+    
     # making the column names lower case
     data.columns = map(str.lower, data.columns)          
 
@@ -233,7 +238,7 @@ def get_logs(data, num_imput_type, algorithm, file, combinations, models):
 
 
 
-    # scaling the input in case of SVM algorithm
+    # scaling the input 
     
     scaler = StandardScaler()
     X = scaler.fit_transform(X)
@@ -266,21 +271,46 @@ def get_logs(data, num_imput_type, algorithm, file, combinations, models):
        
 
 
-
-        start_tr = time.perf_counter()
-        model.fit(X)
-        end_tr = time.perf_counter()
-        train_time = end_tr - start_tr
-
-        predictions_tr = model.predict(X)
+        # fit and prediction 
+        try:
+            start_tr = time.perf_counter()
+            predictions_tr = model.fit_predict(X)
+            end_tr = time.perf_counter()
+            train_time = end_tr - start_tr
+        except:
+            start_tr = 0.00
+            predictions_tr = 0.00
+            end_tr = 0.00
+            train_time = end_tr - start_tr
+        
 
          
-
-        rnd_score = rand_score(y, predictions_tr)
-        adj_rnd_score=adjusted_rand_score(y, predictions_tr)
-        sil_score=silhouette_score(X, predictions_tr)
-        adj_mut_score=adjusted_mutual_info_score(y, predictions_tr)
-        nrm_mut_score=normalized_mutual_info_score(y, predictions_tr)
+        try:
+            rnd_score = rand_score(y, predictions_tr)
+        except: 
+            rnd_score=0
+        
+        try:
+            adj_rnd_score=adjusted_rand_score(y, predictions_tr)
+        except: 
+            adj_rnd_score=0
+        
+        try:
+            sil_score=silhouette_score(X, predictions_tr)
+        except: 
+            sil_score=0
+        
+        try:
+            adj_mut_score=adjusted_mutual_info_score(y, predictions_tr)
+        except: 
+            adj_mut_score=0
+        
+        try:
+            nrm_mut_score=normalized_mutual_info_score(y, predictions_tr)
+        except: 
+            nrm_mut_score=0
+        
+        
         stdout.flush()
 
         logs.loc[index, "Train_time"] = np.mean(train_time)
