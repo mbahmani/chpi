@@ -1,13 +1,14 @@
 import numpy as np
 import pandas as pd
 import time
+import sys
 import ConfigSpace
 import ConfigSpace.hyperparameters as csh
 import fanova
 from sklearn.preprocessing import LabelEncoder
 
 
-def do_fanova(dataset_name, algorithm, st=0, end=99):
+def do_fanova(dataset_name, algorithm, metric, st=0, end=99):
     """
     Derive importance of hyperparameter combinations
     on the performance data for the given algorithm
@@ -28,7 +29,7 @@ def do_fanova(dataset_name, algorithm, st=0, end=99):
     # define the config space
     # if SVM, then there are 3 cs's
     cs1, cs2 = config_space[algorithm]
-    cols = col_names[algorithm]
+    cols = col_names[algorithm] + metric
 
     data = data.loc[:, cols]
     data.imputation.fillna('none', inplace=True)
@@ -51,7 +52,8 @@ def do_fanova(dataset_name, algorithm, st=0, end=99):
             df['time_taken'] = time_taken
 
             results = pd.concat([results, df], axis=0)
-            results.to_csv('performance_data/{}_fANOVA_results.csv'.format(algorithm),
+            listToStr = ' '.join(map(str, metric))
+            results.to_csv(f'performance_data/{algorithm}_{listToStr}_fANOVA_results.csv',
                            header=True,
                            index=False)
         except Exception as e:
@@ -117,34 +119,6 @@ def fanova_to_df(data, algorithm, missing_values, cs1, cs2):
                        'importance': list(imp.values())},
                       index=None)
     return df, time_taken
-
-    """
-    Defining the configuration space in case of
-    Random Forest and Extra Trees Classifiers
-
-    """
-    cs1 = ConfigSpace.ConfigurationSpace()
-    cs2 = ConfigSpace.ConfigurationSpace()
-
-    hp1 = csh.CategoricalHyperparameter('bootstrap',
-                                        choices=['0', '1'])
-    hp2 = csh.CategoricalHyperparameter('criterion',
-                                        choices=['0', '1'])
-    hp3 = csh.CategoricalHyperparameter('imputation',
-                                        choices=['0', '1', '2'])
-    hp4 = csh.UniformFloatHyperparameter('max_features', lower=0.1,
-                                         upper=0.9, log=False)
-    hp5 = csh.UniformIntegerHyperparameter('min_samples_leaf', lower=1,
-                                           upper=20, log=False)
-    hp6 = csh.UniformIntegerHyperparameter('min_samples_split', lower=2,
-                                           upper=20, log=False)
-    # imputation case
-    cs1.add_hyperparameters([hp1, hp2, hp3, hp4, hp5, hp6])
-
-    # no imputation case
-    cs2.add_hyperparameters([hp1, hp2, hp4, hp5, hp6])
-
-    return cs1, cs2
 
 
 def cs_km():
@@ -266,7 +240,7 @@ def cs_spectral():
 def cs_dbscan():
     """
     Defining the configuration space in case of
-    agglomerativeclustering
+    dbscan
 
     """
     cs1 = ConfigSpace.ConfigurationSpace()
@@ -291,6 +265,45 @@ def cs_dbscan():
 
     # no imputation case
     cs2.add_hyperparameters([hp1, hp3, hp4, hp5, hp6])
+
+    return cs1, cs2
+
+
+def cs_optics():
+    """
+    Defining the configuration space in case of
+    optics
+
+    """
+    cs1 = ConfigSpace.ConfigurationSpace()
+    cs2 = ConfigSpace.ConfigurationSpace()
+
+    hp1 = csh.UniformIntegerHyperparameter('min_samples',
+                                           lower=2, upper=20, log=False)
+    hp2 = csh.CategoricalHyperparameter('imputation', choices=['0', '1', '2'])
+
+    hp3 = csh.UniformFloatHyperparameter('eps', lower=0.01,
+                                         upper=sys.maxsize, log=False)
+
+    hp4 = csh.CategoricalHyperparameter('metric', choices=['0', '1', '2', '3'])
+
+    hp5 = csh.CategoricalHyperparameter(
+        'algorithm', choices=['0', '1', '2', '3'])
+
+    hp6 = csh.UniformIntegerHyperparameter('leaf_size',
+                                           lower=2, upper=50, log=False)
+    hp7 = csh.UniformFloatHyperparameter('max_eps', lower=0.01,
+                                         upper=sys.maxsize, log=False)
+    hp8 = csh.CategoricalHyperparameter('cluster_method', choices=['0', '1'])
+    hp9 = csh.UniformFloatHyperparameter('xi', lower=0.01,
+                                         upper=1, log=False)
+
+
+    # imputation case
+    cs1.add_hyperparameters([hp1, hp2, hp3, hp4, hp5, hp6, hp7, hp8, hp9])
+
+    # no imputation case
+    cs2.add_hyperparameters([hp1, hp3, hp4, hp5, hp6, hp7, hp8, hp9])
 
     return cs1, cs2
 
@@ -321,50 +334,6 @@ def cs_meanshift():
     cs2.add_hyperparameters([hp1, hp3, hp4, hp5])
 
     return cs1, cs2
-
-
-config_space = {'kmeans': cs_km(),
-                "agglomerativeclustering": cs_agg(),
-                "affinitypropagation": cs_affipro(),
-                "spectralclustering": cs_spectral(),
-                "dbscan": cs_dbscan(),
-                "meanshift": cs_meanshift(),
-
-                }
-
-km_cols = ["dataset", "n_clusters", "init",
-           "max_iter", "algorithm", "n_init", "tol",
-           "imputation", 'normalized_mutual_info_score']
-
-agg_cols = ["dataset", "n_clusters", "affinity",
-            "linkage", "compute_full_tree",
-            "imputation", 'normalized_mutual_info_score']
-
-affipro_cols = ["dataset", "max_iter", "convergence_iter",
-                "damping",
-                "imputation", 'normalized_mutual_info_score']
-
-spectral_cols = ["dataset", "n_clusters", "n_init",
-                 "affinity", "n_neighbors", "assign_labels",
-                 "imputation", 'normalized_mutual_info_score']
-
-dbscan_cols = ["dataset", "eps", "min_samples",
-               "metric", "algorithm", "leaf_size",
-               "imputation", 'normalized_mutual_info_score']
-
-meanshift_cols = ["dataset", "bin_seeding", "cluster_all",
-                  "max_iter", "bandwidth",
-                  "imputation", 'normalized_mutual_info_score']
-
-
-col_names = {'kmeans': km_cols,
-             'agglomerativeclustering': agg_cols,
-             'affinitypropagation': affipro_cols,
-             'spectralclustering': spectral_cols,
-             'dbscan': dbscan_cols,
-             'meanshift': meanshift_cols,
-
-             }
 
 
 def label_encoding(data, algorithm):
@@ -406,10 +375,18 @@ def label_encoding(data, algorithm):
         data.metric = le.fit_transform(data.metric)
         data.algorithm = le.fit_transform(data.algorithm)
 
+
+    elif algorithm == 'optics':
+        data.imputation = le.fit_transform(data.imputation)
+        data.metric = le.fit_transform(data.metric)
+        data.algorithm = le.fit_transform(data.algorithm)
+        data.cluster_method = le.fit_transform(data.cluster_method)
+
     elif algorithm == 'meanshift':
         data.imputation = le.fit_transform(data.imputation)
         data.bin_seeding = le.fit_transform(data.bin_seeding)
         data.cluster_all = le.fit_transform(data.cluster_all)
+        
 
     return data
 
@@ -514,6 +491,12 @@ def get_triple_importance(f, algorithm):
 
         imp = dict_merge(imp1, imp2)
 
+    elif algorithm == 'optics':
+        imp1 = get_importance(f, 'eps', 'min_samples', 'metric')
+        imp2 = get_importance(f, 'eps',
+                                 'algorithm', 'leaf_size')
+
+        imp = dict_merge(imp1, imp2)
     elif algorithm == 'meanshift':
         imp1 = get_importance(f, 'bin_seeding', 'cluster_all', 'max_iter')
         imp2 = get_importance(f, 'cluster_all',
@@ -554,7 +537,61 @@ def get_triple_impute(f, algorithm):
     elif algorithm == 'dbscan':
         imp = get_importance(f, 'imputation', 'eps', 'min_samples')
 
+    elif algorithm == 'optics':
+        imp = get_importance(f, 'imputation', 'eps', 'min_samples')
+        
     elif algorithm == 'meanshift':
         imp = get_importance(f, 'imputation', 'max_iter', 'cluster_all')
 
     return imp
+
+
+config_space = {'kmeans': cs_km(),
+                "agglomerativeclustering": cs_agg(),
+                "affinitypropagation": cs_affipro(),
+                "spectralclustering": cs_spectral(),
+                "dbscan": cs_dbscan(),
+                "optics": cs_optics(),
+                "meanshift": cs_meanshift(),
+
+                }
+
+km_cols = ["dataset", "n_clusters", "init",
+           "max_iter", "algorithm", "n_init", "tol",
+           "imputation"]
+
+agg_cols = ["dataset", "n_clusters", "affinity",
+            "linkage", "compute_full_tree",
+            "imputation"]
+
+affipro_cols = ["dataset", "max_iter", "convergence_iter",
+                "damping",
+                "imputation"]
+
+spectral_cols = ["dataset", "n_clusters", "n_init",
+                 "affinity", "n_neighbors", "assign_labels",
+                 "imputation"]
+
+dbscan_cols = ["dataset", "eps", "min_samples",
+               "metric", "algorithm", "leaf_size",
+               "imputation"]
+
+optics_cols = ["dataset", "eps", "min_samples",
+               "metric", "algorithm", "leaf_size",
+               "max_eps", "cluster_method", "xi",  "imputation"]
+
+meanshift_cols = ["dataset", "bin_seeding", "cluster_all",
+                  "max_iter", "bandwidth",
+                  "imputation"]
+
+
+col_names = {'kmeans': km_cols,
+             'agglomerativeclustering': agg_cols,
+             'affinitypropagation': affipro_cols,
+             'spectralclustering': spectral_cols,
+             'dbscan': dbscan_cols,
+             'optics': optics_cols,
+
+             'meanshift': meanshift_cols,
+
+             }
