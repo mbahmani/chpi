@@ -1,0 +1,641 @@
+param,importance,dataset,imputation,time_taken
+algorithm,,segment_RL.csv,False,0.14916126593016088
+cluster_method,,segment_RL.csv,False,0.14916126593016088
+eps,,segment_RL.csv,False,0.14916126593016088
+leaf_size,,segment_RL.csv,False,0.14916126593016088
+max_eps,,segment_RL.csv,False,0.14916126593016088
+metric,,segment_RL.csv,False,0.14916126593016088
+min_samples,,segment_RL.csv,False,0.14916126593016088
+xi,,segment_RL.csv,False,0.14916126593016088
+"('algorithm', 'cluster_method')",,segment_RL.csv,False,0.14916126593016088
+"('algorithm', 'eps')",,segment_RL.csv,False,0.14916126593016088
+"('algorithm', 'leaf_size')",,segment_RL.csv,False,0.14916126593016088
+"('algorithm', 'max_eps')",,segment_RL.csv,False,0.14916126593016088
+"('algorithm', 'metric')",,segment_RL.csv,False,0.14916126593016088
+"('algorithm', 'min_samples')",,segment_RL.csv,False,0.14916126593016088
+"('algorithm', 'xi')",,segment_RL.csv,False,0.14916126593016088
+"('cluster_method', 'eps')",,segment_RL.csv,False,0.14916126593016088
+"('cluster_method', 'leaf_size')",,segment_RL.csv,False,0.14916126593016088
+"('cluster_method', 'max_eps')",,segment_RL.csv,False,0.14916126593016088
+"('eps', 'min_samples', 'metric')",,segment_RL.csv,False,0.14916126593016088
+"('eps', 'algorithm', 'leaf_size')",,segment_RL.csv,False,0.14916126593016088
+algorithm,,spherical_4_3.csv,False,0.21368434699252248
+cluster_method,,spherical_4_3.csv,False,0.21368434699252248
+eps,,spherical_4_3.csv,False,0.21368434699252248
+leaf_size,,spherical_4_3.csv,False,0.21368434699252248
+max_eps,,spherical_4_3.csv,False,0.21368434699252248
+metric,,spherical_4_3.csv,False,0.21368434699252248
+min_samples,,spherical_4_3.csv,False,0.21368434699252248
+xi,,spherical_4_3.csv,False,0.21368434699252248
+"('algorithm', 'cluster_method')",,spherical_4_3.csv,False,0.21368434699252248
+"('algorithm', 'eps')",,spherical_4_3.csv,False,0.21368434699252248
+"('algorithm', 'leaf_size')",,spherical_4_3.csv,False,0.21368434699252248
+"('algorithm', 'max_eps')",,spherical_4_3.csv,False,0.21368434699252248
+"('algorithm', 'metric')",,spherical_4_3.csv,False,0.21368434699252248
+"('algorithm', 'min_samples')",,spherical_4_3.csv,False,0.21368434699252248
+"('algorithm', 'xi')",,spherical_4_3.csv,False,0.21368434699252248
+"('cluster_method', 'eps')",,spherical_4_3.csv,False,0.21368434699252248
+"('cluster_method', 'leaf_size')",,spherical_4_3.csv,False,0.21368434699252248
+"('cluster_method', 'max_eps')",,spherical_4_3.csv,False,0.21368434699252248
+"('eps', 'min_samples', 'metric')",,spherical_4_3.csv,False,0.21368434699252248
+"('eps', 'algorithm', 'leaf_size')",,spherical_4_3.csv,False,0.21368434699252248
+algorithm,0.009811076560390692,dim064.csv,False,0.4737415799172595
+cluster_method,0.00837065643584195,dim064.csv,False,0.4737415799172595
+eps,0.19362796927558573,dim064.csv,False,0.4737415799172595
+leaf_size,0.0399950488191126,dim064.csv,False,0.4737415799172595
+max_eps,0.0998282270411814,dim064.csv,False,0.4737415799172595
+metric,0.010990342317359651,dim064.csv,False,0.4737415799172595
+min_samples,0.1671453833989475,dim064.csv,False,0.4737415799172595
+xi,0.09994795137234556,dim064.csv,False,0.4737415799172595
+"('algorithm', 'eps')",0.06489413892233055,dim064.csv,False,0.4737415799172595
+"('leaf_size', 'min_samples')",0.05091683571621177,dim064.csv,False,0.4737415799172595
+"('algorithm', 'max_eps')",0.04985799728164606,dim064.csv,False,0.4737415799172595
+"('metric', 'min_samples')",0.029691492171018324,dim064.csv,False,0.4737415799172595
+"('eps', 'leaf_size')",0.026895160655289917,dim064.csv,False,0.4737415799172595
+"('eps', 'max_eps')",0.020476985706880717,dim064.csv,False,0.4737415799172595
+"('leaf_size', 'max_eps')",0.019663706598052683,dim064.csv,False,0.4737415799172595
+"('eps', 'metric')",0.01922996810573608,dim064.csv,False,0.4737415799172595
+"('algorithm', 'leaf_size')",0.014171039387870139,dim064.csv,False,0.4737415799172595
+"('eps', 'min_samples')",0.01409669521951376,dim064.csv,False,0.4737415799172595
+"('eps', 'min_samples', 'metric')",0.007449247418718402,dim064.csv,False,0.4737415799172595
+"('eps', 'algorithm', 'leaf_size')",0.003286959772069059,dim064.csv,False,0.4737415799172595
+algorithm,,vowel_RL.csv,False,0.11721896298695356
+cluster_method,,vowel_RL.csv,False,0.11721896298695356
+eps,,vowel_RL.csv,False,0.11721896298695356
+leaf_size,,vowel_RL.csv,False,0.11721896298695356
+max_eps,,vowel_RL.csv,False,0.11721896298695356
+metric,,vowel_RL.csv,False,0.11721896298695356
+min_samples,,vowel_RL.csv,False,0.11721896298695356
+xi,,vowel_RL.csv,False,0.11721896298695356
+"('algorithm', 'cluster_method')",,vowel_RL.csv,False,0.11721896298695356
+"('algorithm', 'eps')",,vowel_RL.csv,False,0.11721896298695356
+"('algorithm', 'leaf_size')",,vowel_RL.csv,False,0.11721896298695356
+"('algorithm', 'max_eps')",,vowel_RL.csv,False,0.11721896298695356
+"('algorithm', 'metric')",,vowel_RL.csv,False,0.11721896298695356
+"('algorithm', 'min_samples')",,vowel_RL.csv,False,0.11721896298695356
+"('algorithm', 'xi')",,vowel_RL.csv,False,0.11721896298695356
+"('cluster_method', 'eps')",,vowel_RL.csv,False,0.11721896298695356
+"('cluster_method', 'leaf_size')",,vowel_RL.csv,False,0.11721896298695356
+"('cluster_method', 'max_eps')",,vowel_RL.csv,False,0.11721896298695356
+"('eps', 'min_samples', 'metric')",,vowel_RL.csv,False,0.11721896298695356
+"('eps', 'algorithm', 'leaf_size')",,vowel_RL.csv,False,0.11721896298695356
+algorithm,,vertebral_RL.csv,False,0.12119231198448688
+cluster_method,,vertebral_RL.csv,False,0.12119231198448688
+eps,,vertebral_RL.csv,False,0.12119231198448688
+leaf_size,,vertebral_RL.csv,False,0.12119231198448688
+max_eps,,vertebral_RL.csv,False,0.12119231198448688
+metric,,vertebral_RL.csv,False,0.12119231198448688
+min_samples,,vertebral_RL.csv,False,0.12119231198448688
+xi,,vertebral_RL.csv,False,0.12119231198448688
+"('algorithm', 'cluster_method')",,vertebral_RL.csv,False,0.12119231198448688
+"('algorithm', 'eps')",,vertebral_RL.csv,False,0.12119231198448688
+"('algorithm', 'leaf_size')",,vertebral_RL.csv,False,0.12119231198448688
+"('algorithm', 'max_eps')",,vertebral_RL.csv,False,0.12119231198448688
+"('algorithm', 'metric')",,vertebral_RL.csv,False,0.12119231198448688
+"('algorithm', 'min_samples')",,vertebral_RL.csv,False,0.12119231198448688
+"('algorithm', 'xi')",,vertebral_RL.csv,False,0.12119231198448688
+"('cluster_method', 'eps')",,vertebral_RL.csv,False,0.12119231198448688
+"('cluster_method', 'leaf_size')",,vertebral_RL.csv,False,0.12119231198448688
+"('cluster_method', 'max_eps')",,vertebral_RL.csv,False,0.12119231198448688
+"('eps', 'min_samples', 'metric')",,vertebral_RL.csv,False,0.12119231198448688
+"('eps', 'algorithm', 'leaf_size')",,vertebral_RL.csv,False,0.12119231198448688
+algorithm,,wine_RL.csv,False,0.1410799459554255
+cluster_method,,wine_RL.csv,False,0.1410799459554255
+eps,,wine_RL.csv,False,0.1410799459554255
+leaf_size,,wine_RL.csv,False,0.1410799459554255
+max_eps,,wine_RL.csv,False,0.1410799459554255
+metric,,wine_RL.csv,False,0.1410799459554255
+min_samples,,wine_RL.csv,False,0.1410799459554255
+xi,,wine_RL.csv,False,0.1410799459554255
+"('algorithm', 'cluster_method')",,wine_RL.csv,False,0.1410799459554255
+"('algorithm', 'eps')",,wine_RL.csv,False,0.1410799459554255
+"('algorithm', 'leaf_size')",,wine_RL.csv,False,0.1410799459554255
+"('algorithm', 'max_eps')",,wine_RL.csv,False,0.1410799459554255
+"('algorithm', 'metric')",,wine_RL.csv,False,0.1410799459554255
+"('algorithm', 'min_samples')",,wine_RL.csv,False,0.1410799459554255
+"('algorithm', 'xi')",,wine_RL.csv,False,0.1410799459554255
+"('cluster_method', 'eps')",,wine_RL.csv,False,0.1410799459554255
+"('cluster_method', 'leaf_size')",,wine_RL.csv,False,0.1410799459554255
+"('cluster_method', 'max_eps')",,wine_RL.csv,False,0.1410799459554255
+"('eps', 'min_samples', 'metric')",,wine_RL.csv,False,0.1410799459554255
+"('eps', 'algorithm', 'leaf_size')",,wine_RL.csv,False,0.1410799459554255
+algorithm,,yeast_RL.csv,False,0.18004952697083354
+cluster_method,,yeast_RL.csv,False,0.18004952697083354
+eps,,yeast_RL.csv,False,0.18004952697083354
+leaf_size,,yeast_RL.csv,False,0.18004952697083354
+max_eps,,yeast_RL.csv,False,0.18004952697083354
+metric,,yeast_RL.csv,False,0.18004952697083354
+min_samples,,yeast_RL.csv,False,0.18004952697083354
+xi,,yeast_RL.csv,False,0.18004952697083354
+"('algorithm', 'cluster_method')",,yeast_RL.csv,False,0.18004952697083354
+"('algorithm', 'eps')",,yeast_RL.csv,False,0.18004952697083354
+"('algorithm', 'leaf_size')",,yeast_RL.csv,False,0.18004952697083354
+"('algorithm', 'max_eps')",,yeast_RL.csv,False,0.18004952697083354
+"('algorithm', 'metric')",,yeast_RL.csv,False,0.18004952697083354
+"('algorithm', 'min_samples')",,yeast_RL.csv,False,0.18004952697083354
+"('algorithm', 'xi')",,yeast_RL.csv,False,0.18004952697083354
+"('cluster_method', 'eps')",,yeast_RL.csv,False,0.18004952697083354
+"('cluster_method', 'leaf_size')",,yeast_RL.csv,False,0.18004952697083354
+"('cluster_method', 'max_eps')",,yeast_RL.csv,False,0.18004952697083354
+"('eps', 'min_samples', 'metric')",,yeast_RL.csv,False,0.18004952697083354
+"('eps', 'algorithm', 'leaf_size')",,yeast_RL.csv,False,0.18004952697083354
+algorithm,,wine_quality_red_RL.csv,False,0.1929303799988702
+cluster_method,,wine_quality_red_RL.csv,False,0.1929303799988702
+eps,,wine_quality_red_RL.csv,False,0.1929303799988702
+leaf_size,,wine_quality_red_RL.csv,False,0.1929303799988702
+max_eps,,wine_quality_red_RL.csv,False,0.1929303799988702
+metric,,wine_quality_red_RL.csv,False,0.1929303799988702
+min_samples,,wine_quality_red_RL.csv,False,0.1929303799988702
+xi,,wine_quality_red_RL.csv,False,0.1929303799988702
+"('algorithm', 'cluster_method')",,wine_quality_red_RL.csv,False,0.1929303799988702
+"('algorithm', 'eps')",,wine_quality_red_RL.csv,False,0.1929303799988702
+"('algorithm', 'leaf_size')",,wine_quality_red_RL.csv,False,0.1929303799988702
+"('algorithm', 'max_eps')",,wine_quality_red_RL.csv,False,0.1929303799988702
+"('algorithm', 'metric')",,wine_quality_red_RL.csv,False,0.1929303799988702
+"('algorithm', 'min_samples')",,wine_quality_red_RL.csv,False,0.1929303799988702
+"('algorithm', 'xi')",,wine_quality_red_RL.csv,False,0.1929303799988702
+"('cluster_method', 'eps')",,wine_quality_red_RL.csv,False,0.1929303799988702
+"('cluster_method', 'leaf_size')",,wine_quality_red_RL.csv,False,0.1929303799988702
+"('cluster_method', 'max_eps')",,wine_quality_red_RL.csv,False,0.1929303799988702
+"('eps', 'min_samples', 'metric')",,wine_quality_red_RL.csv,False,0.1929303799988702
+"('eps', 'algorithm', 'leaf_size')",,wine_quality_red_RL.csv,False,0.1929303799988702
+algorithm,,zoo_RL.csv,False,0.15022086491808295
+cluster_method,,zoo_RL.csv,False,0.15022086491808295
+eps,,zoo_RL.csv,False,0.15022086491808295
+leaf_size,,zoo_RL.csv,False,0.15022086491808295
+max_eps,,zoo_RL.csv,False,0.15022086491808295
+metric,,zoo_RL.csv,False,0.15022086491808295
+min_samples,,zoo_RL.csv,False,0.15022086491808295
+xi,,zoo_RL.csv,False,0.15022086491808295
+"('algorithm', 'cluster_method')",,zoo_RL.csv,False,0.15022086491808295
+"('algorithm', 'eps')",,zoo_RL.csv,False,0.15022086491808295
+"('algorithm', 'leaf_size')",,zoo_RL.csv,False,0.15022086491808295
+"('algorithm', 'max_eps')",,zoo_RL.csv,False,0.15022086491808295
+"('algorithm', 'metric')",,zoo_RL.csv,False,0.15022086491808295
+"('algorithm', 'min_samples')",,zoo_RL.csv,False,0.15022086491808295
+"('algorithm', 'xi')",,zoo_RL.csv,False,0.15022086491808295
+"('cluster_method', 'eps')",,zoo_RL.csv,False,0.15022086491808295
+"('cluster_method', 'leaf_size')",,zoo_RL.csv,False,0.15022086491808295
+"('cluster_method', 'max_eps')",,zoo_RL.csv,False,0.15022086491808295
+"('eps', 'min_samples', 'metric')",,zoo_RL.csv,False,0.15022086491808295
+"('eps', 'algorithm', 'leaf_size')",,zoo_RL.csv,False,0.15022086491808295
+algorithm,,vehicle_RL.csv,False,0.15237060794606805
+cluster_method,,vehicle_RL.csv,False,0.15237060794606805
+eps,,vehicle_RL.csv,False,0.15237060794606805
+leaf_size,,vehicle_RL.csv,False,0.15237060794606805
+max_eps,,vehicle_RL.csv,False,0.15237060794606805
+metric,,vehicle_RL.csv,False,0.15237060794606805
+min_samples,,vehicle_RL.csv,False,0.15237060794606805
+xi,,vehicle_RL.csv,False,0.15237060794606805
+"('algorithm', 'cluster_method')",,vehicle_RL.csv,False,0.15237060794606805
+"('algorithm', 'eps')",,vehicle_RL.csv,False,0.15237060794606805
+"('algorithm', 'leaf_size')",,vehicle_RL.csv,False,0.15237060794606805
+"('algorithm', 'max_eps')",,vehicle_RL.csv,False,0.15237060794606805
+"('algorithm', 'metric')",,vehicle_RL.csv,False,0.15237060794606805
+"('algorithm', 'min_samples')",,vehicle_RL.csv,False,0.15237060794606805
+"('algorithm', 'xi')",,vehicle_RL.csv,False,0.15237060794606805
+"('cluster_method', 'eps')",,vehicle_RL.csv,False,0.15237060794606805
+"('cluster_method', 'leaf_size')",,vehicle_RL.csv,False,0.15237060794606805
+"('cluster_method', 'max_eps')",,vehicle_RL.csv,False,0.15237060794606805
+"('eps', 'min_samples', 'metric')",,vehicle_RL.csv,False,0.15237060794606805
+"('eps', 'algorithm', 'leaf_size')",,vehicle_RL.csv,False,0.15237060794606805
+algorithm,,triangle2.csv,False,0.12519531208090484
+cluster_method,,triangle2.csv,False,0.12519531208090484
+eps,,triangle2.csv,False,0.12519531208090484
+leaf_size,,triangle2.csv,False,0.12519531208090484
+max_eps,,triangle2.csv,False,0.12519531208090484
+metric,,triangle2.csv,False,0.12519531208090484
+min_samples,,triangle2.csv,False,0.12519531208090484
+xi,,triangle2.csv,False,0.12519531208090484
+"('algorithm', 'cluster_method')",,triangle2.csv,False,0.12519531208090484
+"('algorithm', 'eps')",,triangle2.csv,False,0.12519531208090484
+"('algorithm', 'leaf_size')",,triangle2.csv,False,0.12519531208090484
+"('algorithm', 'max_eps')",,triangle2.csv,False,0.12519531208090484
+"('algorithm', 'metric')",,triangle2.csv,False,0.12519531208090484
+"('algorithm', 'min_samples')",,triangle2.csv,False,0.12519531208090484
+"('algorithm', 'xi')",,triangle2.csv,False,0.12519531208090484
+"('cluster_method', 'eps')",,triangle2.csv,False,0.12519531208090484
+"('cluster_method', 'leaf_size')",,triangle2.csv,False,0.12519531208090484
+"('cluster_method', 'max_eps')",,triangle2.csv,False,0.12519531208090484
+"('eps', 'min_samples', 'metric')",,triangle2.csv,False,0.12519531208090484
+"('eps', 'algorithm', 'leaf_size')",,triangle2.csv,False,0.12519531208090484
+algorithm,,tetra.csv,False,0.0770703189773485
+cluster_method,,tetra.csv,False,0.0770703189773485
+eps,,tetra.csv,False,0.0770703189773485
+leaf_size,,tetra.csv,False,0.0770703189773485
+max_eps,,tetra.csv,False,0.0770703189773485
+metric,,tetra.csv,False,0.0770703189773485
+min_samples,,tetra.csv,False,0.0770703189773485
+xi,,tetra.csv,False,0.0770703189773485
+"('algorithm', 'cluster_method')",,tetra.csv,False,0.0770703189773485
+"('algorithm', 'eps')",,tetra.csv,False,0.0770703189773485
+"('algorithm', 'leaf_size')",,tetra.csv,False,0.0770703189773485
+"('algorithm', 'max_eps')",,tetra.csv,False,0.0770703189773485
+"('algorithm', 'metric')",,tetra.csv,False,0.0770703189773485
+"('algorithm', 'min_samples')",,tetra.csv,False,0.0770703189773485
+"('algorithm', 'xi')",,tetra.csv,False,0.0770703189773485
+"('cluster_method', 'eps')",,tetra.csv,False,0.0770703189773485
+"('cluster_method', 'leaf_size')",,tetra.csv,False,0.0770703189773485
+"('cluster_method', 'max_eps')",,tetra.csv,False,0.0770703189773485
+"('eps', 'min_samples', 'metric')",,tetra.csv,False,0.0770703189773485
+"('eps', 'algorithm', 'leaf_size')",,tetra.csv,False,0.0770703189773485
+algorithm,,tae_RL.csv,False,0.11610842100344598
+cluster_method,,tae_RL.csv,False,0.11610842100344598
+eps,,tae_RL.csv,False,0.11610842100344598
+leaf_size,,tae_RL.csv,False,0.11610842100344598
+max_eps,,tae_RL.csv,False,0.11610842100344598
+metric,,tae_RL.csv,False,0.11610842100344598
+min_samples,,tae_RL.csv,False,0.11610842100344598
+xi,,tae_RL.csv,False,0.11610842100344598
+"('algorithm', 'cluster_method')",,tae_RL.csv,False,0.11610842100344598
+"('algorithm', 'eps')",,tae_RL.csv,False,0.11610842100344598
+"('algorithm', 'leaf_size')",,tae_RL.csv,False,0.11610842100344598
+"('algorithm', 'max_eps')",,tae_RL.csv,False,0.11610842100344598
+"('algorithm', 'metric')",,tae_RL.csv,False,0.11610842100344598
+"('algorithm', 'min_samples')",,tae_RL.csv,False,0.11610842100344598
+"('algorithm', 'xi')",,tae_RL.csv,False,0.11610842100344598
+"('cluster_method', 'eps')",,tae_RL.csv,False,0.11610842100344598
+"('cluster_method', 'leaf_size')",,tae_RL.csv,False,0.11610842100344598
+"('cluster_method', 'max_eps')",,tae_RL.csv,False,0.11610842100344598
+"('eps', 'min_samples', 'metric')",,tae_RL.csv,False,0.11610842100344598
+"('eps', 'algorithm', 'leaf_size')",,tae_RL.csv,False,0.11610842100344598
+algorithm,,spiral.csv,False,0.09330748999491334
+cluster_method,,spiral.csv,False,0.09330748999491334
+eps,,spiral.csv,False,0.09330748999491334
+leaf_size,,spiral.csv,False,0.09330748999491334
+max_eps,,spiral.csv,False,0.09330748999491334
+metric,,spiral.csv,False,0.09330748999491334
+min_samples,,spiral.csv,False,0.09330748999491334
+xi,,spiral.csv,False,0.09330748999491334
+"('algorithm', 'cluster_method')",,spiral.csv,False,0.09330748999491334
+"('algorithm', 'eps')",,spiral.csv,False,0.09330748999491334
+"('algorithm', 'leaf_size')",,spiral.csv,False,0.09330748999491334
+"('algorithm', 'max_eps')",,spiral.csv,False,0.09330748999491334
+"('algorithm', 'metric')",,spiral.csv,False,0.09330748999491334
+"('algorithm', 'min_samples')",,spiral.csv,False,0.09330748999491334
+"('algorithm', 'xi')",,spiral.csv,False,0.09330748999491334
+"('cluster_method', 'eps')",,spiral.csv,False,0.09330748999491334
+"('cluster_method', 'leaf_size')",,spiral.csv,False,0.09330748999491334
+"('cluster_method', 'max_eps')",,spiral.csv,False,0.09330748999491334
+"('eps', 'min_samples', 'metric')",,spiral.csv,False,0.09330748999491334
+"('eps', 'algorithm', 'leaf_size')",,spiral.csv,False,0.09330748999491334
+algorithm,,target.csv,False,0.4635555539280176
+cluster_method,,target.csv,False,0.4635555539280176
+eps,,target.csv,False,0.4635555539280176
+leaf_size,,target.csv,False,0.4635555539280176
+max_eps,,target.csv,False,0.4635555539280176
+metric,,target.csv,False,0.4635555539280176
+min_samples,,target.csv,False,0.4635555539280176
+xi,,target.csv,False,0.4635555539280176
+"('algorithm', 'cluster_method')",,target.csv,False,0.4635555539280176
+"('algorithm', 'eps')",,target.csv,False,0.4635555539280176
+"('algorithm', 'leaf_size')",,target.csv,False,0.4635555539280176
+"('algorithm', 'max_eps')",,target.csv,False,0.4635555539280176
+"('algorithm', 'metric')",,target.csv,False,0.4635555539280176
+"('algorithm', 'min_samples')",,target.csv,False,0.4635555539280176
+"('algorithm', 'xi')",,target.csv,False,0.4635555539280176
+"('cluster_method', 'eps')",,target.csv,False,0.4635555539280176
+"('cluster_method', 'leaf_size')",,target.csv,False,0.4635555539280176
+"('cluster_method', 'max_eps')",,target.csv,False,0.4635555539280176
+"('eps', 'min_samples', 'metric')",,target.csv,False,0.4635555539280176
+"('eps', 'algorithm', 'leaf_size')",,target.csv,False,0.4635555539280176
+algorithm,,Transfusion_RL.csv,False,0.5368866020580754
+cluster_method,,Transfusion_RL.csv,False,0.5368866020580754
+eps,,Transfusion_RL.csv,False,0.5368866020580754
+leaf_size,,Transfusion_RL.csv,False,0.5368866020580754
+max_eps,,Transfusion_RL.csv,False,0.5368866020580754
+metric,,Transfusion_RL.csv,False,0.5368866020580754
+min_samples,,Transfusion_RL.csv,False,0.5368866020580754
+xi,,Transfusion_RL.csv,False,0.5368866020580754
+"('algorithm', 'cluster_method')",,Transfusion_RL.csv,False,0.5368866020580754
+"('algorithm', 'eps')",,Transfusion_RL.csv,False,0.5368866020580754
+"('algorithm', 'leaf_size')",,Transfusion_RL.csv,False,0.5368866020580754
+"('algorithm', 'max_eps')",,Transfusion_RL.csv,False,0.5368866020580754
+"('algorithm', 'metric')",,Transfusion_RL.csv,False,0.5368866020580754
+"('algorithm', 'min_samples')",,Transfusion_RL.csv,False,0.5368866020580754
+"('algorithm', 'xi')",,Transfusion_RL.csv,False,0.5368866020580754
+"('cluster_method', 'eps')",,Transfusion_RL.csv,False,0.5368866020580754
+"('cluster_method', 'leaf_size')",,Transfusion_RL.csv,False,0.5368866020580754
+"('cluster_method', 'max_eps')",,Transfusion_RL.csv,False,0.5368866020580754
+"('eps', 'min_samples', 'metric')",,Transfusion_RL.csv,False,0.5368866020580754
+"('eps', 'algorithm', 'leaf_size')",,Transfusion_RL.csv,False,0.5368866020580754
+algorithm,,st900.csv,False,0.09356702794320881
+cluster_method,,st900.csv,False,0.09356702794320881
+eps,,st900.csv,False,0.09356702794320881
+leaf_size,,st900.csv,False,0.09356702794320881
+max_eps,,st900.csv,False,0.09356702794320881
+metric,,st900.csv,False,0.09356702794320881
+min_samples,,st900.csv,False,0.09356702794320881
+xi,,st900.csv,False,0.09356702794320881
+"('algorithm', 'cluster_method')",,st900.csv,False,0.09356702794320881
+"('algorithm', 'eps')",,st900.csv,False,0.09356702794320881
+"('algorithm', 'leaf_size')",,st900.csv,False,0.09356702794320881
+"('algorithm', 'max_eps')",,st900.csv,False,0.09356702794320881
+"('algorithm', 'metric')",,st900.csv,False,0.09356702794320881
+"('algorithm', 'min_samples')",,st900.csv,False,0.09356702794320881
+"('algorithm', 'xi')",,st900.csv,False,0.09356702794320881
+"('cluster_method', 'eps')",,st900.csv,False,0.09356702794320881
+"('cluster_method', 'leaf_size')",,st900.csv,False,0.09356702794320881
+"('cluster_method', 'max_eps')",,st900.csv,False,0.09356702794320881
+"('eps', 'min_samples', 'metric')",,st900.csv,False,0.09356702794320881
+"('eps', 'algorithm', 'leaf_size')",,st900.csv,False,0.09356702794320881
+algorithm,,thy_RL.csv,False,0.1065717440797016
+cluster_method,,thy_RL.csv,False,0.1065717440797016
+eps,,thy_RL.csv,False,0.1065717440797016
+leaf_size,,thy_RL.csv,False,0.1065717440797016
+max_eps,,thy_RL.csv,False,0.1065717440797016
+metric,,thy_RL.csv,False,0.1065717440797016
+min_samples,,thy_RL.csv,False,0.1065717440797016
+xi,,thy_RL.csv,False,0.1065717440797016
+"('algorithm', 'cluster_method')",,thy_RL.csv,False,0.1065717440797016
+"('algorithm', 'eps')",,thy_RL.csv,False,0.1065717440797016
+"('algorithm', 'leaf_size')",,thy_RL.csv,False,0.1065717440797016
+"('algorithm', 'max_eps')",,thy_RL.csv,False,0.1065717440797016
+"('algorithm', 'metric')",,thy_RL.csv,False,0.1065717440797016
+"('algorithm', 'min_samples')",,thy_RL.csv,False,0.1065717440797016
+"('algorithm', 'xi')",,thy_RL.csv,False,0.1065717440797016
+"('cluster_method', 'eps')",,thy_RL.csv,False,0.1065717440797016
+"('cluster_method', 'leaf_size')",,thy_RL.csv,False,0.1065717440797016
+"('cluster_method', 'max_eps')",,thy_RL.csv,False,0.1065717440797016
+"('eps', 'min_samples', 'metric')",,thy_RL.csv,False,0.1065717440797016
+"('eps', 'algorithm', 'leaf_size')",,thy_RL.csv,False,0.1065717440797016
+algorithm,,triangle1.csv,False,0.1957882810384035
+cluster_method,,triangle1.csv,False,0.1957882810384035
+eps,,triangle1.csv,False,0.1957882810384035
+leaf_size,,triangle1.csv,False,0.1957882810384035
+max_eps,,triangle1.csv,False,0.1957882810384035
+metric,,triangle1.csv,False,0.1957882810384035
+min_samples,,triangle1.csv,False,0.1957882810384035
+xi,,triangle1.csv,False,0.1957882810384035
+"('algorithm', 'cluster_method')",,triangle1.csv,False,0.1957882810384035
+"('algorithm', 'eps')",,triangle1.csv,False,0.1957882810384035
+"('algorithm', 'leaf_size')",,triangle1.csv,False,0.1957882810384035
+"('algorithm', 'max_eps')",,triangle1.csv,False,0.1957882810384035
+"('algorithm', 'metric')",,triangle1.csv,False,0.1957882810384035
+"('algorithm', 'min_samples')",,triangle1.csv,False,0.1957882810384035
+"('algorithm', 'xi')",,triangle1.csv,False,0.1957882810384035
+"('cluster_method', 'eps')",,triangle1.csv,False,0.1957882810384035
+"('cluster_method', 'leaf_size')",,triangle1.csv,False,0.1957882810384035
+"('cluster_method', 'max_eps')",,triangle1.csv,False,0.1957882810384035
+"('eps', 'min_samples', 'metric')",,triangle1.csv,False,0.1957882810384035
+"('eps', 'algorithm', 'leaf_size')",,triangle1.csv,False,0.1957882810384035
+algorithm,,jain.csv,False,0.1734536059666425
+cluster_method,,jain.csv,False,0.1734536059666425
+eps,,jain.csv,False,0.1734536059666425
+leaf_size,,jain.csv,False,0.1734536059666425
+max_eps,,jain.csv,False,0.1734536059666425
+metric,,jain.csv,False,0.1734536059666425
+min_samples,,jain.csv,False,0.1734536059666425
+xi,,jain.csv,False,0.1734536059666425
+"('algorithm', 'cluster_method')",,jain.csv,False,0.1734536059666425
+"('algorithm', 'eps')",,jain.csv,False,0.1734536059666425
+"('algorithm', 'leaf_size')",,jain.csv,False,0.1734536059666425
+"('algorithm', 'max_eps')",,jain.csv,False,0.1734536059666425
+"('algorithm', 'metric')",,jain.csv,False,0.1734536059666425
+"('algorithm', 'min_samples')",,jain.csv,False,0.1734536059666425
+"('algorithm', 'xi')",,jain.csv,False,0.1734536059666425
+"('cluster_method', 'eps')",,jain.csv,False,0.1734536059666425
+"('cluster_method', 'leaf_size')",,jain.csv,False,0.1734536059666425
+"('cluster_method', 'max_eps')",,jain.csv,False,0.1734536059666425
+"('eps', 'min_samples', 'metric')",,jain.csv,False,0.1734536059666425
+"('eps', 'algorithm', 'leaf_size')",,jain.csv,False,0.1734536059666425
+algorithm,,golfball.csv,False,0.09275388799142092
+cluster_method,,golfball.csv,False,0.09275388799142092
+eps,,golfball.csv,False,0.09275388799142092
+leaf_size,,golfball.csv,False,0.09275388799142092
+max_eps,,golfball.csv,False,0.09275388799142092
+metric,,golfball.csv,False,0.09275388799142092
+min_samples,,golfball.csv,False,0.09275388799142092
+xi,,golfball.csv,False,0.09275388799142092
+"('algorithm', 'cluster_method')",,golfball.csv,False,0.09275388799142092
+"('algorithm', 'eps')",,golfball.csv,False,0.09275388799142092
+"('algorithm', 'leaf_size')",,golfball.csv,False,0.09275388799142092
+"('algorithm', 'max_eps')",,golfball.csv,False,0.09275388799142092
+"('algorithm', 'metric')",,golfball.csv,False,0.09275388799142092
+"('algorithm', 'min_samples')",,golfball.csv,False,0.09275388799142092
+"('algorithm', 'xi')",,golfball.csv,False,0.09275388799142092
+"('cluster_method', 'eps')",,golfball.csv,False,0.09275388799142092
+"('cluster_method', 'leaf_size')",,golfball.csv,False,0.09275388799142092
+"('cluster_method', 'max_eps')",,golfball.csv,False,0.09275388799142092
+"('eps', 'min_samples', 'metric')",,golfball.csv,False,0.09275388799142092
+"('eps', 'algorithm', 'leaf_size')",,golfball.csv,False,0.09275388799142092
+algorithm,,impossible.csv,False,0.32563175400719047
+cluster_method,,impossible.csv,False,0.32563175400719047
+eps,,impossible.csv,False,0.32563175400719047
+leaf_size,,impossible.csv,False,0.32563175400719047
+max_eps,,impossible.csv,False,0.32563175400719047
+metric,,impossible.csv,False,0.32563175400719047
+min_samples,,impossible.csv,False,0.32563175400719047
+xi,,impossible.csv,False,0.32563175400719047
+"('algorithm', 'cluster_method')",,impossible.csv,False,0.32563175400719047
+"('algorithm', 'eps')",,impossible.csv,False,0.32563175400719047
+"('algorithm', 'leaf_size')",,impossible.csv,False,0.32563175400719047
+"('algorithm', 'max_eps')",,impossible.csv,False,0.32563175400719047
+"('algorithm', 'metric')",,impossible.csv,False,0.32563175400719047
+"('algorithm', 'min_samples')",,impossible.csv,False,0.32563175400719047
+"('algorithm', 'xi')",,impossible.csv,False,0.32563175400719047
+"('cluster_method', 'eps')",,impossible.csv,False,0.32563175400719047
+"('cluster_method', 'leaf_size')",,impossible.csv,False,0.32563175400719047
+"('cluster_method', 'max_eps')",,impossible.csv,False,0.32563175400719047
+"('eps', 'min_samples', 'metric')",,impossible.csv,False,0.32563175400719047
+"('eps', 'algorithm', 'leaf_size')",,impossible.csv,False,0.32563175400719047
+algorithm,,glass_RL.csv,False,0.17173531802836806
+cluster_method,,glass_RL.csv,False,0.17173531802836806
+eps,,glass_RL.csv,False,0.17173531802836806
+leaf_size,,glass_RL.csv,False,0.17173531802836806
+max_eps,,glass_RL.csv,False,0.17173531802836806
+metric,,glass_RL.csv,False,0.17173531802836806
+min_samples,,glass_RL.csv,False,0.17173531802836806
+xi,,glass_RL.csv,False,0.17173531802836806
+"('algorithm', 'cluster_method')",,glass_RL.csv,False,0.17173531802836806
+"('algorithm', 'eps')",,glass_RL.csv,False,0.17173531802836806
+"('algorithm', 'leaf_size')",,glass_RL.csv,False,0.17173531802836806
+"('algorithm', 'max_eps')",,glass_RL.csv,False,0.17173531802836806
+"('algorithm', 'metric')",,glass_RL.csv,False,0.17173531802836806
+"('algorithm', 'min_samples')",,glass_RL.csv,False,0.17173531802836806
+"('algorithm', 'xi')",,glass_RL.csv,False,0.17173531802836806
+"('cluster_method', 'eps')",,glass_RL.csv,False,0.17173531802836806
+"('cluster_method', 'leaf_size')",,glass_RL.csv,False,0.17173531802836806
+"('cluster_method', 'max_eps')",,glass_RL.csv,False,0.17173531802836806
+"('eps', 'min_samples', 'metric')",,glass_RL.csv,False,0.17173531802836806
+"('eps', 'algorithm', 'leaf_size')",,glass_RL.csv,False,0.17173531802836806
+algorithm,,lsun.csv,False,0.18169469200074673
+cluster_method,,lsun.csv,False,0.18169469200074673
+eps,,lsun.csv,False,0.18169469200074673
+leaf_size,,lsun.csv,False,0.18169469200074673
+max_eps,,lsun.csv,False,0.18169469200074673
+metric,,lsun.csv,False,0.18169469200074673
+min_samples,,lsun.csv,False,0.18169469200074673
+xi,,lsun.csv,False,0.18169469200074673
+"('algorithm', 'cluster_method')",,lsun.csv,False,0.18169469200074673
+"('algorithm', 'eps')",,lsun.csv,False,0.18169469200074673
+"('algorithm', 'leaf_size')",,lsun.csv,False,0.18169469200074673
+"('algorithm', 'max_eps')",,lsun.csv,False,0.18169469200074673
+"('algorithm', 'metric')",,lsun.csv,False,0.18169469200074673
+"('algorithm', 'min_samples')",,lsun.csv,False,0.18169469200074673
+"('algorithm', 'xi')",,lsun.csv,False,0.18169469200074673
+"('cluster_method', 'eps')",,lsun.csv,False,0.18169469200074673
+"('cluster_method', 'leaf_size')",,lsun.csv,False,0.18169469200074673
+"('cluster_method', 'max_eps')",,lsun.csv,False,0.18169469200074673
+"('eps', 'min_samples', 'metric')",,lsun.csv,False,0.18169469200074673
+"('eps', 'algorithm', 'leaf_size')",,lsun.csv,False,0.18169469200074673
+algorithm,,hypercube.csv,False,0.23261408507823944
+cluster_method,,hypercube.csv,False,0.23261408507823944
+eps,,hypercube.csv,False,0.23261408507823944
+leaf_size,,hypercube.csv,False,0.23261408507823944
+max_eps,,hypercube.csv,False,0.23261408507823944
+metric,,hypercube.csv,False,0.23261408507823944
+min_samples,,hypercube.csv,False,0.23261408507823944
+xi,,hypercube.csv,False,0.23261408507823944
+"('algorithm', 'cluster_method')",,hypercube.csv,False,0.23261408507823944
+"('algorithm', 'eps')",,hypercube.csv,False,0.23261408507823944
+"('algorithm', 'leaf_size')",,hypercube.csv,False,0.23261408507823944
+"('algorithm', 'max_eps')",,hypercube.csv,False,0.23261408507823944
+"('algorithm', 'metric')",,hypercube.csv,False,0.23261408507823944
+"('algorithm', 'min_samples')",,hypercube.csv,False,0.23261408507823944
+"('algorithm', 'xi')",,hypercube.csv,False,0.23261408507823944
+"('cluster_method', 'eps')",,hypercube.csv,False,0.23261408507823944
+"('cluster_method', 'leaf_size')",,hypercube.csv,False,0.23261408507823944
+"('cluster_method', 'max_eps')",,hypercube.csv,False,0.23261408507823944
+"('eps', 'min_samples', 'metric')",,hypercube.csv,False,0.23261408507823944
+"('eps', 'algorithm', 'leaf_size')",,hypercube.csv,False,0.23261408507823944
+algorithm,,haberman_RL.csv,False,0.1481448409613222
+cluster_method,,haberman_RL.csv,False,0.1481448409613222
+eps,,haberman_RL.csv,False,0.1481448409613222
+leaf_size,,haberman_RL.csv,False,0.1481448409613222
+max_eps,,haberman_RL.csv,False,0.1481448409613222
+metric,,haberman_RL.csv,False,0.1481448409613222
+min_samples,,haberman_RL.csv,False,0.1481448409613222
+xi,,haberman_RL.csv,False,0.1481448409613222
+"('algorithm', 'cluster_method')",,haberman_RL.csv,False,0.1481448409613222
+"('algorithm', 'eps')",,haberman_RL.csv,False,0.1481448409613222
+"('algorithm', 'leaf_size')",,haberman_RL.csv,False,0.1481448409613222
+"('algorithm', 'max_eps')",,haberman_RL.csv,False,0.1481448409613222
+"('algorithm', 'metric')",,haberman_RL.csv,False,0.1481448409613222
+"('algorithm', 'min_samples')",,haberman_RL.csv,False,0.1481448409613222
+"('algorithm', 'xi')",,haberman_RL.csv,False,0.1481448409613222
+"('cluster_method', 'eps')",,haberman_RL.csv,False,0.1481448409613222
+"('cluster_method', 'leaf_size')",,haberman_RL.csv,False,0.1481448409613222
+"('cluster_method', 'max_eps')",,haberman_RL.csv,False,0.1481448409613222
+"('eps', 'min_samples', 'metric')",,haberman_RL.csv,False,0.1481448409613222
+"('eps', 'algorithm', 'leaf_size')",,haberman_RL.csv,False,0.1481448409613222
+algorithm,,libras_move_RL.csv,False,0.14077284396626055
+cluster_method,,libras_move_RL.csv,False,0.14077284396626055
+eps,,libras_move_RL.csv,False,0.14077284396626055
+leaf_size,,libras_move_RL.csv,False,0.14077284396626055
+max_eps,,libras_move_RL.csv,False,0.14077284396626055
+metric,,libras_move_RL.csv,False,0.14077284396626055
+min_samples,,libras_move_RL.csv,False,0.14077284396626055
+xi,,libras_move_RL.csv,False,0.14077284396626055
+"('algorithm', 'cluster_method')",,libras_move_RL.csv,False,0.14077284396626055
+"('algorithm', 'eps')",,libras_move_RL.csv,False,0.14077284396626055
+"('algorithm', 'leaf_size')",,libras_move_RL.csv,False,0.14077284396626055
+"('algorithm', 'max_eps')",,libras_move_RL.csv,False,0.14077284396626055
+"('algorithm', 'metric')",,libras_move_RL.csv,False,0.14077284396626055
+"('algorithm', 'min_samples')",,libras_move_RL.csv,False,0.14077284396626055
+"('algorithm', 'xi')",,libras_move_RL.csv,False,0.14077284396626055
+"('cluster_method', 'eps')",,libras_move_RL.csv,False,0.14077284396626055
+"('cluster_method', 'leaf_size')",,libras_move_RL.csv,False,0.14077284396626055
+"('cluster_method', 'max_eps')",,libras_move_RL.csv,False,0.14077284396626055
+"('eps', 'min_samples', 'metric')",,libras_move_RL.csv,False,0.14077284396626055
+"('eps', 'algorithm', 'leaf_size')",,libras_move_RL.csv,False,0.14077284396626055
+algorithm,,ionosphere_RL.csv,False,0.16334821900818497
+cluster_method,,ionosphere_RL.csv,False,0.16334821900818497
+eps,,ionosphere_RL.csv,False,0.16334821900818497
+leaf_size,,ionosphere_RL.csv,False,0.16334821900818497
+max_eps,,ionosphere_RL.csv,False,0.16334821900818497
+metric,,ionosphere_RL.csv,False,0.16334821900818497
+min_samples,,ionosphere_RL.csv,False,0.16334821900818497
+xi,,ionosphere_RL.csv,False,0.16334821900818497
+"('algorithm', 'cluster_method')",,ionosphere_RL.csv,False,0.16334821900818497
+"('algorithm', 'eps')",,ionosphere_RL.csv,False,0.16334821900818497
+"('algorithm', 'leaf_size')",,ionosphere_RL.csv,False,0.16334821900818497
+"('algorithm', 'max_eps')",,ionosphere_RL.csv,False,0.16334821900818497
+"('algorithm', 'metric')",,ionosphere_RL.csv,False,0.16334821900818497
+"('algorithm', 'min_samples')",,ionosphere_RL.csv,False,0.16334821900818497
+"('algorithm', 'xi')",,ionosphere_RL.csv,False,0.16334821900818497
+"('cluster_method', 'eps')",,ionosphere_RL.csv,False,0.16334821900818497
+"('cluster_method', 'leaf_size')",,ionosphere_RL.csv,False,0.16334821900818497
+"('cluster_method', 'max_eps')",,ionosphere_RL.csv,False,0.16334821900818497
+"('eps', 'min_samples', 'metric')",,ionosphere_RL.csv,False,0.16334821900818497
+"('eps', 'algorithm', 'leaf_size')",,ionosphere_RL.csv,False,0.16334821900818497
+algorithm,0.06174360100939031,hepta.csv,False,0.6448806029511616
+cluster_method,0.0,hepta.csv,False,0.6448806029511616
+eps,0.007942648252122023,hepta.csv,False,0.6448806029511616
+leaf_size,0.3956655969802699,hepta.csv,False,0.6448806029511616
+max_eps,0.4106050946833368,hepta.csv,False,0.6448806029511616
+metric,0.0,hepta.csv,False,0.6448806029511616
+min_samples,0.025716510743010387,hepta.csv,False,0.6448806029511616
+xi,0.33344681488755595,hepta.csv,False,0.6448806029511616
+"('max_eps', 'min_samples')",0.12925277028582793,hepta.csv,False,0.6448806029511616
+"('max_eps', 'xi')",0.07445851828799686,hepta.csv,False,0.6448806029511616
+"('algorithm', 'max_eps')",0.050617197481525884,hepta.csv,False,0.6448806029511616
+"('leaf_size', 'xi')",0.037016463115843216,hepta.csv,False,0.6448806029511616
+"('algorithm', 'leaf_size')",0.02616553637528152,hepta.csv,False,0.6448806029511616
+"('algorithm', 'min_samples')",0.011791949644516164,hepta.csv,False,0.6448806029511616
+"('eps', 'min_samples')",0.0031238698277161817,hepta.csv,False,0.6448806029511616
+"('algorithm', 'eps')",0.0012876526747507794,hepta.csv,False,0.6448806029511616
+"('leaf_size', 'min_samples')",9.544075617619198e-17,hepta.csv,False,0.6448806029511616
+"('min_samples', 'xi')",6.483559881370759e-17,hepta.csv,False,0.6448806029511616
+"('eps', 'min_samples', 'metric')",0.0,hepta.csv,False,0.6448806029511616
+"('eps', 'algorithm', 'leaf_size')",0.0,hepta.csv,False,0.6448806029511616
+algorithm,0.11486258951429527,dense-disk-5000.csv,False,0.1482958059059456
+cluster_method,0.01625303487307377,dense-disk-5000.csv,False,0.1482958059059456
+eps,0.010375030286198504,dense-disk-5000.csv,False,0.1482958059059456
+leaf_size,3.0188172414646284e-05,dense-disk-5000.csv,False,0.1482958059059456
+max_eps,0.050110888232955036,dense-disk-5000.csv,False,0.1482958059059456
+metric,0.3374694624166088,dense-disk-5000.csv,False,0.1482958059059456
+min_samples,0.3050927145762327,dense-disk-5000.csv,False,0.1482958059059456
+xi,0.32654383451367114,dense-disk-5000.csv,False,0.1482958059059456
+"('cluster_method', 'max_eps')",0.05680489606066233,dense-disk-5000.csv,False,0.1482958059059456
+"('max_eps', 'metric')",0.017514793468054346,dense-disk-5000.csv,False,0.1482958059059456
+"('algorithm', 'max_eps')",0.017514793468054297,dense-disk-5000.csv,False,0.1482958059059456
+"('max_eps', 'xi')",0.012535206778657312,dense-disk-5000.csv,False,0.1482958059059456
+"('eps', 'max_eps')",0.011757477408189906,dense-disk-5000.csv,False,0.1482958059059456
+"('cluster_method', 'metric')",0.005235228957991892,dense-disk-5000.csv,False,0.1482958059059456
+"('algorithm', 'cluster_method')",0.0047837210963125685,dense-disk-5000.csv,False,0.1482958059059456
+"('cluster_method', 'xi')",0.004376641990223881,dense-disk-5000.csv,False,0.1482958059059456
+"('cluster_method', 'eps')",0.002823041371334166,dense-disk-5000.csv,False,0.1482958059059456
+"('algorithm', 'metric')",0.0025679131905230745,dense-disk-5000.csv,False,0.1482958059059456
+"('eps', 'min_samples', 'metric')",5.292010414278544e-06,dense-disk-5000.csv,False,0.1482958059059456
+"('eps', 'algorithm', 'leaf_size')",2.2731247948455082e-05,dense-disk-5000.csv,False,0.1482958059059456
+algorithm,,d31.csv,False,0.3078289480181411
+cluster_method,,d31.csv,False,0.3078289480181411
+eps,,d31.csv,False,0.3078289480181411
+leaf_size,,d31.csv,False,0.3078289480181411
+max_eps,,d31.csv,False,0.3078289480181411
+metric,,d31.csv,False,0.3078289480181411
+min_samples,,d31.csv,False,0.3078289480181411
+xi,,d31.csv,False,0.3078289480181411
+"('algorithm', 'cluster_method')",,d31.csv,False,0.3078289480181411
+"('algorithm', 'eps')",,d31.csv,False,0.3078289480181411
+"('algorithm', 'leaf_size')",,d31.csv,False,0.3078289480181411
+"('algorithm', 'max_eps')",,d31.csv,False,0.3078289480181411
+"('algorithm', 'metric')",,d31.csv,False,0.3078289480181411
+"('algorithm', 'min_samples')",,d31.csv,False,0.3078289480181411
+"('algorithm', 'xi')",,d31.csv,False,0.3078289480181411
+"('cluster_method', 'eps')",,d31.csv,False,0.3078289480181411
+"('cluster_method', 'leaf_size')",,d31.csv,False,0.3078289480181411
+"('cluster_method', 'max_eps')",,d31.csv,False,0.3078289480181411
+"('eps', 'min_samples', 'metric')",,d31.csv,False,0.3078289480181411
+"('eps', 'algorithm', 'leaf_size')",,d31.csv,False,0.3078289480181411
+algorithm,,cuboids.csv,False,0.30083439499139786
+cluster_method,,cuboids.csv,False,0.30083439499139786
+eps,,cuboids.csv,False,0.30083439499139786
+leaf_size,,cuboids.csv,False,0.30083439499139786
+max_eps,,cuboids.csv,False,0.30083439499139786
+metric,,cuboids.csv,False,0.30083439499139786
+min_samples,,cuboids.csv,False,0.30083439499139786
+xi,,cuboids.csv,False,0.30083439499139786
+"('algorithm', 'cluster_method')",,cuboids.csv,False,0.30083439499139786
+"('algorithm', 'eps')",,cuboids.csv,False,0.30083439499139786
+"('algorithm', 'leaf_size')",,cuboids.csv,False,0.30083439499139786
+"('algorithm', 'max_eps')",,cuboids.csv,False,0.30083439499139786
+"('algorithm', 'metric')",,cuboids.csv,False,0.30083439499139786
+"('algorithm', 'min_samples')",,cuboids.csv,False,0.30083439499139786
+"('algorithm', 'xi')",,cuboids.csv,False,0.30083439499139786
+"('cluster_method', 'eps')",,cuboids.csv,False,0.30083439499139786
+"('cluster_method', 'leaf_size')",,cuboids.csv,False,0.30083439499139786
+"('cluster_method', 'max_eps')",,cuboids.csv,False,0.30083439499139786
+"('eps', 'min_samples', 'metric')",,cuboids.csv,False,0.30083439499139786
+"('eps', 'algorithm', 'leaf_size')",,cuboids.csv,False,0.30083439499139786

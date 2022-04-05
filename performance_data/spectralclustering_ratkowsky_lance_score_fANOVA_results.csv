@@ -1,0 +1,1552 @@
+param,importance,dataset,imputation,time_taken
+affinity,0.004406395484683807,dense-disk-3000.csv,False,3.919941561995074
+assign_labels,0.0005849411670002682,dense-disk-3000.csv,False,3.919941561995074
+n_clusters,0.6638250028667938,dense-disk-3000.csv,False,3.919941561995074
+n_init,0.0344014541277593,dense-disk-3000.csv,False,3.919941561995074
+n_neighbors,0.09522262020348252,dense-disk-3000.csv,False,3.919941561995074
+"('n_clusters', 'n_neighbors')",0.06834203832540398,dense-disk-3000.csv,False,3.919941561995074
+"('n_clusters', 'n_init')",0.050360569147807246,dense-disk-3000.csv,False,3.919941561995074
+"('affinity', 'n_clusters')",0.027259599929069542,dense-disk-3000.csv,False,3.919941561995074
+"('n_init', 'n_neighbors')",0.01670609583834229,dense-disk-3000.csv,False,3.919941561995074
+"('assign_labels', 'n_clusters')",0.009816744813209155,dense-disk-3000.csv,False,3.919941561995074
+"('assign_labels', 'n_neighbors')",0.0016160314664517414,dense-disk-3000.csv,False,3.919941561995074
+"('affinity', 'n_init')",0.0006371929133189193,dense-disk-3000.csv,False,3.919941561995074
+"('affinity', 'n_neighbors')",0.0004347548224095185,dense-disk-3000.csv,False,3.919941561995074
+"('assign_labels', 'n_init')",0.00036908919185754,dense-disk-3000.csv,False,3.919941561995074
+"('affinity', 'assign_labels')",0.00036795721133025606,dense-disk-3000.csv,False,3.919941561995074
+"('n_clusters', 'n_init', 'affinity')",0.003213937682211412,dense-disk-3000.csv,False,3.919941561995074
+"('n_clusters', 'assign_labels', 'n_neighbors')",0.0010062744357162098,dense-disk-3000.csv,False,3.919941561995074
+affinity,0.034061595196141894,vowel_RL.csv,False,3.726651811040938
+assign_labels,0.029094537377247275,vowel_RL.csv,False,3.726651811040938
+n_clusters,0.27331330456719427,vowel_RL.csv,False,3.726651811040938
+n_init,0.032965468033906875,vowel_RL.csv,False,3.726651811040938
+n_neighbors,0.14857646982742262,vowel_RL.csv,False,3.726651811040938
+"('n_clusters', 'n_neighbors')",0.084681727681622,vowel_RL.csv,False,3.726651811040938
+"('affinity', 'n_neighbors')",0.07194670390978293,vowel_RL.csv,False,3.726651811040938
+"('assign_labels', 'n_clusters')",0.056307749661179574,vowel_RL.csv,False,3.726651811040938
+"('affinity', 'n_clusters')",0.040937723948757165,vowel_RL.csv,False,3.726651811040938
+"('n_clusters', 'n_init')",0.03773481124722494,vowel_RL.csv,False,3.726651811040938
+"('n_init', 'n_neighbors')",0.0313278567302919,vowel_RL.csv,False,3.726651811040938
+"('assign_labels', 'n_init')",0.0170036357156519,vowel_RL.csv,False,3.726651811040938
+"('assign_labels', 'n_neighbors')",0.015447911702229587,vowel_RL.csv,False,3.726651811040938
+"('affinity', 'n_init')",0.014283768220743382,vowel_RL.csv,False,3.726651811040938
+"('affinity', 'assign_labels')",0.004885060181454566,vowel_RL.csv,False,3.726651811040938
+"('n_clusters', 'n_init', 'affinity')",0.010046476192462092,vowel_RL.csv,False,3.726651811040938
+"('n_clusters', 'assign_labels', 'n_neighbors')",0.013308098419300344,vowel_RL.csv,False,3.726651811040938
+affinity,,sonar_RL.csv,False,0.33660430600866675
+assign_labels,,sonar_RL.csv,False,0.33660430600866675
+n_clusters,,sonar_RL.csv,False,0.33660430600866675
+n_init,,sonar_RL.csv,False,0.33660430600866675
+n_neighbors,,sonar_RL.csv,False,0.33660430600866675
+"('affinity', 'assign_labels')",,sonar_RL.csv,False,0.33660430600866675
+"('affinity', 'n_clusters')",,sonar_RL.csv,False,0.33660430600866675
+"('affinity', 'n_init')",,sonar_RL.csv,False,0.33660430600866675
+"('affinity', 'n_neighbors')",,sonar_RL.csv,False,0.33660430600866675
+"('assign_labels', 'n_clusters')",,sonar_RL.csv,False,0.33660430600866675
+"('assign_labels', 'n_init')",,sonar_RL.csv,False,0.33660430600866675
+"('assign_labels', 'n_neighbors')",,sonar_RL.csv,False,0.33660430600866675
+"('n_clusters', 'n_init')",,sonar_RL.csv,False,0.33660430600866675
+"('n_clusters', 'n_neighbors')",,sonar_RL.csv,False,0.33660430600866675
+"('n_init', 'n_neighbors')",,sonar_RL.csv,False,0.33660430600866675
+"('n_clusters', 'n_init', 'affinity')",,sonar_RL.csv,False,0.33660430600866675
+"('n_clusters', 'assign_labels', 'n_neighbors')",,sonar_RL.csv,False,0.33660430600866675
+affinity,0.0033682456345747276,cluto-t4-8k.csv,False,3.98482954793144
+assign_labels,0.003937677351024363,cluto-t4-8k.csv,False,3.98482954793144
+n_clusters,0.6996651284180657,cluto-t4-8k.csv,False,3.98482954793144
+n_init,0.019412454342860937,cluto-t4-8k.csv,False,3.98482954793144
+n_neighbors,0.10626933913697892,cluto-t4-8k.csv,False,3.98482954793144
+"('n_clusters', 'n_init')",0.046859904430212894,cluto-t4-8k.csv,False,3.98482954793144
+"('n_clusters', 'n_neighbors')",0.041014314514667805,cluto-t4-8k.csv,False,3.98482954793144
+"('assign_labels', 'n_clusters')",0.016707874014469354,cluto-t4-8k.csv,False,3.98482954793144
+"('n_init', 'n_neighbors')",0.014722910801299303,cluto-t4-8k.csv,False,3.98482954793144
+"('affinity', 'n_clusters')",0.009079631079669732,cluto-t4-8k.csv,False,3.98482954793144
+"('assign_labels', 'n_init')",0.0034760870098641357,cluto-t4-8k.csv,False,3.98482954793144
+"('assign_labels', 'n_neighbors')",0.0024725725418691677,cluto-t4-8k.csv,False,3.98482954793144
+"('affinity', 'n_neighbors')",0.0021692151354768202,cluto-t4-8k.csv,False,3.98482954793144
+"('affinity', 'n_init')",0.0018788494047111204,cluto-t4-8k.csv,False,3.98482954793144
+"('affinity', 'assign_labels')",0.0004091532516548729,cluto-t4-8k.csv,False,3.98482954793144
+"('n_clusters', 'n_init', 'affinity')",0.0034262647989594737,cluto-t4-8k.csv,False,3.98482954793144
+"('n_clusters', 'assign_labels', 'n_neighbors')",0.0015212063408824668,cluto-t4-8k.csv,False,3.98482954793144
+affinity,0.0019515682023801577,engytime.csv,False,3.225322674959898
+assign_labels,0.014716057447500295,engytime.csv,False,3.225322674959898
+n_clusters,0.5791277403078676,engytime.csv,False,3.225322674959898
+n_init,0.02769839169577593,engytime.csv,False,3.225322674959898
+n_neighbors,0.0748202806982441,engytime.csv,False,3.225322674959898
+"('n_clusters', 'n_init')",0.06662499546138981,engytime.csv,False,3.225322674959898
+"('assign_labels', 'n_clusters')",0.060242566912635194,engytime.csv,False,3.225322674959898
+"('assign_labels', 'n_neighbors')",0.039258753578767104,engytime.csv,False,3.225322674959898
+"('n_clusters', 'n_neighbors')",0.03831952797976255,engytime.csv,False,3.225322674959898
+"('n_init', 'n_neighbors')",0.023075849198088173,engytime.csv,False,3.225322674959898
+"('assign_labels', 'n_init')",0.02216901758976231,engytime.csv,False,3.225322674959898
+"('affinity', 'n_clusters')",0.006173011271078958,engytime.csv,False,3.225322674959898
+"('affinity', 'n_init')",0.0012067580236664,engytime.csv,False,3.225322674959898
+"('affinity', 'assign_labels')",0.000922330846724911,engytime.csv,False,3.225322674959898
+"('affinity', 'n_neighbors')",0.0006905846496854028,engytime.csv,False,3.225322674959898
+"('n_clusters', 'n_init', 'affinity')",0.003191580813484871,engytime.csv,False,3.225322674959898
+"('n_clusters', 'assign_labels', 'n_neighbors')",0.02993511962577071,engytime.csv,False,3.225322674959898
+affinity,0.027416747320121705,hypercube.csv,False,3.847301144967787
+assign_labels,0.006799304360277671,hypercube.csv,False,3.847301144967787
+n_clusters,0.4742015165798529,hypercube.csv,False,3.847301144967787
+n_init,0.024847817193921495,hypercube.csv,False,3.847301144967787
+n_neighbors,0.10864314928991281,hypercube.csv,False,3.847301144967787
+"('n_clusters', 'n_neighbors')",0.10817664258874542,hypercube.csv,False,3.847301144967787
+"('affinity', 'n_clusters')",0.08808998365251354,hypercube.csv,False,3.847301144967787
+"('n_clusters', 'n_init')",0.05040462094859431,hypercube.csv,False,3.847301144967787
+"('assign_labels', 'n_clusters')",0.02083961173455494,hypercube.csv,False,3.847301144967787
+"('affinity', 'n_neighbors')",0.012583187473262768,hypercube.csv,False,3.847301144967787
+"('n_init', 'n_neighbors')",0.009710909970950738,hypercube.csv,False,3.847301144967787
+"('affinity', 'n_init')",0.007862102264166004,hypercube.csv,False,3.847301144967787
+"('assign_labels', 'n_init')",0.002807166383201007,hypercube.csv,False,3.847301144967787
+"('assign_labels', 'n_neighbors')",0.002046262105608293,hypercube.csv,False,3.847301144967787
+"('affinity', 'assign_labels')",0.001417996459920841,hypercube.csv,False,3.847301144967787
+"('n_clusters', 'n_init', 'affinity')",0.008897889031993726,hypercube.csv,False,3.847301144967787
+"('n_clusters', 'assign_labels', 'n_neighbors')",0.0038430030317462152,hypercube.csv,False,3.847301144967787
+affinity,0.2417431340723645,wine_quality_red_RL.csv,False,1.5926184059353545
+assign_labels,0.0023357116703588976,wine_quality_red_RL.csv,False,1.5926184059353545
+n_clusters,0.38674374407808076,wine_quality_red_RL.csv,False,1.5926184059353545
+n_init,0.019865580231011287,wine_quality_red_RL.csv,False,1.5926184059353545
+n_neighbors,0.08519883771912512,wine_quality_red_RL.csv,False,1.5926184059353545
+"('n_clusters', 'n_neighbors')",0.06037537029825618,wine_quality_red_RL.csv,False,1.5926184059353545
+"('affinity', 'n_clusters')",0.05070986002099726,wine_quality_red_RL.csv,False,1.5926184059353545
+"('n_clusters', 'n_init')",0.02873585636211627,wine_quality_red_RL.csv,False,1.5926184059353545
+"('affinity', 'n_neighbors')",0.028029032034934426,wine_quality_red_RL.csv,False,1.5926184059353545
+"('affinity', 'n_init')",0.018751506492803025,wine_quality_red_RL.csv,False,1.5926184059353545
+"('affinity', 'assign_labels')",0.005446277212953062,wine_quality_red_RL.csv,False,1.5926184059353545
+"('n_init', 'n_neighbors')",0.004700681724874148,wine_quality_red_RL.csv,False,1.5926184059353545
+"('assign_labels', 'n_init')",0.004397723207700086,wine_quality_red_RL.csv,False,1.5926184059353545
+"('assign_labels', 'n_clusters')",0.003806422564710322,wine_quality_red_RL.csv,False,1.5926184059353545
+"('assign_labels', 'n_neighbors')",0.0004869910596492798,wine_quality_red_RL.csv,False,1.5926184059353545
+"('n_clusters', 'n_init', 'affinity')",0.015707246051780855,wine_quality_red_RL.csv,False,1.5926184059353545
+"('n_clusters', 'assign_labels', 'n_neighbors')",0.0008610544218808097,wine_quality_red_RL.csv,False,1.5926184059353545
+affinity,0.00971331996194211,tae_RL.csv,False,3.340573979075998
+assign_labels,0.009864126740573277,tae_RL.csv,False,3.340573979075998
+n_clusters,0.5366183392725097,tae_RL.csv,False,3.340573979075998
+n_init,0.046511846904440504,tae_RL.csv,False,3.340573979075998
+n_neighbors,0.03602852547750432,tae_RL.csv,False,3.340573979075998
+"('assign_labels', 'n_clusters')",0.07641357802158168,tae_RL.csv,False,3.340573979075998
+"('affinity', 'n_clusters')",0.04713151325401861,tae_RL.csv,False,3.340573979075998
+"('n_clusters', 'n_init')",0.03792702968957291,tae_RL.csv,False,3.340573979075998
+"('n_clusters', 'n_neighbors')",0.029210437810758813,tae_RL.csv,False,3.340573979075998
+"('assign_labels', 'n_init')",0.024800590580117382,tae_RL.csv,False,3.340573979075998
+"('n_init', 'n_neighbors')",0.021460068491079082,tae_RL.csv,False,3.340573979075998
+"('affinity', 'n_init')",0.015220254061670508,tae_RL.csv,False,3.340573979075998
+"('affinity', 'n_neighbors')",0.015113690738374918,tae_RL.csv,False,3.340573979075998
+"('assign_labels', 'n_neighbors')",0.014671786390034103,tae_RL.csv,False,3.340573979075998
+"('affinity', 'assign_labels')",0.005696362828835784,tae_RL.csv,False,3.340573979075998
+"('n_clusters', 'n_init', 'affinity')",0.008954747280603059,tae_RL.csv,False,3.340573979075998
+"('n_clusters', 'assign_labels', 'n_neighbors')",0.012090345529003656,tae_RL.csv,False,3.340573979075998
+affinity,,Spectf_RL.csv,False,0.1298824460245669
+assign_labels,,Spectf_RL.csv,False,0.1298824460245669
+n_clusters,,Spectf_RL.csv,False,0.1298824460245669
+n_init,,Spectf_RL.csv,False,0.1298824460245669
+n_neighbors,,Spectf_RL.csv,False,0.1298824460245669
+"('affinity', 'assign_labels')",,Spectf_RL.csv,False,0.1298824460245669
+"('affinity', 'n_clusters')",,Spectf_RL.csv,False,0.1298824460245669
+"('affinity', 'n_init')",,Spectf_RL.csv,False,0.1298824460245669
+"('affinity', 'n_neighbors')",,Spectf_RL.csv,False,0.1298824460245669
+"('assign_labels', 'n_clusters')",,Spectf_RL.csv,False,0.1298824460245669
+"('assign_labels', 'n_init')",,Spectf_RL.csv,False,0.1298824460245669
+"('assign_labels', 'n_neighbors')",,Spectf_RL.csv,False,0.1298824460245669
+"('n_clusters', 'n_init')",,Spectf_RL.csv,False,0.1298824460245669
+"('n_clusters', 'n_neighbors')",,Spectf_RL.csv,False,0.1298824460245669
+"('n_init', 'n_neighbors')",,Spectf_RL.csv,False,0.1298824460245669
+"('n_clusters', 'n_init', 'affinity')",,Spectf_RL.csv,False,0.1298824460245669
+"('n_clusters', 'assign_labels', 'n_neighbors')",,Spectf_RL.csv,False,0.1298824460245669
+affinity,0.007854805064243615,dim032.csv,False,3.8331010449910536
+assign_labels,0.0019773408857286547,dim032.csv,False,3.8331010449910536
+n_clusters,0.5821924115774751,dim032.csv,False,3.8331010449910536
+n_init,0.06120399796263434,dim032.csv,False,3.8331010449910536
+n_neighbors,0.046488289099326244,dim032.csv,False,3.8331010449910536
+"('n_clusters', 'n_init')",0.11001904440070621,dim032.csv,False,3.8331010449910536
+"('n_clusters', 'n_neighbors')",0.08117897992063994,dim032.csv,False,3.8331010449910536
+"('assign_labels', 'n_clusters')",0.012899939973722652,dim032.csv,False,3.8331010449910536
+"('affinity', 'n_clusters')",0.011420402146654943,dim032.csv,False,3.8331010449910536
+"('n_init', 'n_neighbors')",0.010690751164456882,dim032.csv,False,3.8331010449910536
+"('affinity', 'n_init')",0.0049963949010216665,dim032.csv,False,3.8331010449910536
+"('assign_labels', 'n_init')",0.004407336242125064,dim032.csv,False,3.8331010449910536
+"('assign_labels', 'n_neighbors')",0.003690758343940236,dim032.csv,False,3.8331010449910536
+"('affinity', 'n_neighbors')",0.0028850171427157656,dim032.csv,False,3.8331010449910536
+"('affinity', 'assign_labels')",0.00016203124631387303,dim032.csv,False,3.8331010449910536
+"('n_clusters', 'n_init', 'affinity')",0.005889392421442159,dim032.csv,False,3.8331010449910536
+"('n_clusters', 'assign_labels', 'n_neighbors')",0.007037666059310898,dim032.csv,False,3.8331010449910536
+affinity,0.00028574152193859223,pathbased.csv,False,4.166540079982951
+assign_labels,0.00971934625233763,pathbased.csv,False,4.166540079982951
+n_clusters,0.757480947985617,pathbased.csv,False,4.166540079982951
+n_init,0.014719768195534704,pathbased.csv,False,4.166540079982951
+n_neighbors,0.04497726329938984,pathbased.csv,False,4.166540079982951
+"('n_clusters', 'n_neighbors')",0.03374916745809699,pathbased.csv,False,4.166540079982951
+"('n_clusters', 'n_init')",0.031204053539913342,pathbased.csv,False,4.166540079982951
+"('assign_labels', 'n_clusters')",0.02558299477529557,pathbased.csv,False,4.166540079982951
+"('n_init', 'n_neighbors')",0.022470231946800326,pathbased.csv,False,4.166540079982951
+"('assign_labels', 'n_neighbors')",0.013580188739371484,pathbased.csv,False,4.166540079982951
+"('assign_labels', 'n_init')",0.006350669234268976,pathbased.csv,False,4.166540079982951
+"('affinity', 'n_clusters')",0.0026429647196628504,pathbased.csv,False,4.166540079982951
+"('affinity', 'n_neighbors')",0.0013402791105480004,pathbased.csv,False,4.166540079982951
+"('affinity', 'n_init')",0.0007495220503905294,pathbased.csv,False,4.166540079982951
+"('affinity', 'assign_labels')",0.00020494249796230242,pathbased.csv,False,4.166540079982951
+"('n_clusters', 'n_init', 'affinity')",0.0008975665084590205,pathbased.csv,False,4.166540079982951
+"('n_clusters', 'assign_labels', 'n_neighbors')",0.011329155322515473,pathbased.csv,False,4.166540079982951
+affinity,0.0016415604066757912,Aggregation.csv,False,3.945012593991123
+assign_labels,0.002295839230334838,Aggregation.csv,False,3.945012593991123
+n_clusters,0.7905269116392085,Aggregation.csv,False,3.945012593991123
+n_init,0.03662376234221136,Aggregation.csv,False,3.945012593991123
+n_neighbors,0.03317667616188473,Aggregation.csv,False,3.945012593991123
+"('n_clusters', 'n_init')",0.04363274472018777,Aggregation.csv,False,3.945012593991123
+"('n_clusters', 'n_neighbors')",0.02722541806564456,Aggregation.csv,False,3.945012593991123
+"('n_init', 'n_neighbors')",0.013269416259220186,Aggregation.csv,False,3.945012593991123
+"('affinity', 'n_init')",0.01254890421232497,Aggregation.csv,False,3.945012593991123
+"('assign_labels', 'n_init')",0.010467699600623236,Aggregation.csv,False,3.945012593991123
+"('affinity', 'n_clusters')",0.00397221844550238,Aggregation.csv,False,3.945012593991123
+"('assign_labels', 'n_clusters')",0.003448006703478795,Aggregation.csv,False,3.945012593991123
+"('assign_labels', 'n_neighbors')",0.0017718512961121002,Aggregation.csv,False,3.945012593991123
+"('affinity', 'n_neighbors')",0.0003188373240832419,Aggregation.csv,False,3.945012593991123
+"('affinity', 'assign_labels')",6.259311478327224e-05,Aggregation.csv,False,3.945012593991123
+"('n_clusters', 'n_init', 'affinity')",0.0014520374652056268,Aggregation.csv,False,3.945012593991123
+"('n_clusters', 'assign_labels', 'n_neighbors')",0.0019601549669519837,Aggregation.csv,False,3.945012593991123
+affinity,0.0015936307276792137,donutcurves.csv,False,3.8513938089599833
+assign_labels,0.0026786905360796183,donutcurves.csv,False,3.8513938089599833
+n_clusters,0.8468737763804777,donutcurves.csv,False,3.8513938089599833
+n_init,0.018282252639609507,donutcurves.csv,False,3.8513938089599833
+n_neighbors,0.006980911027448144,donutcurves.csv,False,3.8513938089599833
+"('n_clusters', 'n_init')",0.04386095574173423,donutcurves.csv,False,3.8513938089599833
+"('n_clusters', 'n_neighbors')",0.01418169370100135,donutcurves.csv,False,3.8513938089599833
+"('assign_labels', 'n_clusters')",0.01267149165423469,donutcurves.csv,False,3.8513938089599833
+"('n_init', 'n_neighbors')",0.009331164731062925,donutcurves.csv,False,3.8513938089599833
+"('affinity', 'n_clusters')",0.008855228100401315,donutcurves.csv,False,3.8513938089599833
+"('assign_labels', 'n_init')",0.003084028053163286,donutcurves.csv,False,3.8513938089599833
+"('affinity', 'n_neighbors')",0.0023911734906803045,donutcurves.csv,False,3.8513938089599833
+"('assign_labels', 'n_neighbors')",0.0015621270370186837,donutcurves.csv,False,3.8513938089599833
+"('affinity', 'assign_labels')",0.0007475978941269998,donutcurves.csv,False,3.8513938089599833
+"('affinity', 'n_init')",0.00058989466426542,donutcurves.csv,False,3.8513938089599833
+"('n_clusters', 'n_init', 'affinity')",0.00226817522981494,donutcurves.csv,False,3.8513938089599833
+"('n_clusters', 'assign_labels', 'n_neighbors')",0.004233089153597237,donutcurves.csv,False,3.8513938089599833
+affinity,0.00038581484257860254,disk-6000n.csv,False,3.888686920981854
+assign_labels,0.0007075742027021865,disk-6000n.csv,False,3.888686920981854
+n_clusters,0.8146710934601338,disk-6000n.csv,False,3.888686920981854
+n_init,0.004541993580357399,disk-6000n.csv,False,3.888686920981854
+n_neighbors,0.10561817425687291,disk-6000n.csv,False,3.888686920981854
+"('n_clusters', 'n_neighbors')",0.03588101354113161,disk-6000n.csv,False,3.888686920981854
+"('n_clusters', 'n_init')",0.016416534283007565,disk-6000n.csv,False,3.888686920981854
+"('n_init', 'n_neighbors')",0.005946958860162044,disk-6000n.csv,False,3.888686920981854
+"('assign_labels', 'n_clusters')",0.0038338017267760052,disk-6000n.csv,False,3.888686920981854
+"('affinity', 'n_clusters')",0.0019105269496308439,disk-6000n.csv,False,3.888686920981854
+"('assign_labels', 'n_neighbors')",0.0006926732278304845,disk-6000n.csv,False,3.888686920981854
+"('assign_labels', 'n_init')",0.0006040405255352029,disk-6000n.csv,False,3.888686920981854
+"('affinity', 'n_init')",0.00045225406915679934,disk-6000n.csv,False,3.888686920981854
+"('affinity', 'n_neighbors')",0.00023772726370195152,disk-6000n.csv,False,3.888686920981854
+"('affinity', 'assign_labels')",5.763323583502074e-05,disk-6000n.csv,False,3.888686920981854
+"('n_clusters', 'n_init', 'affinity')",0.001235248700585116,disk-6000n.csv,False,3.888686920981854
+"('n_clusters', 'assign_labels', 'n_neighbors')",0.0010712359002878267,disk-6000n.csv,False,3.888686920981854
+affinity,0.0032270163663450234,donut1.csv,False,3.980549847939983
+assign_labels,0.0007863747704167622,donut1.csv,False,3.980549847939983
+n_clusters,0.6495229737128542,donut1.csv,False,3.980549847939983
+n_init,0.035774233719646525,donut1.csv,False,3.980549847939983
+n_neighbors,0.05837650586904471,donut1.csv,False,3.980549847939983
+"('n_clusters', 'n_init')",0.10638363167402956,donut1.csv,False,3.980549847939983
+"('n_clusters', 'n_neighbors')",0.0591463184255858,donut1.csv,False,3.980549847939983
+"('n_init', 'n_neighbors')",0.02766401783889774,donut1.csv,False,3.980549847939983
+"('affinity', 'n_clusters')",0.007336645685978862,donut1.csv,False,3.980549847939983
+"('affinity', 'n_init')",0.0055066345014633,donut1.csv,False,3.980549847939983
+"('assign_labels', 'n_clusters')",0.0044042792687954534,donut1.csv,False,3.980549847939983
+"('affinity', 'n_neighbors')",0.0022008739888184086,donut1.csv,False,3.980549847939983
+"('assign_labels', 'n_init')",0.0013568492042835907,donut1.csv,False,3.980549847939983
+"('assign_labels', 'n_neighbors')",0.0013170548271042657,donut1.csv,False,3.980549847939983
+"('affinity', 'assign_labels')",8.891507092134677e-05,donut1.csv,False,3.980549847939983
+"('n_clusters', 'n_init', 'affinity')",0.004300293356447401,donut1.csv,False,3.980549847939983
+"('n_clusters', 'assign_labels', 'n_neighbors')",0.001733574667733165,donut1.csv,False,3.980549847939983
+affinity,,thy_RL.csv,False,0.49207607307471335
+assign_labels,,thy_RL.csv,False,0.49207607307471335
+n_clusters,,thy_RL.csv,False,0.49207607307471335
+n_init,,thy_RL.csv,False,0.49207607307471335
+n_neighbors,,thy_RL.csv,False,0.49207607307471335
+"('affinity', 'assign_labels')",,thy_RL.csv,False,0.49207607307471335
+"('affinity', 'n_clusters')",,thy_RL.csv,False,0.49207607307471335
+"('affinity', 'n_init')",,thy_RL.csv,False,0.49207607307471335
+"('affinity', 'n_neighbors')",,thy_RL.csv,False,0.49207607307471335
+"('assign_labels', 'n_clusters')",,thy_RL.csv,False,0.49207607307471335
+"('assign_labels', 'n_init')",,thy_RL.csv,False,0.49207607307471335
+"('assign_labels', 'n_neighbors')",,thy_RL.csv,False,0.49207607307471335
+"('n_clusters', 'n_init')",,thy_RL.csv,False,0.49207607307471335
+"('n_clusters', 'n_neighbors')",,thy_RL.csv,False,0.49207607307471335
+"('n_init', 'n_neighbors')",,thy_RL.csv,False,0.49207607307471335
+"('n_clusters', 'n_init', 'affinity')",,thy_RL.csv,False,0.49207607307471335
+"('n_clusters', 'assign_labels', 'n_neighbors')",,thy_RL.csv,False,0.49207607307471335
+affinity,0.0012313386138840682,rings.csv,False,4.01290479011368
+assign_labels,0.02290979426221553,rings.csv,False,4.01290479011368
+n_clusters,0.5087223628070223,rings.csv,False,4.01290479011368
+n_init,0.03704807502518044,rings.csv,False,4.01290479011368
+n_neighbors,0.06672472959737494,rings.csv,False,4.01290479011368
+"('n_clusters', 'n_neighbors')",0.10264221907933567,rings.csv,False,4.01290479011368
+"('assign_labels', 'n_clusters')",0.08546595451393804,rings.csv,False,4.01290479011368
+"('n_clusters', 'n_init')",0.05841881779201605,rings.csv,False,4.01290479011368
+"('assign_labels', 'n_neighbors')",0.024991509693403066,rings.csv,False,4.01290479011368
+"('n_init', 'n_neighbors')",0.019991063515698876,rings.csv,False,4.01290479011368
+"('assign_labels', 'n_init')",0.013605328418324847,rings.csv,False,4.01290479011368
+"('affinity', 'n_neighbors')",0.004436665152457259,rings.csv,False,4.01290479011368
+"('affinity', 'n_clusters')",0.002843344308665659,rings.csv,False,4.01290479011368
+"('affinity', 'assign_labels')",0.0008613544119960613,rings.csv,False,4.01290479011368
+"('affinity', 'n_init')",0.00073017372022673,rings.csv,False,4.01290479011368
+"('n_clusters', 'n_init', 'affinity')",0.0007150140999825142,rings.csv,False,4.01290479011368
+"('n_clusters', 'assign_labels', 'n_neighbors')",0.017178560890429864,rings.csv,False,4.01290479011368
+affinity,0.01627134674803179,dermatology_RL.csv,True,5.096661706920713
+assign_labels,0.03688161621217328,dermatology_RL.csv,True,5.096661706920713
+imputation,0.014660578640272186,dermatology_RL.csv,True,5.096661706920713
+n_clusters,0.5579704659966317,dermatology_RL.csv,True,5.096661706920713
+n_init,0.02905787677267543,dermatology_RL.csv,True,5.096661706920713
+n_neighbors,0.047023041388629935,dermatology_RL.csv,True,5.096661706920713
+"('n_clusters', 'n_init')",0.055281694351302174,dermatology_RL.csv,True,5.096661706920713
+"('imputation', 'n_clusters')",0.04259947035817788,dermatology_RL.csv,True,5.096661706920713
+"('assign_labels', 'n_init')",0.03856066629447431,dermatology_RL.csv,True,5.096661706920713
+"('n_clusters', 'n_neighbors')",0.027842454481193293,dermatology_RL.csv,True,5.096661706920713
+"('assign_labels', 'n_neighbors')",0.024300278864054482,dermatology_RL.csv,True,5.096661706920713
+"('assign_labels', 'n_clusters')",0.015535228444184325,dermatology_RL.csv,True,5.096661706920713
+"('affinity', 'n_clusters')",0.010546735937451977,dermatology_RL.csv,True,5.096661706920713
+"('n_init', 'n_neighbors')",0.009414669771621661,dermatology_RL.csv,True,5.096661706920713
+"('imputation', 'n_init')",0.008502925971006749,dermatology_RL.csv,True,5.096661706920713
+"('assign_labels', 'imputation')",0.006628217636553419,dermatology_RL.csv,True,5.096661706920713
+"('n_clusters', 'n_init', 'affinity')",0.002453022566201413,dermatology_RL.csv,True,5.096661706920713
+"('n_clusters', 'assign_labels', 'n_neighbors')",0.008052750791102795,dermatology_RL.csv,True,5.096661706920713
+"('imputation', 'n_clusters', 'n_init')",0.007065725997612018,dermatology_RL.csv,True,5.096661706920713
+affinity,0.0005475289576733535,cluto-t7-10k.csv,False,4.171953261015005
+assign_labels,0.002842140366638086,cluto-t7-10k.csv,False,4.171953261015005
+n_clusters,0.7843058292338443,cluto-t7-10k.csv,False,4.171953261015005
+n_init,0.008134321154674634,cluto-t7-10k.csv,False,4.171953261015005
+n_neighbors,0.10481905963073909,cluto-t7-10k.csv,False,4.171953261015005
+"('n_clusters', 'n_neighbors')",0.03609118427871917,cluto-t7-10k.csv,False,4.171953261015005
+"('n_clusters', 'n_init')",0.021656742404980226,cluto-t7-10k.csv,False,4.171953261015005
+"('assign_labels', 'n_clusters')",0.007884635644744627,cluto-t7-10k.csv,False,4.171953261015005
+"('n_init', 'n_neighbors')",0.00733357178521934,cluto-t7-10k.csv,False,4.171953261015005
+"('assign_labels', 'n_neighbors')",0.005142725400263223,cluto-t7-10k.csv,False,4.171953261015005
+"('affinity', 'n_clusters')",0.004901035705090594,cluto-t7-10k.csv,False,4.171953261015005
+"('assign_labels', 'n_init')",0.000788389447145944,cluto-t7-10k.csv,False,4.171953261015005
+"('affinity', 'n_neighbors')",0.0005690182062833367,cluto-t7-10k.csv,False,4.171953261015005
+"('affinity', 'n_init')",0.00036630318260163076,cluto-t7-10k.csv,False,4.171953261015005
+"('affinity', 'assign_labels')",5.747909618298566e-05,cluto-t7-10k.csv,False,4.171953261015005
+"('n_clusters', 'n_init', 'affinity')",0.002116869693358484,cluto-t7-10k.csv,False,4.171953261015005
+"('n_clusters', 'assign_labels', 'n_neighbors')",0.002162643575943556,cluto-t7-10k.csv,False,4.171953261015005
+affinity,0.004278535231635785,2d-40c-no0.csv,False,3.7024387679994106
+assign_labels,0.012434039218497554,2d-40c-no0.csv,False,3.7024387679994106
+n_clusters,0.6962373248452448,2d-40c-no0.csv,False,3.7024387679994106
+n_init,0.025479423814163835,2d-40c-no0.csv,False,3.7024387679994106
+n_neighbors,0.06119655886690299,2d-40c-no0.csv,False,3.7024387679994106
+"('n_clusters', 'n_neighbors')",0.0439346033849436,2d-40c-no0.csv,False,3.7024387679994106
+"('n_clusters', 'n_init')",0.02805348339040862,2d-40c-no0.csv,False,3.7024387679994106
+"('assign_labels', 'n_clusters')",0.025675140244458813,2d-40c-no0.csv,False,3.7024387679994106
+"('affinity', 'n_clusters')",0.015542322759675233,2d-40c-no0.csv,False,3.7024387679994106
+"('assign_labels', 'n_init')",0.014740164861891022,2d-40c-no0.csv,False,3.7024387679994106
+"('affinity', 'n_init')",0.010352835666863559,2d-40c-no0.csv,False,3.7024387679994106
+"('assign_labels', 'n_neighbors')",0.010019260010431198,2d-40c-no0.csv,False,3.7024387679994106
+"('affinity', 'n_neighbors')",0.008862546022765897,2d-40c-no0.csv,False,3.7024387679994106
+"('n_init', 'n_neighbors')",0.00826416641619051,2d-40c-no0.csv,False,3.7024387679994106
+"('affinity', 'assign_labels')",0.004534378947439295,2d-40c-no0.csv,False,3.7024387679994106
+"('n_clusters', 'n_init', 'affinity')",0.005656070323951389,2d-40c-no0.csv,False,3.7024387679994106
+"('n_clusters', 'assign_labels', 'n_neighbors')",0.0036935460218908587,2d-40c-no0.csv,False,3.7024387679994106
+affinity,0.005575915806803666,spherical_6_2.csv,False,3.8462094760034233
+assign_labels,0.002867004247984334,spherical_6_2.csv,False,3.8462094760034233
+n_clusters,0.7617667597325901,spherical_6_2.csv,False,3.8462094760034233
+n_init,0.025095407249596836,spherical_6_2.csv,False,3.8462094760034233
+n_neighbors,0.03390900941303891,spherical_6_2.csv,False,3.8462094760034233
+"('n_clusters', 'n_neighbors')",0.04646633831091783,spherical_6_2.csv,False,3.8462094760034233
+"('n_clusters', 'n_init')",0.04376904312514681,spherical_6_2.csv,False,3.8462094760034233
+"('affinity', 'n_clusters')",0.016749379221537585,spherical_6_2.csv,False,3.8462094760034233
+"('n_init', 'n_neighbors')",0.01104939099304805,spherical_6_2.csv,False,3.8462094760034233
+"('affinity', 'n_neighbors')",0.004582754158776382,spherical_6_2.csv,False,3.8462094760034233
+"('assign_labels', 'n_neighbors')",0.0042545808901630336,spherical_6_2.csv,False,3.8462094760034233
+"('affinity', 'n_init')",0.0034342248151810043,spherical_6_2.csv,False,3.8462094760034233
+"('assign_labels', 'n_init')",0.0032506689538224134,spherical_6_2.csv,False,3.8462094760034233
+"('assign_labels', 'n_clusters')",0.0024707252646673224,spherical_6_2.csv,False,3.8462094760034233
+"('affinity', 'assign_labels')",0.00026662285456360645,spherical_6_2.csv,False,3.8462094760034233
+"('n_clusters', 'n_init', 'affinity')",0.007912809259615353,spherical_6_2.csv,False,3.8462094760034233
+"('n_clusters', 'assign_labels', 'n_neighbors')",0.0015290495642654826,spherical_6_2.csv,False,3.8462094760034233
+affinity,0.041516312378969945,fourty.csv,False,3.678545549046248
+assign_labels,0.013013542354876268,fourty.csv,False,3.678545549046248
+n_clusters,0.3584169129217045,fourty.csv,False,3.678545549046248
+n_init,0.05458997008003676,fourty.csv,False,3.678545549046248
+n_neighbors,0.13382590447838116,fourty.csv,False,3.678545549046248
+"('n_clusters', 'n_neighbors')",0.060351690755230475,fourty.csv,False,3.678545549046248
+"('assign_labels', 'n_clusters')",0.04751063752281311,fourty.csv,False,3.678545549046248
+"('affinity', 'n_neighbors')",0.0459804974116719,fourty.csv,False,3.678545549046248
+"('n_clusters', 'n_init')",0.04184657023065105,fourty.csv,False,3.678545549046248
+"('n_init', 'n_neighbors')",0.033937346012920755,fourty.csv,False,3.678545549046248
+"('affinity', 'n_clusters')",0.021951123266140193,fourty.csv,False,3.678545549046248
+"('assign_labels', 'n_neighbors')",0.021104312314910934,fourty.csv,False,3.678545549046248
+"('assign_labels', 'n_init')",0.013629652058176067,fourty.csv,False,3.678545549046248
+"('affinity', 'assign_labels')",0.007276257656201867,fourty.csv,False,3.678545549046248
+"('affinity', 'n_init')",0.007028858932971413,fourty.csv,False,3.678545549046248
+"('n_clusters', 'n_init', 'affinity')",0.004764919124159281,fourty.csv,False,3.678545549046248
+"('n_clusters', 'assign_labels', 'n_neighbors')",0.018112284131582633,fourty.csv,False,3.678545549046248
+affinity,0.00829717075585372,hepta.csv,False,3.9868739859666675
+assign_labels,0.009646166898000633,hepta.csv,False,3.9868739859666675
+n_clusters,0.6214115041621713,hepta.csv,False,3.9868739859666675
+n_init,0.019135976742653726,hepta.csv,False,3.9868739859666675
+n_neighbors,0.04048922770026091,hepta.csv,False,3.9868739859666675
+"('n_clusters', 'n_neighbors')",0.05775229314333748,hepta.csv,False,3.9868739859666675
+"('assign_labels', 'n_clusters')",0.04247425801645299,hepta.csv,False,3.9868739859666675
+"('affinity', 'n_clusters')",0.04026398757706843,hepta.csv,False,3.9868739859666675
+"('n_clusters', 'n_init')",0.023545822066917813,hepta.csv,False,3.9868739859666675
+"('affinity', 'n_init')",0.013710399260034646,hepta.csv,False,3.9868739859666675
+"('n_init', 'n_neighbors')",0.010313145487903429,hepta.csv,False,3.9868739859666675
+"('assign_labels', 'n_neighbors')",0.009686502394255185,hepta.csv,False,3.9868739859666675
+"('assign_labels', 'n_init')",0.009153876243502015,hepta.csv,False,3.9868739859666675
+"('affinity', 'n_neighbors')",0.007455197736713226,hepta.csv,False,3.9868739859666675
+"('affinity', 'assign_labels')",0.005135251046046036,hepta.csv,False,3.9868739859666675
+"('n_clusters', 'n_init', 'affinity')",0.012373620899133032,hepta.csv,False,3.9868739859666675
+"('n_clusters', 'assign_labels', 'n_neighbors')",0.013394183439026921,hepta.csv,False,3.9868739859666675
+affinity,0.0019957701065482334,atom.csv,False,3.8542284870054573
+assign_labels,0.002796037307994719,atom.csv,False,3.8542284870054573
+n_clusters,0.6737853814193497,atom.csv,False,3.8542284870054573
+n_init,0.02336117563839715,atom.csv,False,3.8542284870054573
+n_neighbors,0.08791617763204704,atom.csv,False,3.8542284870054573
+"('n_clusters', 'n_neighbors')",0.06984754348072694,atom.csv,False,3.8542284870054573
+"('n_clusters', 'n_init')",0.04439363804182413,atom.csv,False,3.8542284870054573
+"('n_init', 'n_neighbors')",0.020855565963632725,atom.csv,False,3.8542284870054573
+"('affinity', 'n_clusters')",0.016478727805473884,atom.csv,False,3.8542284870054573
+"('assign_labels', 'n_clusters')",0.015897311920912947,atom.csv,False,3.8542284870054573
+"('affinity', 'n_neighbors')",0.005119332041658937,atom.csv,False,3.8542284870054573
+"('assign_labels', 'n_neighbors')",0.0018637230878016512,atom.csv,False,3.8542284870054573
+"('affinity', 'n_init')",0.0016130038909008028,atom.csv,False,3.8542284870054573
+"('assign_labels', 'n_init')",0.0012297231634949648,atom.csv,False,3.8542284870054573
+"('affinity', 'assign_labels')",0.0001474987179142166,atom.csv,False,3.8542284870054573
+"('n_clusters', 'n_init', 'affinity')",0.0033124079805258552,atom.csv,False,3.8542284870054573
+"('n_clusters', 'assign_labels', 'n_neighbors')",0.0030495194489005293,atom.csv,False,3.8542284870054573
+affinity,0.006665546464263363,flame.csv,False,3.748950424953364
+assign_labels,0.007166259130687821,flame.csv,False,3.748950424953364
+n_clusters,0.694282743636089,flame.csv,False,3.748950424953364
+n_init,0.024955722077404225,flame.csv,False,3.748950424953364
+n_neighbors,0.040317090205933395,flame.csv,False,3.748950424953364
+"('n_clusters', 'n_neighbors')",0.037976629006599635,flame.csv,False,3.748950424953364
+"('n_clusters', 'n_init')",0.036742216081697414,flame.csv,False,3.748950424953364
+"('assign_labels', 'n_clusters')",0.03417472823178487,flame.csv,False,3.748950424953364
+"('affinity', 'n_clusters')",0.022392154873306765,flame.csv,False,3.748950424953364
+"('assign_labels', 'n_neighbors')",0.012655748423068738,flame.csv,False,3.748950424953364
+"('affinity', 'n_init')",0.009537788391724603,flame.csv,False,3.748950424953364
+"('assign_labels', 'n_init')",0.008158502477345082,flame.csv,False,3.748950424953364
+"('n_init', 'n_neighbors')",0.006093203433735223,flame.csv,False,3.748950424953364
+"('affinity', 'n_neighbors')",0.00501213014989545,flame.csv,False,3.748950424953364
+"('affinity', 'assign_labels')",0.0016212832210203978,flame.csv,False,3.748950424953364
+"('n_clusters', 'n_init', 'affinity')",0.007811092855455414,flame.csv,False,3.748950424953364
+"('n_clusters', 'assign_labels', 'n_neighbors')",0.010752275538184083,flame.csv,False,3.748950424953364
+affinity,0.0007554672341277064,circle.csv,False,3.988474622950889
+assign_labels,0.0009409186819596242,circle.csv,False,3.988474622950889
+n_clusters,0.7359672742024888,circle.csv,False,3.988474622950889
+n_init,0.03738222253094504,circle.csv,False,3.988474622950889
+n_neighbors,0.08252459823233564,circle.csv,False,3.988474622950889
+"('n_clusters', 'n_init')",0.04197868600085298,circle.csv,False,3.988474622950889
+"('n_clusters', 'n_neighbors')",0.037452791147714985,circle.csv,False,3.988474622950889
+"('n_init', 'n_neighbors')",0.0225013281588788,circle.csv,False,3.988474622950889
+"('affinity', 'n_init')",0.0051405895988952165,circle.csv,False,3.988474622950889
+"('assign_labels', 'n_neighbors')",0.00438963850374826,circle.csv,False,3.988474622950889
+"('affinity', 'n_clusters')",0.004169838853808985,circle.csv,False,3.988474622950889
+"('affinity', 'n_neighbors')",0.0015782740262648164,circle.csv,False,3.988474622950889
+"('assign_labels', 'n_clusters')",0.001015472221935892,circle.csv,False,3.988474622950889
+"('assign_labels', 'n_init')",0.0005917334667252372,circle.csv,False,3.988474622950889
+"('affinity', 'assign_labels')",9.306025753148727e-05,circle.csv,False,3.988474622950889
+"('n_clusters', 'n_init', 'affinity')",0.0038472670045293445,circle.csv,False,3.988474622950889
+"('n_clusters', 'assign_labels', 'n_neighbors')",0.0002664590703079484,circle.csv,False,3.988474622950889
+affinity,0.005707204765965965,disk_4600n.csv,False,3.882238532998599
+assign_labels,0.0015654767343601522,disk_4600n.csv,False,3.882238532998599
+n_clusters,0.6930568424439068,disk_4600n.csv,False,3.882238532998599
+n_init,0.02476758343504379,disk_4600n.csv,False,3.882238532998599
+n_neighbors,0.07185330288554025,disk_4600n.csv,False,3.882238532998599
+"('n_clusters', 'n_init')",0.0824633136597414,disk_4600n.csv,False,3.882238532998599
+"('n_clusters', 'n_neighbors')",0.05545342196192177,disk_4600n.csv,False,3.882238532998599
+"('affinity', 'n_clusters')",0.016694874594297214,disk_4600n.csv,False,3.882238532998599
+"('n_init', 'n_neighbors')",0.010803312538830545,disk_4600n.csv,False,3.882238532998599
+"('assign_labels', 'n_clusters')",0.005618282168878291,disk_4600n.csv,False,3.882238532998599
+"('affinity', 'n_init')",0.0024641272741106057,disk_4600n.csv,False,3.882238532998599
+"('assign_labels', 'n_init')",0.001771101126423501,disk_4600n.csv,False,3.882238532998599
+"('affinity', 'n_neighbors')",0.0010656576020291705,disk_4600n.csv,False,3.882238532998599
+"('affinity', 'assign_labels')",0.0008447823252228745,disk_4600n.csv,False,3.882238532998599
+"('assign_labels', 'n_neighbors')",0.0006378846373050241,disk_4600n.csv,False,3.882238532998599
+"('n_clusters', 'n_init', 'affinity')",0.0045352239348474994,disk_4600n.csv,False,3.882238532998599
+"('n_clusters', 'assign_labels', 'n_neighbors')",0.0005252386298227521,disk_4600n.csv,False,3.882238532998599
+affinity,0.026699517345636452,glass_RL.csv,False,0.60712182498537
+assign_labels,0.037549738197708994,glass_RL.csv,False,0.60712182498537
+n_clusters,0.4948563494131206,glass_RL.csv,False,0.60712182498537
+n_init,0.05389288464874729,glass_RL.csv,False,0.60712182498537
+n_neighbors,0.04474121018485667,glass_RL.csv,False,0.60712182498537
+"('assign_labels', 'n_clusters')",0.059106306605657966,glass_RL.csv,False,0.60712182498537
+"('n_clusters', 'n_init')",0.05758150632300143,glass_RL.csv,False,0.60712182498537
+"('assign_labels', 'n_neighbors')",0.04964787850730186,glass_RL.csv,False,0.60712182498537
+"('n_init', 'n_neighbors')",0.04183337518568466,glass_RL.csv,False,0.60712182498537
+"('assign_labels', 'n_init')",0.039272316903128386,glass_RL.csv,False,0.60712182498537
+"('n_clusters', 'n_neighbors')",0.032163207378343814,glass_RL.csv,False,0.60712182498537
+"('affinity', 'n_init')",0.0216292475025183,glass_RL.csv,False,0.60712182498537
+"('affinity', 'n_neighbors')",0.016359295400751896,glass_RL.csv,False,0.60712182498537
+"('affinity', 'n_clusters')",0.011671763324896072,glass_RL.csv,False,0.60712182498537
+"('affinity', 'assign_labels')",0.005729044027765946,glass_RL.csv,False,0.60712182498537
+"('n_clusters', 'n_init', 'affinity')",0.006602204815736275,glass_RL.csv,False,0.60712182498537
+"('n_clusters', 'assign_labels', 'n_neighbors')",0.01035467885253136,glass_RL.csv,False,0.60712182498537
+affinity,0.0007843397614842806,Transfusion_RL.csv,False,0.6313262770418078
+assign_labels,0.09066643730054402,Transfusion_RL.csv,False,0.6313262770418078
+n_clusters,0.42825350494730186,Transfusion_RL.csv,False,0.6313262770418078
+n_init,0.07020981899416812,Transfusion_RL.csv,False,0.6313262770418078
+n_neighbors,0.06656214665788618,Transfusion_RL.csv,False,0.6313262770418078
+"('n_clusters', 'n_neighbors')",0.07804066272086081,Transfusion_RL.csv,False,0.6313262770418078
+"('n_clusters', 'n_init')",0.06274500381271443,Transfusion_RL.csv,False,0.6313262770418078
+"('assign_labels', 'n_neighbors')",0.0609835422629428,Transfusion_RL.csv,False,0.6313262770418078
+"('assign_labels', 'n_clusters')",0.049264274652724156,Transfusion_RL.csv,False,0.6313262770418078
+"('assign_labels', 'n_init')",0.040206011200185174,Transfusion_RL.csv,False,0.6313262770418078
+"('n_init', 'n_neighbors')",0.03770041085913155,Transfusion_RL.csv,False,0.6313262770418078
+"('affinity', 'n_clusters')",0.004276736787577578,Transfusion_RL.csv,False,0.6313262770418078
+"('affinity', 'n_neighbors')",0.003078772761669,Transfusion_RL.csv,False,0.6313262770418078
+"('affinity', 'n_init')",0.0017832843565448796,Transfusion_RL.csv,False,0.6313262770418078
+"('affinity', 'assign_labels')",0.001048997789502046,Transfusion_RL.csv,False,0.6313262770418078
+"('n_clusters', 'n_init', 'affinity')",0.0015264630388254707,Transfusion_RL.csv,False,0.6313262770418078
+"('n_clusters', 'assign_labels', 'n_neighbors')",0.02038720909673326,Transfusion_RL.csv,False,0.6313262770418078
+affinity,0.009593695183536203,dartboard.csv,False,3.7556805450003594
+assign_labels,0.00462236461131858,dartboard.csv,False,3.7556805450003594
+n_clusters,0.4663228249770387,dartboard.csv,False,3.7556805450003594
+n_init,0.039369656209440995,dartboard.csv,False,3.7556805450003594
+n_neighbors,0.0792955045732277,dartboard.csv,False,3.7556805450003594
+"('n_clusters', 'n_init')",0.09225573799664587,dartboard.csv,False,3.7556805450003594
+"('assign_labels', 'n_clusters')",0.06554676313848021,dartboard.csv,False,3.7556805450003594
+"('n_clusters', 'n_neighbors')",0.06217824732599055,dartboard.csv,False,3.7556805450003594
+"('affinity', 'n_clusters')",0.04811212008489344,dartboard.csv,False,3.7556805450003594
+"('n_init', 'n_neighbors')",0.027779141138536176,dartboard.csv,False,3.7556805450003594
+"('assign_labels', 'n_init')",0.010603451643465149,dartboard.csv,False,3.7556805450003594
+"('assign_labels', 'n_neighbors')",0.01009751180077197,dartboard.csv,False,3.7556805450003594
+"('affinity', 'n_neighbors')",0.003698581907257739,dartboard.csv,False,3.7556805450003594
+"('affinity', 'n_init')",0.0028335040466230697,dartboard.csv,False,3.7556805450003594
+"('affinity', 'assign_labels')",0.0019780605230335056,dartboard.csv,False,3.7556805450003594
+"('n_clusters', 'n_init', 'affinity')",0.004465721338749935,dartboard.csv,False,3.7556805450003594
+"('n_clusters', 'assign_labels', 'n_neighbors')",0.009930767659995857,dartboard.csv,False,3.7556805450003594
+affinity,0.010970604791217963,curves2.csv,False,3.8880862969672307
+assign_labels,0.003975755295334782,curves2.csv,False,3.8880862969672307
+n_clusters,0.5884829596619112,curves2.csv,False,3.8880862969672307
+n_init,0.03467207454950849,curves2.csv,False,3.8880862969672307
+n_neighbors,0.04778598397725729,curves2.csv,False,3.8880862969672307
+"('n_clusters', 'n_init')",0.11553701629174053,curves2.csv,False,3.8880862969672307
+"('n_clusters', 'n_neighbors')",0.08022609011146754,curves2.csv,False,3.8880862969672307
+"('affinity', 'n_clusters')",0.05475583515092883,curves2.csv,False,3.8880862969672307
+"('assign_labels', 'n_clusters')",0.01251559061527514,curves2.csv,False,3.8880862969672307
+"('n_init', 'n_neighbors')",0.009898527263323974,curves2.csv,False,3.8880862969672307
+"('assign_labels', 'n_init')",0.005074645634394533,curves2.csv,False,3.8880862969672307
+"('affinity', 'n_init')",0.0024113874382042594,curves2.csv,False,3.8880862969672307
+"('affinity', 'n_neighbors')",0.0019109184385911653,curves2.csv,False,3.8880862969672307
+"('assign_labels', 'n_neighbors')",0.0009673879604728661,curves2.csv,False,3.8880862969672307
+"('affinity', 'assign_labels')",0.0008394090499027483,curves2.csv,False,3.8880862969672307
+"('n_clusters', 'n_init', 'affinity')",0.00205510043174284,curves2.csv,False,3.8880862969672307
+"('n_clusters', 'assign_labels', 'n_neighbors')",0.0016365226067724867,curves2.csv,False,3.8880862969672307
+affinity,0.0013630470792894776,cluto-t8-8k.csv,False,3.831196898012422
+assign_labels,0.0007469288490580049,cluto-t8-8k.csv,False,3.831196898012422
+n_clusters,0.71417228096631,cluto-t8-8k.csv,False,3.831196898012422
+n_init,0.020780423721213293,cluto-t8-8k.csv,False,3.831196898012422
+n_neighbors,0.11275831855817327,cluto-t8-8k.csv,False,3.831196898012422
+"('n_clusters', 'n_init')",0.05692796085450484,cluto-t8-8k.csv,False,3.831196898012422
+"('n_clusters', 'n_neighbors')",0.05354623225199072,cluto-t8-8k.csv,False,3.831196898012422
+"('n_init', 'n_neighbors')",0.010928642340983919,cluto-t8-8k.csv,False,3.831196898012422
+"('affinity', 'n_init')",0.003671828466307683,cluto-t8-8k.csv,False,3.831196898012422
+"('affinity', 'n_clusters')",0.003304103000533179,cluto-t8-8k.csv,False,3.831196898012422
+"('assign_labels', 'n_clusters')",0.002151611257563125,cluto-t8-8k.csv,False,3.831196898012422
+"('affinity', 'n_neighbors')",0.0008156441335748729,cluto-t8-8k.csv,False,3.831196898012422
+"('affinity', 'assign_labels')",0.0004623767109040496,cluto-t8-8k.csv,False,3.831196898012422
+"('assign_labels', 'n_init')",0.00044407061996187597,cluto-t8-8k.csv,False,3.831196898012422
+"('assign_labels', 'n_neighbors')",0.00043317141353926337,cluto-t8-8k.csv,False,3.831196898012422
+"('n_clusters', 'n_init', 'affinity')",0.0009438433267451116,cluto-t8-8k.csv,False,3.831196898012422
+"('n_clusters', 'assign_labels', 'n_neighbors')",0.0004126782811855188,cluto-t8-8k.csv,False,3.831196898012422
+affinity,0.006763126415280783,compound.csv,False,4.0184068030212075
+assign_labels,0.008799562322003435,compound.csv,False,4.0184068030212075
+n_clusters,0.7093256534231761,compound.csv,False,4.0184068030212075
+n_init,0.028525522628353624,compound.csv,False,4.0184068030212075
+n_neighbors,0.026950576491591036,compound.csv,False,4.0184068030212075
+"('assign_labels', 'n_clusters')",0.04699903714906447,compound.csv,False,4.0184068030212075
+"('n_clusters', 'n_init')",0.044124879814849714,compound.csv,False,4.0184068030212075
+"('n_clusters', 'n_neighbors')",0.021883547928061547,compound.csv,False,4.0184068030212075
+"('affinity', 'n_init')",0.016008277777013004,compound.csv,False,4.0184068030212075
+"('affinity', 'n_clusters')",0.014525010638130671,compound.csv,False,4.0184068030212075
+"('n_init', 'n_neighbors')",0.012730700202560367,compound.csv,False,4.0184068030212075
+"('assign_labels', 'n_init')",0.010475771029462413,compound.csv,False,4.0184068030212075
+"('assign_labels', 'n_neighbors')",0.0065029079794268725,compound.csv,False,4.0184068030212075
+"('affinity', 'n_neighbors')",0.004699806394236021,compound.csv,False,4.0184068030212075
+"('affinity', 'assign_labels')",0.0039003070214964023,compound.csv,False,4.0184068030212075
+"('n_clusters', 'n_init', 'affinity')",0.005413719003366038,compound.csv,False,4.0184068030212075
+"('n_clusters', 'assign_labels', 'n_neighbors')",0.0030512551343538524,compound.csv,False,4.0184068030212075
+affinity,0.0007485687634055309,s4.csv,False,3.9417467080056667
+assign_labels,0.0015535048524084705,s4.csv,False,3.9417467080056667
+n_clusters,0.7213006200783021,s4.csv,False,3.9417467080056667
+n_init,0.022623086158072916,s4.csv,False,3.9417467080056667
+n_neighbors,0.0901945591305373,s4.csv,False,3.9417467080056667
+"('n_clusters', 'n_init')",0.053390541722301496,s4.csv,False,3.9417467080056667
+"('n_clusters', 'n_neighbors')",0.03870601728851007,s4.csv,False,3.9417467080056667
+"('n_init', 'n_neighbors')",0.0204011866413545,s4.csv,False,3.9417467080056667
+"('affinity', 'n_init')",0.006928097669093917,s4.csv,False,3.9417467080056667
+"('assign_labels', 'n_init')",0.0067131287010801614,s4.csv,False,3.9417467080056667
+"('assign_labels', 'n_clusters')",0.006489856769895529,s4.csv,False,3.9417467080056667
+"('affinity', 'n_clusters')",0.005107167234984512,s4.csv,False,3.9417467080056667
+"('assign_labels', 'n_neighbors')",0.0010056588499226219,s4.csv,False,3.9417467080056667
+"('affinity', 'n_neighbors')",0.0009151289562141155,s4.csv,False,3.9417467080056667
+"('affinity', 'assign_labels')",0.00029386918889995215,s4.csv,False,3.9417467080056667
+"('n_clusters', 'n_init', 'affinity')",0.0011778499143288471,s4.csv,False,3.9417467080056667
+"('n_clusters', 'assign_labels', 'n_neighbors')",0.001529693629554401,s4.csv,False,3.9417467080056667
+affinity,0.0026487592554343903,breast-wsconsin_RL.csv,True,4.167207187972963
+assign_labels,0.0311240783689685,breast-wsconsin_RL.csv,True,4.167207187972963
+imputation,0.013327211486368073,breast-wsconsin_RL.csv,True,4.167207187972963
+n_clusters,0.6580261287089931,breast-wsconsin_RL.csv,True,4.167207187972963
+n_init,0.01578280058286519,breast-wsconsin_RL.csv,True,4.167207187972963
+n_neighbors,0.03200080828526195,breast-wsconsin_RL.csv,True,4.167207187972963
+"('n_clusters', 'n_neighbors')",0.03512462115827581,breast-wsconsin_RL.csv,True,4.167207187972963
+"('assign_labels', 'n_clusters')",0.03274080286108059,breast-wsconsin_RL.csv,True,4.167207187972963
+"('assign_labels', 'n_neighbors')",0.028658625861766596,breast-wsconsin_RL.csv,True,4.167207187972963
+"('n_clusters', 'n_init')",0.027205964141743737,breast-wsconsin_RL.csv,True,4.167207187972963
+"('assign_labels', 'n_init')",0.015264649559479471,breast-wsconsin_RL.csv,True,4.167207187972963
+"('affinity', 'n_clusters')",0.01489674908548644,breast-wsconsin_RL.csv,True,4.167207187972963
+"('imputation', 'n_clusters')",0.013641789592463656,breast-wsconsin_RL.csv,True,4.167207187972963
+"('n_init', 'n_neighbors')",0.010906609935645304,breast-wsconsin_RL.csv,True,4.167207187972963
+"('imputation', 'n_neighbors')",0.008813276961164677,breast-wsconsin_RL.csv,True,4.167207187972963
+"('imputation', 'n_init')",0.007671024773858769,breast-wsconsin_RL.csv,True,4.167207187972963
+"('n_clusters', 'n_init', 'affinity')",0.0003545511816075896,breast-wsconsin_RL.csv,True,4.167207187972963
+"('n_clusters', 'assign_labels', 'n_neighbors')",0.011601521911428603,breast-wsconsin_RL.csv,True,4.167207187972963
+"('imputation', 'n_clusters', 'n_init')",0.003347241494175701,breast-wsconsin_RL.csv,True,4.167207187972963
+affinity,0.297129217306247,german_RL.csv,False,0.5682712040143088
+assign_labels,0.1942517702653694,german_RL.csv,False,0.5682712040143088
+n_clusters,0.13562032632577736,german_RL.csv,False,0.5682712040143088
+n_init,0.043993072956552894,german_RL.csv,False,0.5682712040143088
+n_neighbors,0.036848623473539746,german_RL.csv,False,0.5682712040143088
+"('n_clusters', 'n_neighbors')",0.05753201603063429,german_RL.csv,False,0.5682712040143088
+"('affinity', 'assign_labels')",0.04620256541218093,german_RL.csv,False,0.5682712040143088
+"('affinity', 'n_clusters')",0.039779519845814834,german_RL.csv,False,0.5682712040143088
+"('n_clusters', 'n_init')",0.03080475927652689,german_RL.csv,False,0.5682712040143088
+"('assign_labels', 'n_clusters')",0.02851866825096876,german_RL.csv,False,0.5682712040143088
+"('assign_labels', 'n_init')",0.02833308139445884,german_RL.csv,False,0.5682712040143088
+"('affinity', 'n_init')",0.02817854525828168,german_RL.csv,False,0.5682712040143088
+"('assign_labels', 'n_neighbors')",0.020143786040643586,german_RL.csv,False,0.5682712040143088
+"('n_init', 'n_neighbors')",0.012507288106056301,german_RL.csv,False,0.5682712040143088
+"('affinity', 'n_neighbors')",0.007416681426910582,german_RL.csv,False,0.5682712040143088
+"('n_clusters', 'n_init', 'affinity')",0.02029712157727782,german_RL.csv,False,0.5682712040143088
+"('n_clusters', 'assign_labels', 'n_neighbors')",0.005483023258453084,german_RL.csv,False,0.5682712040143088
+affinity,0.0076194157762648745,2d-10c-no0.csv,False,4.000880776904523
+assign_labels,0.003698161685068738,2d-10c-no0.csv,False,4.000880776904523
+n_clusters,0.6480557237898317,2d-10c-no0.csv,False,4.000880776904523
+n_init,0.03734858761982271,2d-10c-no0.csv,False,4.000880776904523
+n_neighbors,0.04922019944930306,2d-10c-no0.csv,False,4.000880776904523
+"('n_clusters', 'n_neighbors')",0.07588840621585248,2d-10c-no0.csv,False,4.000880776904523
+"('n_clusters', 'n_init')",0.059184641812939115,2d-10c-no0.csv,False,4.000880776904523
+"('affinity', 'n_clusters')",0.021592871629482122,2d-10c-no0.csv,False,4.000880776904523
+"('assign_labels', 'n_clusters')",0.018211929969629753,2d-10c-no0.csv,False,4.000880776904523
+"('n_init', 'n_neighbors')",0.01778385170452116,2d-10c-no0.csv,False,4.000880776904523
+"('affinity', 'n_neighbors')",0.011670139994878571,2d-10c-no0.csv,False,4.000880776904523
+"('affinity', 'n_init')",0.003780587563345432,2d-10c-no0.csv,False,4.000880776904523
+"('assign_labels', 'n_neighbors')",0.0023997018422678425,2d-10c-no0.csv,False,4.000880776904523
+"('assign_labels', 'n_init')",0.0020831483002698974,2d-10c-no0.csv,False,4.000880776904523
+"('affinity', 'assign_labels')",0.0001724269777977369,2d-10c-no0.csv,False,4.000880776904523
+"('n_clusters', 'n_init', 'affinity')",0.005100382052917147,2d-10c-no0.csv,False,4.000880776904523
+"('n_clusters', 'assign_labels', 'n_neighbors')",0.004765516869653445,2d-10c-no0.csv,False,4.000880776904523
+affinity,0.00016655591234814905,ecoli_RL.csv,False,0.1295514510711655
+assign_labels,0.023258846333354705,ecoli_RL.csv,False,0.1295514510711655
+n_clusters,0.39531383782110513,ecoli_RL.csv,False,0.1295514510711655
+n_init,0.21977035179969667,ecoli_RL.csv,False,0.1295514510711655
+n_neighbors,0.30646262643639477,ecoli_RL.csv,False,0.1295514510711655
+"('n_init', 'n_neighbors')",0.1148579386389299,ecoli_RL.csv,False,0.1295514510711655
+"('n_clusters', 'n_neighbors')",0.06819588547342445,ecoli_RL.csv,False,0.1295514510711655
+"('assign_labels', 'n_neighbors')",0.02830460043889635,ecoli_RL.csv,False,0.1295514510711655
+"('assign_labels', 'n_init')",0.02691509325443268,ecoli_RL.csv,False,0.1295514510711655
+"('assign_labels', 'n_clusters')",0.02166833207422626,ecoli_RL.csv,False,0.1295514510711655
+"('n_clusters', 'n_init')",0.012601219135570663,ecoli_RL.csv,False,0.1295514510711655
+"('affinity', 'n_init')",0.00015945134415657855,ecoli_RL.csv,False,0.1295514510711655
+"('affinity', 'n_clusters')",0.00011636600481124856,ecoli_RL.csv,False,0.1295514510711655
+"('affinity', 'n_neighbors')",0.00011571293864338606,ecoli_RL.csv,False,0.1295514510711655
+"('affinity', 'assign_labels')",6.484365635632987e-06,ecoli_RL.csv,False,0.1295514510711655
+"('n_clusters', 'n_init', 'affinity')",7.089843904187428e-05,ecoli_RL.csv,False,0.1295514510711655
+"('n_clusters', 'assign_labels', 'n_neighbors')",0.0,ecoli_RL.csv,False,0.1295514510711655
+affinity,0.007547649046776154,lsun.csv,False,3.8423842509509996
+assign_labels,0.00466769582944777,lsun.csv,False,3.8423842509509996
+n_clusters,0.6112006166539208,lsun.csv,False,3.8423842509509996
+n_init,0.043956995442000754,lsun.csv,False,3.8423842509509996
+n_neighbors,0.03539274666108044,lsun.csv,False,3.8423842509509996
+"('n_clusters', 'n_init')",0.062237182321180515,lsun.csv,False,3.8423842509509996
+"('affinity', 'n_clusters')",0.04729329376694154,lsun.csv,False,3.8423842509509996
+"('n_clusters', 'n_neighbors')",0.04261724179104651,lsun.csv,False,3.8423842509509996
+"('assign_labels', 'n_clusters')",0.029975621594382072,lsun.csv,False,3.8423842509509996
+"('n_init', 'n_neighbors')",0.0127326648595818,lsun.csv,False,3.8423842509509996
+"('assign_labels', 'n_neighbors')",0.010982663570264888,lsun.csv,False,3.8423842509509996
+"('assign_labels', 'n_init')",0.008971687570631354,lsun.csv,False,3.8423842509509996
+"('affinity', 'n_init')",0.00892196008462345,lsun.csv,False,3.8423842509509996
+"('affinity', 'n_neighbors')",0.008226763935888538,lsun.csv,False,3.8423842509509996
+"('affinity', 'assign_labels')",0.003720701079224535,lsun.csv,False,3.8423842509509996
+"('n_clusters', 'n_init', 'affinity')",0.0076747849975448736,lsun.csv,False,3.8423842509509996
+"('n_clusters', 'assign_labels', 'n_neighbors')",0.0068635871384897275,lsun.csv,False,3.8423842509509996
+affinity,0.0021547263931749796,3d-20c-no0.csv,False,3.818740696995519
+assign_labels,0.0005919304438028379,3d-20c-no0.csv,False,3.818740696995519
+n_clusters,0.8090200018378525,3d-20c-no0.csv,False,3.818740696995519
+n_init,0.03037845839031127,3d-20c-no0.csv,False,3.818740696995519
+n_neighbors,0.04854852932807414,3d-20c-no0.csv,False,3.818740696995519
+"('n_clusters', 'n_init')",0.03202619686919946,3d-20c-no0.csv,False,3.818740696995519
+"('n_clusters', 'n_neighbors')",0.029248191799212113,3d-20c-no0.csv,False,3.818740696995519
+"('assign_labels', 'n_init')",0.011221766298094675,3d-20c-no0.csv,False,3.818740696995519
+"('n_init', 'n_neighbors')",0.00952965847157973,3d-20c-no0.csv,False,3.818740696995519
+"('affinity', 'n_clusters')",0.008980292115775095,3d-20c-no0.csv,False,3.818740696995519
+"('assign_labels', 'n_clusters')",0.003692886640763899,3d-20c-no0.csv,False,3.818740696995519
+"('affinity', 'n_init')",0.0015041491985980726,3d-20c-no0.csv,False,3.818740696995519
+"('assign_labels', 'n_neighbors')",0.0011178483501330522,3d-20c-no0.csv,False,3.818740696995519
+"('affinity', 'n_neighbors')",0.0008669288199013982,3d-20c-no0.csv,False,3.818740696995519
+"('affinity', 'assign_labels')",1.1980325979083828e-05,3d-20c-no0.csv,False,3.818740696995519
+"('n_clusters', 'n_init', 'affinity')",0.002785013362400305,3d-20c-no0.csv,False,3.818740696995519
+"('n_clusters', 'assign_labels', 'n_neighbors')",0.0005625929896270562,3d-20c-no0.csv,False,3.818740696995519
+affinity,0.16956857020465146,zoo_RL.csv,False,0.7821711290162057
+assign_labels,0.06895030543790025,zoo_RL.csv,False,0.7821711290162057
+n_clusters,0.28057299160773974,zoo_RL.csv,False,0.7821711290162057
+n_init,0.09223661846179053,zoo_RL.csv,False,0.7821711290162057
+n_neighbors,0.03937324493049144,zoo_RL.csv,False,0.7821711290162057
+"('affinity', 'n_clusters')",0.07107487569190343,zoo_RL.csv,False,0.7821711290162057
+"('n_clusters', 'n_neighbors')",0.06746081359474947,zoo_RL.csv,False,0.7821711290162057
+"('n_clusters', 'n_init')",0.05736185691985862,zoo_RL.csv,False,0.7821711290162057
+"('assign_labels', 'n_clusters')",0.03581066184243917,zoo_RL.csv,False,0.7821711290162057
+"('affinity', 'n_init')",0.029095259358729534,zoo_RL.csv,False,0.7821711290162057
+"('n_init', 'n_neighbors')",0.02834405623331324,zoo_RL.csv,False,0.7821711290162057
+"('assign_labels', 'n_init')",0.02412624581189572,zoo_RL.csv,False,0.7821711290162057
+"('assign_labels', 'n_neighbors')",0.023463676398736068,zoo_RL.csv,False,0.7821711290162057
+"('affinity', 'n_neighbors')",0.016904199638573494,zoo_RL.csv,False,0.7821711290162057
+"('affinity', 'assign_labels')",0.013285701292495566,zoo_RL.csv,False,0.7821711290162057
+"('n_clusters', 'n_init', 'affinity')",0.0054123035362121635,zoo_RL.csv,False,0.7821711290162057
+"('n_clusters', 'assign_labels', 'n_neighbors')",0.015732297522135105,zoo_RL.csv,False,0.7821711290162057
+affinity,0.001223901489920581,banana.csv,False,4.067344296956435
+assign_labels,0.007936233950565995,banana.csv,False,4.067344296956435
+n_clusters,0.6813702301964951,banana.csv,False,4.067344296956435
+n_init,0.019261764270209765,banana.csv,False,4.067344296956435
+n_neighbors,0.07740534562743012,banana.csv,False,4.067344296956435
+"('n_clusters', 'n_init')",0.04214832055964052,banana.csv,False,4.067344296956435
+"('n_clusters', 'n_neighbors')",0.0399198908822518,banana.csv,False,4.067344296956435
+"('assign_labels', 'n_clusters')",0.03447035755551191,banana.csv,False,4.067344296956435
+"('n_init', 'n_neighbors')",0.021913791237632468,banana.csv,False,4.067344296956435
+"('assign_labels', 'n_neighbors')",0.016717951920112398,banana.csv,False,4.067344296956435
+"('assign_labels', 'n_init')",0.008798129416670086,banana.csv,False,4.067344296956435
+"('affinity', 'n_clusters')",0.004697848166577182,banana.csv,False,4.067344296956435
+"('affinity', 'assign_labels')",0.0010180938851077292,banana.csv,False,4.067344296956435
+"('affinity', 'n_neighbors')",0.0009746447915143371,banana.csv,False,4.067344296956435
+"('affinity', 'n_init')",0.0007919509985433547,banana.csv,False,4.067344296956435
+"('n_clusters', 'n_init', 'affinity')",0.0007550430313597164,banana.csv,False,4.067344296956435
+"('n_clusters', 'assign_labels', 'n_neighbors')",0.011115980975420926,banana.csv,False,4.067344296956435
+affinity,0.15469299674570475,libras_move_RL.csv,False,0.3239869970129803
+assign_labels,0.05721608655027661,libras_move_RL.csv,False,0.3239869970129803
+n_clusters,0.28004988552662413,libras_move_RL.csv,False,0.3239869970129803
+n_init,0.053254353767604574,libras_move_RL.csv,False,0.3239869970129803
+n_neighbors,0.11507547673339433,libras_move_RL.csv,False,0.3239869970129803
+"('affinity', 'assign_labels')",0.08517943013338071,libras_move_RL.csv,False,0.3239869970129803
+"('affinity', 'n_clusters')",0.04989541534266569,libras_move_RL.csv,False,0.3239869970129803
+"('affinity', 'n_neighbors')",0.04305146766990721,libras_move_RL.csv,False,0.3239869970129803
+"('n_init', 'n_neighbors')",0.04177536460646684,libras_move_RL.csv,False,0.3239869970129803
+"('n_clusters', 'n_init')",0.0371221922270392,libras_move_RL.csv,False,0.3239869970129803
+"('assign_labels', 'n_clusters')",0.0313662505006248,libras_move_RL.csv,False,0.3239869970129803
+"('n_clusters', 'n_neighbors')",0.019850628795384743,libras_move_RL.csv,False,0.3239869970129803
+"('assign_labels', 'n_init')",0.01973203949833865,libras_move_RL.csv,False,0.3239869970129803
+"('assign_labels', 'n_neighbors')",0.018105618969440403,libras_move_RL.csv,False,0.3239869970129803
+"('affinity', 'n_init')",0.007997236467832704,libras_move_RL.csv,False,0.3239869970129803
+"('n_clusters', 'n_init', 'affinity')",0.001692145574605906,libras_move_RL.csv,False,0.3239869970129803
+"('n_clusters', 'assign_labels', 'n_neighbors')",0.00596958992929491,libras_move_RL.csv,False,0.3239869970129803
+affinity,0.01820808337751803,cluto-t5-8k.csv,False,3.958934906986542
+assign_labels,0.0031992041124775153,cluto-t5-8k.csv,False,3.958934906986542
+n_clusters,0.5185800891488731,cluto-t5-8k.csv,False,3.958934906986542
+n_init,0.01603800521918916,cluto-t5-8k.csv,False,3.958934906986542
+n_neighbors,0.20001607932646925,cluto-t5-8k.csv,False,3.958934906986542
+"('n_clusters', 'n_neighbors')",0.07659658771652961,cluto-t5-8k.csv,False,3.958934906986542
+"('affinity', 'n_clusters')",0.04020169602841696,cluto-t5-8k.csv,False,3.958934906986542
+"('n_clusters', 'n_init')",0.03971186697760721,cluto-t5-8k.csv,False,3.958934906986542
+"('n_init', 'n_neighbors')",0.022935586804413252,cluto-t5-8k.csv,False,3.958934906986542
+"('assign_labels', 'n_clusters')",0.012165810041713397,cluto-t5-8k.csv,False,3.958934906986542
+"('affinity', 'n_neighbors')",0.010727742748345839,cluto-t5-8k.csv,False,3.958934906986542
+"('assign_labels', 'n_neighbors')",0.0029207339262240176,cluto-t5-8k.csv,False,3.958934906986542
+"('affinity', 'n_init')",0.002730682638963214,cluto-t5-8k.csv,False,3.958934906986542
+"('assign_labels', 'n_init')",0.0009849775472802566,cluto-t5-8k.csv,False,3.958934906986542
+"('affinity', 'assign_labels')",0.00015542497245818893,cluto-t5-8k.csv,False,3.958934906986542
+"('n_clusters', 'n_init', 'affinity')",0.006164458955987348,cluto-t5-8k.csv,False,3.958934906986542
+"('n_clusters', 'assign_labels', 'n_neighbors')",0.0035390278372788076,cluto-t5-8k.csv,False,3.958934906986542
+affinity,0.00043051543496204926,donut3.csv,False,3.767492793034762
+assign_labels,0.0010446233023603544,donut3.csv,False,3.767492793034762
+n_clusters,0.8145992318467733,donut3.csv,False,3.767492793034762
+n_init,0.014776038245064954,donut3.csv,False,3.767492793034762
+n_neighbors,0.021282666190131208,donut3.csv,False,3.767492793034762
+"('n_clusters', 'n_neighbors')",0.05230805702093752,donut3.csv,False,3.767492793034762
+"('n_clusters', 'n_init')",0.03522989581801706,donut3.csv,False,3.767492793034762
+"('n_init', 'n_neighbors')",0.016735010170924984,donut3.csv,False,3.767492793034762
+"('assign_labels', 'n_clusters')",0.011599991385440342,donut3.csv,False,3.767492793034762
+"('assign_labels', 'n_neighbors')",0.003906449741130211,donut3.csv,False,3.767492793034762
+"('assign_labels', 'n_init')",0.0018740201611348708,donut3.csv,False,3.767492793034762
+"('affinity', 'n_clusters')",0.001711160163305343,donut3.csv,False,3.767492793034762
+"('affinity', 'n_neighbors')",0.0005367872067858336,donut3.csv,False,3.767492793034762
+"('affinity', 'n_init')",0.0002362538090298192,donut3.csv,False,3.767492793034762
+"('affinity', 'assign_labels')",6.952868798814482e-05,donut3.csv,False,3.767492793034762
+"('n_clusters', 'n_init', 'affinity')",0.001023255542085614,donut3.csv,False,3.767492793034762
+"('n_clusters', 'assign_labels', 'n_neighbors')",0.004183766827427351,donut3.csv,False,3.767492793034762
+affinity,0.06752065934531488,haberman_RL.csv,False,0.8534820929635316
+assign_labels,0.06397745178281673,haberman_RL.csv,False,0.8534820929635316
+n_clusters,0.5599972039364688,haberman_RL.csv,False,0.8534820929635316
+n_init,0.03174142911787427,haberman_RL.csv,False,0.8534820929635316
+n_neighbors,0.0634789834024095,haberman_RL.csv,False,0.8534820929635316
+"('assign_labels', 'n_neighbors')",0.08076103932202482,haberman_RL.csv,False,0.8534820929635316
+"('n_clusters', 'n_neighbors')",0.051871161864647325,haberman_RL.csv,False,0.8534820929635316
+"('n_clusters', 'n_init')",0.029323406674594543,haberman_RL.csv,False,0.8534820929635316
+"('affinity', 'n_clusters')",0.02544234554981343,haberman_RL.csv,False,0.8534820929635316
+"('assign_labels', 'n_clusters')",0.02223219231600521,haberman_RL.csv,False,0.8534820929635316
+"('n_init', 'n_neighbors')",0.01646703235183045,haberman_RL.csv,False,0.8534820929635316
+"('assign_labels', 'n_init')",0.015958821285318,haberman_RL.csv,False,0.8534820929635316
+"('affinity', 'n_init')",0.01256632365247186,haberman_RL.csv,False,0.8534820929635316
+"('affinity', 'n_neighbors')",0.007824432766128092,haberman_RL.csv,False,0.8534820929635316
+"('affinity', 'assign_labels')",0.004970729411821593,haberman_RL.csv,False,0.8534820929635316
+"('n_clusters', 'n_init', 'affinity')",0.00955594114650387,haberman_RL.csv,False,0.8534820929635316
+"('n_clusters', 'assign_labels', 'n_neighbors')",0.010903920647889153,haberman_RL.csv,False,0.8534820929635316
+affinity,0.004126918527839463,balance_scale_RL.csv,False,3.956129753962159
+assign_labels,0.0018121921307230897,balance_scale_RL.csv,False,3.956129753962159
+n_clusters,0.6650827951192222,balance_scale_RL.csv,False,3.956129753962159
+n_init,0.03805490551089453,balance_scale_RL.csv,False,3.956129753962159
+n_neighbors,0.028490752699330796,balance_scale_RL.csv,False,3.956129753962159
+"('n_clusters', 'n_init')",0.07941884335297907,balance_scale_RL.csv,False,3.956129753962159
+"('n_clusters', 'n_neighbors')",0.05594377479199136,balance_scale_RL.csv,False,3.956129753962159
+"('n_init', 'n_neighbors')",0.03342797094533582,balance_scale_RL.csv,False,3.956129753962159
+"('affinity', 'n_clusters')",0.02305179423233915,balance_scale_RL.csv,False,3.956129753962159
+"('assign_labels', 'n_clusters')",0.013847235755667008,balance_scale_RL.csv,False,3.956129753962159
+"('affinity', 'n_neighbors')",0.005434903593427619,balance_scale_RL.csv,False,3.956129753962159
+"('assign_labels', 'n_init')",0.00460440586733085,balance_scale_RL.csv,False,3.956129753962159
+"('affinity', 'n_init')",0.0039535155907674925,balance_scale_RL.csv,False,3.956129753962159
+"('assign_labels', 'n_neighbors')",0.0008354393138746736,balance_scale_RL.csv,False,3.956129753962159
+"('affinity', 'assign_labels')",0.0002415260247948003,balance_scale_RL.csv,False,3.956129753962159
+"('n_clusters', 'n_init', 'affinity')",0.0036611127280243554,balance_scale_RL.csv,False,3.956129753962159
+"('n_clusters', 'assign_labels', 'n_neighbors')",0.002195790629623823,balance_scale_RL.csv,False,3.956129753962159
+affinity,0.0005298407949914309,s3.csv,False,3.8717411840334535
+assign_labels,0.0008697746766217842,s3.csv,False,3.8717411840334535
+n_clusters,0.8246212926459627,s3.csv,False,3.8717411840334535
+n_init,0.009572135107092171,s3.csv,False,3.8717411840334535
+n_neighbors,0.05630110793289031,s3.csv,False,3.8717411840334535
+"('n_clusters', 'n_init')",0.029885785928769153,s3.csv,False,3.8717411840334535
+"('n_clusters', 'n_neighbors')",0.02666121778228047,s3.csv,False,3.8717411840334535
+"('n_init', 'n_neighbors')",0.020273698986779578,s3.csv,False,3.8717411840334535
+"('affinity', 'n_clusters')",0.004875322885901343,s3.csv,False,3.8717411840334535
+"('assign_labels', 'n_clusters')",0.003810756687970614,s3.csv,False,3.8717411840334535
+"('assign_labels', 'n_neighbors')",0.0025278100920716738,s3.csv,False,3.8717411840334535
+"('affinity', 'n_init')",0.002006607869129636,s3.csv,False,3.8717411840334535
+"('assign_labels', 'n_init')",0.0005798788255713318,s3.csv,False,3.8717411840334535
+"('affinity', 'n_neighbors')",0.0003157622513818623,s3.csv,False,3.8717411840334535
+"('affinity', 'assign_labels')",5.717057126610512e-06,s3.csv,False,3.8717411840334535
+"('n_clusters', 'n_init', 'affinity')",0.0010066963129012649,s3.csv,False,3.8717411840334535
+"('n_clusters', 'assign_labels', 'n_neighbors')",0.0004182995842311783,s3.csv,False,3.8717411840334535
+affinity,0.002732028218725645,elliptical_10_2.csv,False,3.916177934035659
+assign_labels,0.0006780117282084192,elliptical_10_2.csv,False,3.916177934035659
+n_clusters,0.8034519929437969,elliptical_10_2.csv,False,3.916177934035659
+n_init,0.00696024519862885,elliptical_10_2.csv,False,3.916177934035659
+n_neighbors,0.0671816282556302,elliptical_10_2.csv,False,3.916177934035659
+"('n_clusters', 'n_neighbors')",0.03989514686328741,elliptical_10_2.csv,False,3.916177934035659
+"('n_clusters', 'n_init')",0.034862666662166385,elliptical_10_2.csv,False,3.916177934035659
+"('n_init', 'n_neighbors')",0.020336923697164524,elliptical_10_2.csv,False,3.916177934035659
+"('affinity', 'n_clusters')",0.0031535815114077967,elliptical_10_2.csv,False,3.916177934035659
+"('assign_labels', 'n_clusters')",0.0030806465751922144,elliptical_10_2.csv,False,3.916177934035659
+"('affinity', 'n_neighbors')",0.0014056757947027037,elliptical_10_2.csv,False,3.916177934035659
+"('assign_labels', 'n_init')",0.0007695587783312127,elliptical_10_2.csv,False,3.916177934035659
+"('assign_labels', 'n_neighbors')",0.0006345296124702154,elliptical_10_2.csv,False,3.916177934035659
+"('affinity', 'n_init')",0.0003835899518895469,elliptical_10_2.csv,False,3.916177934035659
+"('affinity', 'assign_labels')",7.485201885362058e-05,elliptical_10_2.csv,False,3.916177934035659
+"('n_clusters', 'n_init', 'affinity')",0.0017483545776063286,elliptical_10_2.csv,False,3.916177934035659
+"('n_clusters', 'assign_labels', 'n_neighbors')",0.0005187996285058087,elliptical_10_2.csv,False,3.916177934035659
+affinity,0.013917162158520825,parkinsons_RL.csv,False,0.9158799939323217
+assign_labels,0.015089640228311564,parkinsons_RL.csv,False,0.9158799939323217
+n_clusters,0.5716111645036842,parkinsons_RL.csv,False,0.9158799939323217
+n_init,0.04913106049720846,parkinsons_RL.csv,False,0.9158799939323217
+n_neighbors,0.03318602191328424,parkinsons_RL.csv,False,0.9158799939323217
+"('assign_labels', 'n_clusters')",0.05895537682929935,parkinsons_RL.csv,False,0.9158799939323217
+"('affinity', 'n_clusters')",0.04371430290887713,parkinsons_RL.csv,False,0.9158799939323217
+"('n_init', 'n_neighbors')",0.04059390241585364,parkinsons_RL.csv,False,0.9158799939323217
+"('n_clusters', 'n_neighbors')",0.03373005157227654,parkinsons_RL.csv,False,0.9158799939323217
+"('n_clusters', 'n_init')",0.03010437680929196,parkinsons_RL.csv,False,0.9158799939323217
+"('assign_labels', 'n_neighbors')",0.02618243638856674,parkinsons_RL.csv,False,0.9158799939323217
+"('assign_labels', 'n_init')",0.025598962140086223,parkinsons_RL.csv,False,0.9158799939323217
+"('affinity', 'n_neighbors')",0.018394784632558583,parkinsons_RL.csv,False,0.9158799939323217
+"('affinity', 'assign_labels')",0.01494658859416979,parkinsons_RL.csv,False,0.9158799939323217
+"('affinity', 'n_init')",0.007809667275405252,parkinsons_RL.csv,False,0.9158799939323217
+"('n_clusters', 'n_init', 'affinity')",0.008209714421405044,parkinsons_RL.csv,False,0.9158799939323217
+"('n_clusters', 'assign_labels', 'n_neighbors')",0.016521655075078166,parkinsons_RL.csv,False,0.9158799939323217
+affinity,0.0006826176707652496,3d-10c-no0.csv,False,3.932257332955487
+assign_labels,0.009900567196011865,3d-10c-no0.csv,False,3.932257332955487
+n_clusters,0.7101361697709236,3d-10c-no0.csv,False,3.932257332955487
+n_init,0.02566939928731444,3d-10c-no0.csv,False,3.932257332955487
+n_neighbors,0.038027958390099884,3d-10c-no0.csv,False,3.932257332955487
+"('n_clusters', 'n_neighbors')",0.0419052151843647,3d-10c-no0.csv,False,3.932257332955487
+"('n_clusters', 'n_init')",0.03748776073752906,3d-10c-no0.csv,False,3.932257332955487
+"('assign_labels', 'n_clusters')",0.03491959885190127,3d-10c-no0.csv,False,3.932257332955487
+"('assign_labels', 'n_neighbors')",0.015304475877277002,3d-10c-no0.csv,False,3.932257332955487
+"('n_init', 'n_neighbors')",0.014369452917843188,3d-10c-no0.csv,False,3.932257332955487
+"('assign_labels', 'n_init')",0.013846628038287198,3d-10c-no0.csv,False,3.932257332955487
+"('affinity', 'n_clusters')",0.0013869698043729028,3d-10c-no0.csv,False,3.932257332955487
+"('affinity', 'n_neighbors')",0.0009887794378880487,3d-10c-no0.csv,False,3.932257332955487
+"('affinity', 'n_init')",0.000765216869883891,3d-10c-no0.csv,False,3.932257332955487
+"('affinity', 'assign_labels')",0.00038693571650140197,3d-10c-no0.csv,False,3.932257332955487
+"('n_clusters', 'n_init', 'affinity')",0.0008737393272258995,3d-10c-no0.csv,False,3.932257332955487
+"('n_clusters', 'assign_labels', 'n_neighbors')",0.018669666595671604,3d-10c-no0.csv,False,3.932257332955487
+affinity,0.00028474327040021,triangle1.csv,False,3.8207949890056625
+assign_labels,0.0003633349562791498,triangle1.csv,False,3.8207949890056625
+n_clusters,0.8941709334433707,triangle1.csv,False,3.8207949890056625
+n_init,0.005412675875677755,triangle1.csv,False,3.8207949890056625
+n_neighbors,0.03406292437452392,triangle1.csv,False,3.8207949890056625
+"('n_clusters', 'n_neighbors')",0.02783831168498742,triangle1.csv,False,3.8207949890056625
+"('n_clusters', 'n_init')",0.017519613036052834,triangle1.csv,False,3.8207949890056625
+"('n_init', 'n_neighbors')",0.002422315056503266,triangle1.csv,False,3.8207949890056625
+"('assign_labels', 'n_clusters')",0.0024050389586787796,triangle1.csv,False,3.8207949890056625
+"('affinity', 'n_clusters')",0.002113079183813521,triangle1.csv,False,3.8207949890056625
+"('affinity', 'n_neighbors')",0.0019817755047246703,triangle1.csv,False,3.8207949890056625
+"('assign_labels', 'n_neighbors')",0.0012445230520065002,triangle1.csv,False,3.8207949890056625
+"('affinity', 'n_init')",0.0008902876542288563,triangle1.csv,False,3.8207949890056625
+"('assign_labels', 'n_init')",0.00017526001448418067,triangle1.csv,False,3.8207949890056625
+"('affinity', 'assign_labels')",0.00011047630512764634,triangle1.csv,False,3.8207949890056625
+"('n_clusters', 'n_init', 'affinity')",0.0007935702573996302,triangle1.csv,False,3.8207949890056625
+"('n_clusters', 'assign_labels', 'n_neighbors')",0.0004665880052479156,triangle1.csv,False,3.8207949890056625
+affinity,0.007530176235416074,spiral.csv,False,3.6249339659698308
+assign_labels,0.03722516287718123,spiral.csv,False,3.6249339659698308
+n_clusters,0.47498911901089486,spiral.csv,False,3.6249339659698308
+n_init,0.06790482126352691,spiral.csv,False,3.6249339659698308
+n_neighbors,0.0272533835686044,spiral.csv,False,3.6249339659698308
+"('affinity', 'n_clusters')",0.062442109763493285,spiral.csv,False,3.6249339659698308
+"('assign_labels', 'n_clusters')",0.0513466971801404,spiral.csv,False,3.6249339659698308
+"('assign_labels', 'n_init')",0.044909653937625776,spiral.csv,False,3.6249339659698308
+"('affinity', 'n_init')",0.031320300984188136,spiral.csv,False,3.6249339659698308
+"('n_clusters', 'n_neighbors')",0.030965768141976633,spiral.csv,False,3.6249339659698308
+"('assign_labels', 'n_neighbors')",0.02367204210410197,spiral.csv,False,3.6249339659698308
+"('n_clusters', 'n_init')",0.023494805103806263,spiral.csv,False,3.6249339659698308
+"('n_init', 'n_neighbors')",0.014183890667108751,spiral.csv,False,3.6249339659698308
+"('affinity', 'n_neighbors')",0.01318236662636517,spiral.csv,False,3.6249339659698308
+"('affinity', 'assign_labels')",0.01120774531664781,spiral.csv,False,3.6249339659698308
+"('n_clusters', 'n_init', 'affinity')",0.010562309095708123,spiral.csv,False,3.6249339659698308
+"('n_clusters', 'assign_labels', 'n_neighbors')",0.009917702719244003,spiral.csv,False,3.6249339659698308
+affinity,0.0002251190666835637,target.csv,False,3.8128619379131123
+assign_labels,0.008140391334100279,target.csv,False,3.8128619379131123
+n_clusters,0.7836145940113828,target.csv,False,3.8128619379131123
+n_init,0.012399090974031244,target.csv,False,3.8128619379131123
+n_neighbors,0.05720483864203397,target.csv,False,3.8128619379131123
+"('n_clusters', 'n_neighbors')",0.05006545592831997,target.csv,False,3.8128619379131123
+"('n_clusters', 'n_init')",0.03362501794957136,target.csv,False,3.8128619379131123
+"('assign_labels', 'n_clusters')",0.03271903719242021,target.csv,False,3.8128619379131123
+"('assign_labels', 'n_neighbors')",0.002988845109204566,target.csv,False,3.8128619379131123
+"('n_init', 'n_neighbors')",0.0024286015117855045,target.csv,False,3.8128619379131123
+"('affinity', 'n_clusters')",0.0016282048973818406,target.csv,False,3.8128619379131123
+"('assign_labels', 'n_init')",0.0010399082596717257,target.csv,False,3.8128619379131123
+"('affinity', 'n_init')",0.00018177506512247538,target.csv,False,3.8128619379131123
+"('affinity', 'n_neighbors')",0.00011551967164099319,target.csv,False,3.8128619379131123
+"('affinity', 'assign_labels')",7.460822771792512e-05,target.csv,False,3.8128619379131123
+"('n_clusters', 'n_init', 'affinity')",0.00041088293463301573,target.csv,False,3.8128619379131123
+"('n_clusters', 'assign_labels', 'n_neighbors')",0.003679066345409194,target.csv,False,3.8128619379131123
+affinity,0.013833512447850506,spherical_5_2.csv,False,3.2544954270124435
+assign_labels,0.01561356585693496,spherical_5_2.csv,False,3.2544954270124435
+n_clusters,0.575483360358845,spherical_5_2.csv,False,3.2544954270124435
+n_init,0.04256737734340402,spherical_5_2.csv,False,3.2544954270124435
+n_neighbors,0.03248533605364147,spherical_5_2.csv,False,3.2544954270124435
+"('n_clusters', 'n_neighbors')",0.047557682337757354,spherical_5_2.csv,False,3.2544954270124435
+"('n_clusters', 'n_init')",0.04644175105080104,spherical_5_2.csv,False,3.2544954270124435
+"('assign_labels', 'n_clusters')",0.044245216235296994,spherical_5_2.csv,False,3.2544954270124435
+"('affinity', 'n_clusters')",0.030358437564141652,spherical_5_2.csv,False,3.2544954270124435
+"('n_init', 'n_neighbors')",0.026604316562806582,spherical_5_2.csv,False,3.2544954270124435
+"('affinity', 'n_init')",0.02319601937999941,spherical_5_2.csv,False,3.2544954270124435
+"('assign_labels', 'n_init')",0.02141137787783401,spherical_5_2.csv,False,3.2544954270124435
+"('assign_labels', 'n_neighbors')",0.007043441473381941,spherical_5_2.csv,False,3.2544954270124435
+"('affinity', 'n_neighbors')",0.006399562127210057,spherical_5_2.csv,False,3.2544954270124435
+"('affinity', 'assign_labels')",0.0030543525389192753,spherical_5_2.csv,False,3.2544954270124435
+"('n_clusters', 'n_init', 'affinity')",0.010359546644119335,spherical_5_2.csv,False,3.2544954270124435
+"('n_clusters', 'assign_labels', 'n_neighbors')",0.007124869077998943,spherical_5_2.csv,False,3.2544954270124435
+affinity,0.007227262586523231,vehicle_RL.csv,False,2.6940184220438823
+assign_labels,0.04145898774683769,vehicle_RL.csv,False,2.6940184220438823
+n_clusters,0.4764173546032954,vehicle_RL.csv,False,2.6940184220438823
+n_init,0.04303731481473927,vehicle_RL.csv,False,2.6940184220438823
+n_neighbors,0.07131142069949502,vehicle_RL.csv,False,2.6940184220438823
+"('n_clusters', 'n_init')",0.08339475289329262,vehicle_RL.csv,False,2.6940184220438823
+"('assign_labels', 'n_clusters')",0.06011340926916037,vehicle_RL.csv,False,2.6940184220438823
+"('n_clusters', 'n_neighbors')",0.052131064855028095,vehicle_RL.csv,False,2.6940184220438823
+"('n_init', 'n_neighbors')",0.047948271771495674,vehicle_RL.csv,False,2.6940184220438823
+"('assign_labels', 'n_neighbors')",0.04753153040673093,vehicle_RL.csv,False,2.6940184220438823
+"('assign_labels', 'n_init')",0.032567798627985686,vehicle_RL.csv,False,2.6940184220438823
+"('affinity', 'n_init')",0.005300442099529646,vehicle_RL.csv,False,2.6940184220438823
+"('affinity', 'n_clusters')",0.001939447165186155,vehicle_RL.csv,False,2.6940184220438823
+"('affinity', 'n_neighbors')",0.0013708724625955057,vehicle_RL.csv,False,2.6940184220438823
+"('affinity', 'assign_labels')",0.0011538160292236975,vehicle_RL.csv,False,2.6940184220438823
+"('n_clusters', 'n_init', 'affinity')",0.0020713186328064504,vehicle_RL.csv,False,2.6940184220438823
+"('n_clusters', 'assign_labels', 'n_neighbors')",0.015047936014877672,vehicle_RL.csv,False,2.6940184220438823
+affinity,0.0024393819212782998,donut2.csv,False,4.031510230037384
+assign_labels,0.0021537069873715435,donut2.csv,False,4.031510230037384
+n_clusters,0.683877334989694,donut2.csv,False,4.031510230037384
+n_init,0.03239037162385609,donut2.csv,False,4.031510230037384
+n_neighbors,0.07172183278638283,donut2.csv,False,4.031510230037384
+"('n_clusters', 'n_init')",0.06021757301975137,donut2.csv,False,4.031510230037384
+"('n_clusters', 'n_neighbors')",0.05986666767135155,donut2.csv,False,4.031510230037384
+"('n_init', 'n_neighbors')",0.020610771878338256,donut2.csv,False,4.031510230037384
+"('assign_labels', 'n_clusters')",0.013528250935835267,donut2.csv,False,4.031510230037384
+"('affinity', 'n_clusters')",0.0074749297587854615,donut2.csv,False,4.031510230037384
+"('affinity', 'n_neighbors')",0.0040446801787090494,donut2.csv,False,4.031510230037384
+"('assign_labels', 'n_neighbors')",0.0033985146791058914,donut2.csv,False,4.031510230037384
+"('assign_labels', 'n_init')",0.0018194016606206337,donut2.csv,False,4.031510230037384
+"('affinity', 'n_init')",0.0016304204612941357,donut2.csv,False,4.031510230037384
+"('affinity', 'assign_labels')",9.225590777752816e-05,donut2.csv,False,4.031510230037384
+"('n_clusters', 'n_init', 'affinity')",0.003560120059628069,donut2.csv,False,4.031510230037384
+"('n_clusters', 'assign_labels', 'n_neighbors')",0.005162686764873376,donut2.csv,False,4.031510230037384
+affinity,0.0007693209107323906,st900.csv,False,3.9175674610305578
+assign_labels,0.00015439144274134554,st900.csv,False,3.9175674610305578
+n_clusters,0.798005959517613,st900.csv,False,3.9175674610305578
+n_init,0.0186683122856635,st900.csv,False,3.9175674610305578
+n_neighbors,0.04335622506766233,st900.csv,False,3.9175674610305578
+"('n_clusters', 'n_init')",0.06787407692685796,st900.csv,False,3.9175674610305578
+"('n_clusters', 'n_neighbors')",0.03238498050935561,st900.csv,False,3.9175674610305578
+"('n_init', 'n_neighbors')",0.0076449090373468705,st900.csv,False,3.9175674610305578
+"('affinity', 'n_clusters')",0.004233075571202869,st900.csv,False,3.9175674610305578
+"('assign_labels', 'n_clusters')",0.003678674604884268,st900.csv,False,3.9175674610305578
+"('assign_labels', 'n_neighbors')",0.003611758356756827,st900.csv,False,3.9175674610305578
+"('affinity', 'n_neighbors')",0.0013929344057284152,st900.csv,False,3.9175674610305578
+"('affinity', 'n_init')",0.0007793429246549141,st900.csv,False,3.9175674610305578
+"('assign_labels', 'n_init')",0.0005940551007556079,st900.csv,False,3.9175674610305578
+"('affinity', 'assign_labels')",0.0001959464945246149,st900.csv,False,3.9175674610305578
+"('n_clusters', 'n_init', 'affinity')",0.002079488626535581,st900.csv,False,3.9175674610305578
+"('n_clusters', 'assign_labels', 'n_neighbors')",0.0009643975911859471,st900.csv,False,3.9175674610305578
+affinity,0.0013322574227554347,chainlink.csv,False,3.7733475930290297
+assign_labels,0.001662929663698791,chainlink.csv,False,3.7733475930290297
+n_clusters,0.767241550707135,chainlink.csv,False,3.7733475930290297
+n_init,0.017914727098780163,chainlink.csv,False,3.7733475930290297
+n_neighbors,0.048101051040534304,chainlink.csv,False,3.7733475930290297
+"('n_clusters', 'n_neighbors')",0.0577482137385914,chainlink.csv,False,3.7733475930290297
+"('n_clusters', 'n_init')",0.05171059689227196,chainlink.csv,False,3.7733475930290297
+"('affinity', 'n_clusters')",0.012185233608106852,chainlink.csv,False,3.7733475930290297
+"('n_init', 'n_neighbors')",0.009403224933246732,chainlink.csv,False,3.7733475930290297
+"('assign_labels', 'n_clusters')",0.006500789817568032,chainlink.csv,False,3.7733475930290297
+"('affinity', 'n_neighbors')",0.0026003092508901328,chainlink.csv,False,3.7733475930290297
+"('affinity', 'n_init')",0.0017809230866990325,chainlink.csv,False,3.7733475930290297
+"('assign_labels', 'n_neighbors')",0.0016543811731580156,chainlink.csv,False,3.7733475930290297
+"('assign_labels', 'n_init')",0.0006452387016500718,chainlink.csv,False,3.7733475930290297
+"('affinity', 'assign_labels')",9.120831596358986e-05,chainlink.csv,False,3.7733475930290297
+"('n_clusters', 'n_init', 'affinity')",0.0012880895134247746,chainlink.csv,False,3.7733475930290297
+"('n_clusters', 'assign_labels', 'n_neighbors')",0.0013860083901863207,chainlink.csv,False,3.7733475930290297
+affinity,0.0036028477072280727,3d-15c-no0.csv,False,3.553881264058873
+assign_labels,0.005404636842708307,3d-15c-no0.csv,False,3.553881264058873
+n_clusters,0.706427234976282,3d-15c-no0.csv,False,3.553881264058873
+n_init,0.018601831907591328,3d-15c-no0.csv,False,3.553881264058873
+n_neighbors,0.0557066382091798,3d-15c-no0.csv,False,3.553881264058873
+"('n_clusters', 'n_neighbors')",0.04273516829490027,3d-15c-no0.csv,False,3.553881264058873
+"('n_clusters', 'n_init')",0.0398245591118232,3d-15c-no0.csv,False,3.553881264058873
+"('n_init', 'n_neighbors')",0.018288033914362466,3d-15c-no0.csv,False,3.553881264058873
+"('assign_labels', 'n_clusters')",0.01527488023993099,3d-15c-no0.csv,False,3.553881264058873
+"('affinity', 'n_clusters')",0.01423990927897683,3d-15c-no0.csv,False,3.553881264058873
+"('assign_labels', 'n_init')",0.014124321702157803,3d-15c-no0.csv,False,3.553881264058873
+"('assign_labels', 'n_neighbors')",0.008722436776778596,3d-15c-no0.csv,False,3.553881264058873
+"('affinity', 'n_init')",0.007054367551413021,3d-15c-no0.csv,False,3.553881264058873
+"('affinity', 'n_neighbors')",0.00630031868722362,3d-15c-no0.csv,False,3.553881264058873
+"('affinity', 'assign_labels')",0.0015535077738445553,3d-15c-no0.csv,False,3.553881264058873
+"('n_clusters', 'n_init', 'affinity')",0.0032193907890391065,3d-15c-no0.csv,False,3.553881264058873
+"('n_clusters', 'assign_labels', 'n_neighbors')",0.00882762232264656,3d-15c-no0.csv,False,3.553881264058873
+affinity,0.07297949597281232,BreastTissue_RL.csv,False,0.40309758007060736
+assign_labels,0.06658081565865315,BreastTissue_RL.csv,False,0.40309758007060736
+n_clusters,0.43996503695598943,BreastTissue_RL.csv,False,0.40309758007060736
+n_init,0.26035121561335745,BreastTissue_RL.csv,False,0.40309758007060736
+n_neighbors,0.056859031578422856,BreastTissue_RL.csv,False,0.40309758007060736
+"('n_clusters', 'n_init')",0.046673826793802116,BreastTissue_RL.csv,False,0.40309758007060736
+"('n_init', 'n_neighbors')",0.042410365895922945,BreastTissue_RL.csv,False,0.40309758007060736
+"('assign_labels', 'n_neighbors')",0.028855497811697946,BreastTissue_RL.csv,False,0.40309758007060736
+"('assign_labels', 'n_init')",0.028736746675172616,BreastTissue_RL.csv,False,0.40309758007060736
+"('assign_labels', 'n_clusters')",0.02356325222540711,BreastTissue_RL.csv,False,0.40309758007060736
+"('n_clusters', 'n_neighbors')",0.022477330103343483,BreastTissue_RL.csv,False,0.40309758007060736
+"('affinity', 'n_neighbors')",0.0073013541117841144,BreastTissue_RL.csv,False,0.40309758007060736
+"('affinity', 'n_init')",0.007090109968910124,BreastTissue_RL.csv,False,0.40309758007060736
+"('affinity', 'n_clusters')",0.0031573482388256454,BreastTissue_RL.csv,False,0.40309758007060736
+"('affinity', 'assign_labels')",0.0011975237253489658,BreastTissue_RL.csv,False,0.40309758007060736
+"('n_clusters', 'n_init', 'affinity')",0.0003557208677958501,BreastTissue_RL.csv,False,0.40309758007060736
+"('n_clusters', 'assign_labels', 'n_neighbors')",0.0009714079941181766,BreastTissue_RL.csv,False,0.40309758007060736
+affinity,0.041146552523929986,vertebral_RL.csv,False,0.7181957790162414
+assign_labels,0.03472552689262269,vertebral_RL.csv,False,0.7181957790162414
+n_clusters,0.5725799576496343,vertebral_RL.csv,False,0.7181957790162414
+n_init,0.10957481602596458,vertebral_RL.csv,False,0.7181957790162414
+n_neighbors,0.03324158881594522,vertebral_RL.csv,False,0.7181957790162414
+"('affinity', 'n_clusters')",0.04793336887637622,vertebral_RL.csv,False,0.7181957790162414
+"('affinity', 'assign_labels')",0.03895643353223154,vertebral_RL.csv,False,0.7181957790162414
+"('assign_labels', 'n_init')",0.03392816164970483,vertebral_RL.csv,False,0.7181957790162414
+"('assign_labels', 'n_clusters')",0.026918270710789217,vertebral_RL.csv,False,0.7181957790162414
+"('assign_labels', 'n_neighbors')",0.022744484905040097,vertebral_RL.csv,False,0.7181957790162414
+"('n_init', 'n_neighbors')",0.0221823335132278,vertebral_RL.csv,False,0.7181957790162414
+"('n_clusters', 'n_init')",0.022076549338468,vertebral_RL.csv,False,0.7181957790162414
+"('n_clusters', 'n_neighbors')",0.021758156125467918,vertebral_RL.csv,False,0.7181957790162414
+"('affinity', 'n_init')",0.01251410538795897,vertebral_RL.csv,False,0.7181957790162414
+"('affinity', 'n_neighbors')",0.00786588807778407,vertebral_RL.csv,False,0.7181957790162414
+"('n_clusters', 'n_init', 'affinity')",0.0019391369467867841,vertebral_RL.csv,False,0.7181957790162414
+"('n_clusters', 'assign_labels', 'n_neighbors')",0.005087456166694781,vertebral_RL.csv,False,0.7181957790162414
+affinity,0.001049239974364016,dense-disk-5000.csv,False,3.7424250970361754
+assign_labels,0.0018759672270787548,dense-disk-5000.csv,False,3.7424250970361754
+n_clusters,0.7573039778240874,dense-disk-5000.csv,False,3.7424250970361754
+n_init,0.02824650820041695,dense-disk-5000.csv,False,3.7424250970361754
+n_neighbors,0.03161901845044951,dense-disk-5000.csv,False,3.7424250970361754
+"('n_clusters', 'n_init')",0.05547546369776232,dense-disk-5000.csv,False,3.7424250970361754
+"('n_clusters', 'n_neighbors')",0.046663743499060786,dense-disk-5000.csv,False,3.7424250970361754
+"('n_init', 'n_neighbors')",0.02303706711661266,dense-disk-5000.csv,False,3.7424250970361754
+"('affinity', 'n_clusters')",0.005658768151088934,dense-disk-5000.csv,False,3.7424250970361754
+"('affinity', 'n_init')",0.005002116154746921,dense-disk-5000.csv,False,3.7424250970361754
+"('assign_labels', 'n_init')",0.0043438907034407965,dense-disk-5000.csv,False,3.7424250970361754
+"('assign_labels', 'n_clusters')",0.004122568792876904,dense-disk-5000.csv,False,3.7424250970361754
+"('affinity', 'n_neighbors')",0.003239410606708163,dense-disk-5000.csv,False,3.7424250970361754
+"('assign_labels', 'n_neighbors')",0.0006486083041179884,dense-disk-5000.csv,False,3.7424250970361754
+"('affinity', 'assign_labels')",0.0004202345668499965,dense-disk-5000.csv,False,3.7424250970361754
+"('n_clusters', 'n_init', 'affinity')",0.0023833314808432227,dense-disk-5000.csv,False,3.7424250970361754
+"('n_clusters', 'assign_labels', 'n_neighbors')",0.0013698686564115553,dense-disk-5000.csv,False,3.7424250970361754
+affinity,,wine_RL.csv,False,1.4083328420529142
+assign_labels,,wine_RL.csv,False,1.4083328420529142
+n_clusters,,wine_RL.csv,False,1.4083328420529142
+n_init,,wine_RL.csv,False,1.4083328420529142
+n_neighbors,,wine_RL.csv,False,1.4083328420529142
+"('affinity', 'assign_labels')",,wine_RL.csv,False,1.4083328420529142
+"('affinity', 'n_clusters')",,wine_RL.csv,False,1.4083328420529142
+"('affinity', 'n_init')",,wine_RL.csv,False,1.4083328420529142
+"('affinity', 'n_neighbors')",,wine_RL.csv,False,1.4083328420529142
+"('assign_labels', 'n_clusters')",,wine_RL.csv,False,1.4083328420529142
+"('assign_labels', 'n_init')",,wine_RL.csv,False,1.4083328420529142
+"('assign_labels', 'n_neighbors')",,wine_RL.csv,False,1.4083328420529142
+"('n_clusters', 'n_init')",,wine_RL.csv,False,1.4083328420529142
+"('n_clusters', 'n_neighbors')",,wine_RL.csv,False,1.4083328420529142
+"('n_init', 'n_neighbors')",,wine_RL.csv,False,1.4083328420529142
+"('n_clusters', 'n_init', 'affinity')",,wine_RL.csv,False,1.4083328420529142
+"('n_clusters', 'assign_labels', 'n_neighbors')",,wine_RL.csv,False,1.4083328420529142
+affinity,0.002662409126862834,disk_4500n.csv,False,3.756613420089707
+assign_labels,0.0016420276814128562,disk_4500n.csv,False,3.756613420089707
+n_clusters,0.770448254162625,disk_4500n.csv,False,3.756613420089707
+n_init,0.024056469659089964,disk_4500n.csv,False,3.756613420089707
+n_neighbors,0.024931600168380363,disk_4500n.csv,False,3.756613420089707
+"('n_clusters', 'n_init')",0.08439191632614189,disk_4500n.csv,False,3.756613420089707
+"('n_clusters', 'n_neighbors')",0.027547732703462252,disk_4500n.csv,False,3.756613420089707
+"('affinity', 'n_neighbors')",0.013505720618723906,disk_4500n.csv,False,3.756613420089707
+"('n_init', 'n_neighbors')",0.011182057510825873,disk_4500n.csv,False,3.756613420089707
+"('assign_labels', 'n_init')",0.005326397029748104,disk_4500n.csv,False,3.756613420089707
+"('assign_labels', 'n_clusters')",0.0035117011953850396,disk_4500n.csv,False,3.756613420089707
+"('affinity', 'n_init')",0.0034500803627136797,disk_4500n.csv,False,3.756613420089707
+"('affinity', 'n_clusters')",0.0030681447804050757,disk_4500n.csv,False,3.756613420089707
+"('assign_labels', 'n_neighbors')",0.00044251751268071886,disk_4500n.csv,False,3.756613420089707
+"('affinity', 'assign_labels')",6.39507998032977e-05,disk_4500n.csv,False,3.756613420089707
+"('n_clusters', 'n_init', 'affinity')",0.0037938982305008835,disk_4500n.csv,False,3.756613420089707
+"('n_clusters', 'assign_labels', 'n_neighbors')",0.0003425350444138369,disk_4500n.csv,False,3.756613420089707
+affinity,0.003938212952956263,disk_5000n.csv,False,3.8262697519967332
+assign_labels,0.0007778445449211509,disk_5000n.csv,False,3.8262697519967332
+n_clusters,0.7007265943338938,disk_5000n.csv,False,3.8262697519967332
+n_init,0.04284660970632646,disk_5000n.csv,False,3.8262697519967332
+n_neighbors,0.043050946895386584,disk_5000n.csv,False,3.8262697519967332
+"('n_clusters', 'n_init')",0.0731584029460084,disk_5000n.csv,False,3.8262697519967332
+"('n_clusters', 'n_neighbors')",0.03824999456652355,disk_5000n.csv,False,3.8262697519967332
+"('affinity', 'n_neighbors')",0.02828060753750602,disk_5000n.csv,False,3.8262697519967332
+"('n_init', 'n_neighbors')",0.017291801851971263,disk_5000n.csv,False,3.8262697519967332
+"('affinity', 'n_clusters')",0.015930100427858,disk_5000n.csv,False,3.8262697519967332
+"('affinity', 'n_init')",0.0027886095175340725,disk_5000n.csv,False,3.8262697519967332
+"('assign_labels', 'n_init')",0.0018508426447899045,disk_5000n.csv,False,3.8262697519967332
+"('assign_labels', 'n_clusters')",0.0017544106516693123,disk_5000n.csv,False,3.8262697519967332
+"('assign_labels', 'n_neighbors')",0.0009175445302467531,disk_5000n.csv,False,3.8262697519967332
+"('affinity', 'assign_labels')",0.00022188819160646773,disk_5000n.csv,False,3.8262697519967332
+"('n_clusters', 'n_init', 'affinity')",0.0033479049763564875,disk_5000n.csv,False,3.8262697519967332
+"('n_clusters', 'assign_labels', 'n_neighbors')",0.0003221252968097083,disk_5000n.csv,False,3.8262697519967332
+affinity,0.0036750802658637996,blobs.csv,False,3.1043709579389542
+assign_labels,0.002696680594140333,blobs.csv,False,3.1043709579389542
+n_clusters,0.6885872066720333,blobs.csv,False,3.1043709579389542
+n_init,0.030897821820911123,blobs.csv,False,3.1043709579389542
+n_neighbors,0.04217746867012655,blobs.csv,False,3.1043709579389542
+"('n_clusters', 'n_neighbors')",0.04931770028770741,blobs.csv,False,3.1043709579389542
+"('n_clusters', 'n_init')",0.04159801877077635,blobs.csv,False,3.1043709579389542
+"('n_init', 'n_neighbors')",0.02700357370306552,blobs.csv,False,3.1043709579389542
+"('affinity', 'n_clusters')",0.018909100689529,blobs.csv,False,3.1043709579389542
+"('assign_labels', 'n_neighbors')",0.014861075635249141,blobs.csv,False,3.1043709579389542
+"('affinity', 'n_neighbors')",0.014118042406167541,blobs.csv,False,3.1043709579389542
+"('assign_labels', 'n_clusters')",0.010999141234690112,blobs.csv,False,3.1043709579389542
+"('affinity', 'n_init')",0.007461978046205882,blobs.csv,False,3.1043709579389542
+"('assign_labels', 'n_init')",0.0054325042281452105,blobs.csv,False,3.1043709579389542
+"('affinity', 'assign_labels')",0.0026105194863549923,blobs.csv,False,3.1043709579389542
+"('n_clusters', 'n_init', 'affinity')",0.007529247194077967,blobs.csv,False,3.1043709579389542
+"('n_clusters', 'assign_labels', 'n_neighbors')",0.005065740549311081,blobs.csv,False,3.1043709579389542
+affinity,0.007935619883140198,3d-40c-no0.csv,False,3.6302771531045437
+assign_labels,0.0002944673753880162,3d-40c-no0.csv,False,3.6302771531045437
+n_clusters,0.7429319714577932,3d-40c-no0.csv,False,3.6302771531045437
+n_init,0.035208081512954334,3d-40c-no0.csv,False,3.6302771531045437
+n_neighbors,0.03399228354174946,3d-40c-no0.csv,False,3.6302771531045437
+"('n_clusters', 'n_init')",0.04285932415255726,3d-40c-no0.csv,False,3.6302771531045437
+"('n_clusters', 'n_neighbors')",0.03617253060120437,3d-40c-no0.csv,False,3.6302771531045437
+"('affinity', 'n_clusters')",0.029884318712946834,3d-40c-no0.csv,False,3.6302771531045437
+"('n_init', 'n_neighbors')",0.016550709888080894,3d-40c-no0.csv,False,3.6302771531045437
+"('affinity', 'n_neighbors')",0.01065747955090198,3d-40c-no0.csv,False,3.6302771531045437
+"('affinity', 'n_init')",0.0033289727574564725,3d-40c-no0.csv,False,3.6302771531045437
+"('assign_labels', 'n_clusters')",0.0028723518150053813,3d-40c-no0.csv,False,3.6302771531045437
+"('assign_labels', 'n_init')",0.001086620157267008,3d-40c-no0.csv,False,3.6302771531045437
+"('assign_labels', 'n_neighbors')",0.0005140760906645822,3d-40c-no0.csv,False,3.6302771531045437
+"('affinity', 'assign_labels')",5.142088671611516e-05,3d-40c-no0.csv,False,3.6302771531045437
+"('n_clusters', 'n_init', 'affinity')",0.0042309903792926516,3d-40c-no0.csv,False,3.6302771531045437
+"('n_clusters', 'assign_labels', 'n_neighbors')",0.0009030394734857015,3d-40c-no0.csv,False,3.6302771531045437
+affinity,0.0026898856442600255,triangle2.csv,False,3.7044064559740946
+assign_labels,0.00027676950324066974,triangle2.csv,False,3.7044064559740946
+n_clusters,0.7707750018740955,triangle2.csv,False,3.7044064559740946
+n_init,0.024611453698069562,triangle2.csv,False,3.7044064559740946
+n_neighbors,0.01981731480665248,triangle2.csv,False,3.7044064559740946
+"('n_clusters', 'n_init')",0.04654601072327838,triangle2.csv,False,3.7044064559740946
+"('n_clusters', 'n_neighbors')",0.0352677060867228,triangle2.csv,False,3.7044064559740946
+"('affinity', 'n_clusters')",0.030879053356060414,triangle2.csv,False,3.7044064559740946
+"('n_init', 'n_neighbors')",0.020533616492605097,triangle2.csv,False,3.7044064559740946
+"('affinity', 'n_neighbors')",0.008990221657232574,triangle2.csv,False,3.7044064559740946
+"('assign_labels', 'n_clusters')",0.004503665979225068,triangle2.csv,False,3.7044064559740946
+"('affinity', 'n_init')",0.003088742883313005,triangle2.csv,False,3.7044064559740946
+"('assign_labels', 'n_neighbors')",0.00037476911019449703,triangle2.csv,False,3.7044064559740946
+"('assign_labels', 'n_init')",0.00026624975841201253,triangle2.csv,False,3.7044064559740946
+"('affinity', 'assign_labels')",8.85010924255379e-05,triangle2.csv,False,3.7044064559740946
+"('n_clusters', 'n_init', 'affinity')",0.0042448481052933034,triangle2.csv,False,3.7044064559740946
+"('n_clusters', 'assign_labels', 'n_neighbors')",0.000946385947953751,triangle2.csv,False,3.7044064559740946
+affinity,0.005792634233078986,2d-20c-no0.csv,False,3.721620906959288
+assign_labels,0.0009525385370972718,2d-20c-no0.csv,False,3.721620906959288
+n_clusters,0.7230389465599814,2d-20c-no0.csv,False,3.721620906959288
+n_init,0.027010326546218984,2d-20c-no0.csv,False,3.721620906959288
+n_neighbors,0.021964566459165096,2d-20c-no0.csv,False,3.721620906959288
+"('n_clusters', 'n_init')",0.047373616438188826,2d-20c-no0.csv,False,3.721620906959288
+"('n_clusters', 'n_neighbors')",0.03748743750706359,2d-20c-no0.csv,False,3.721620906959288
+"('affinity', 'n_neighbors')",0.028502239073205995,2d-20c-no0.csv,False,3.721620906959288
+"('affinity', 'n_clusters')",0.017723738212955687,2d-20c-no0.csv,False,3.721620906959288
+"('assign_labels', 'n_clusters')",0.011611506067864156,2d-20c-no0.csv,False,3.721620906959288
+"('n_init', 'n_neighbors')",0.010159850385081182,2d-20c-no0.csv,False,3.721620906959288
+"('assign_labels', 'n_init')",0.008361968001961715,2d-20c-no0.csv,False,3.721620906959288
+"('assign_labels', 'n_neighbors')",0.007519093009207746,2d-20c-no0.csv,False,3.721620906959288
+"('affinity', 'n_init')",0.004385141879269007,2d-20c-no0.csv,False,3.721620906959288
+"('affinity', 'assign_labels')",0.0037191105592043164,2d-20c-no0.csv,False,3.721620906959288
+"('n_clusters', 'n_init', 'affinity')",0.005769659529254072,2d-20c-no0.csv,False,3.721620906959288
+"('n_clusters', 'assign_labels', 'n_neighbors')",0.006366843151166957,2d-20c-no0.csv,False,3.721620906959288
+affinity,0.007816800965519361,s2.csv,False,3.8726205460261554
+assign_labels,0.0005598936864175173,s2.csv,False,3.8726205460261554
+n_clusters,0.7116021493905951,s2.csv,False,3.8726205460261554
+n_init,0.022518101856747016,s2.csv,False,3.8726205460261554
+n_neighbors,0.0222546648077721,s2.csv,False,3.8726205460261554
+"('n_clusters', 'n_init')",0.04916859280798083,s2.csv,False,3.8726205460261554
+"('n_clusters', 'n_neighbors')",0.039060006166391464,s2.csv,False,3.8726205460261554
+"('affinity', 'n_clusters')",0.022446125271261684,s2.csv,False,3.8726205460261554
+"('n_init', 'n_neighbors')",0.021797417461934206,s2.csv,False,3.8726205460261554
+"('affinity', 'n_init')",0.014270173842450905,s2.csv,False,3.8726205460261554
+"('affinity', 'n_neighbors')",0.009884263928726614,s2.csv,False,3.8726205460261554
+"('assign_labels', 'n_clusters')",0.004102067726444171,s2.csv,False,3.8726205460261554
+"('assign_labels', 'n_init')",0.002247409095044294,s2.csv,False,3.8726205460261554
+"('assign_labels', 'n_neighbors')",0.0006213312067483826,s2.csv,False,3.8726205460261554
+"('affinity', 'assign_labels')",0.00043651644632564037,s2.csv,False,3.8726205460261554
+"('n_clusters', 'n_init', 'affinity')",0.027690229421301126,s2.csv,False,3.8726205460261554
+"('n_clusters', 'assign_labels', 'n_neighbors')",0.005075005858950429,s2.csv,False,3.8726205460261554
+affinity,0.007680411659241897,2d-15c-no2.csv,False,3.6917699170298874
+assign_labels,0.0002376852067403655,2d-15c-no2.csv,False,3.6917699170298874
+n_clusters,0.7408514971973111,2d-15c-no2.csv,False,3.6917699170298874
+n_init,0.02163935316006397,2d-15c-no2.csv,False,3.6917699170298874
+n_neighbors,0.023624075970882855,2d-15c-no2.csv,False,3.6917699170298874
+"('affinity', 'n_clusters')",0.049506606342681135,2d-15c-no2.csv,False,3.6917699170298874
+"('n_clusters', 'n_init')",0.04917252971806165,2d-15c-no2.csv,False,3.6917699170298874
+"('n_clusters', 'n_neighbors')",0.03775670570738341,2d-15c-no2.csv,False,3.6917699170298874
+"('n_init', 'n_neighbors')",0.012050982573888914,2d-15c-no2.csv,False,3.6917699170298874
+"('affinity', 'n_neighbors')",0.011194252814666007,2d-15c-no2.csv,False,3.6917699170298874
+"('affinity', 'n_init')",0.006251970550185299,2d-15c-no2.csv,False,3.6917699170298874
+"('assign_labels', 'n_init')",0.0014930369239869003,2d-15c-no2.csv,False,3.6917699170298874
+"('assign_labels', 'n_clusters')",0.0007614494556029965,2d-15c-no2.csv,False,3.6917699170298874
+"('assign_labels', 'n_neighbors')",0.0001414450709280555,2d-15c-no2.csv,False,3.6917699170298874
+"('affinity', 'assign_labels')",0.00013104068906244048,2d-15c-no2.csv,False,3.6917699170298874
+"('n_clusters', 'n_init', 'affinity')",0.01166150563161064,2d-15c-no2.csv,False,3.6917699170298874
+"('n_clusters', 'assign_labels', 'n_neighbors')",0.0003118883336460542,2d-15c-no2.csv,False,3.6917699170298874
+affinity,0.0007930740650559765,spherical_4_3.csv,False,3.644345895969309
+assign_labels,0.0010357567168862753,spherical_4_3.csv,False,3.644345895969309
+n_clusters,0.8787538596749784,spherical_4_3.csv,False,3.644345895969309
+n_init,0.012180698083590697,spherical_4_3.csv,False,3.644345895969309
+n_neighbors,0.009849663547690438,spherical_4_3.csv,False,3.644345895969309
+"('n_clusters', 'n_init')",0.03994880306844096,spherical_4_3.csv,False,3.644345895969309
+"('n_clusters', 'n_neighbors')",0.018737120708479507,spherical_4_3.csv,False,3.644345895969309
+"('n_init', 'n_neighbors')",0.01222617424155926,spherical_4_3.csv,False,3.644345895969309
+"('assign_labels', 'n_clusters')",0.003553495062158658,spherical_4_3.csv,False,3.644345895969309
+"('affinity', 'n_init')",0.0027352894429948462,spherical_4_3.csv,False,3.644345895969309
+"('affinity', 'n_clusters')",0.00202638102683988,spherical_4_3.csv,False,3.644345895969309
+"('assign_labels', 'n_neighbors')",0.0013485921018812318,spherical_4_3.csv,False,3.644345895969309
+"('affinity', 'n_neighbors')",0.0008049611008161988,spherical_4_3.csv,False,3.644345895969309
+"('assign_labels', 'n_init')",0.0004702369578718969,spherical_4_3.csv,False,3.644345895969309
+"('affinity', 'assign_labels')",4.704619308147836e-05,spherical_4_3.csv,False,3.644345895969309
+"('n_clusters', 'n_init', 'affinity')",0.0024810421263174714,spherical_4_3.csv,False,3.644345895969309
+"('n_clusters', 'assign_labels', 'n_neighbors')",0.002288601449831071,spherical_4_3.csv,False,3.644345895969309
+affinity,0.008738103585573361,s1.csv,False,3.6538263509282842
+assign_labels,0.0021073911617716127,s1.csv,False,3.6538263509282842
+n_clusters,0.779713410616576,s1.csv,False,3.6538263509282842
+n_init,0.015519451129553465,s1.csv,False,3.6538263509282842
+n_neighbors,0.02904133020762026,s1.csv,False,3.6538263509282842
+"('affinity', 'n_clusters')",0.0469435174331555,s1.csv,False,3.6538263509282842
+"('n_clusters', 'n_neighbors')",0.03761118599075687,s1.csv,False,3.6538263509282842
+"('n_clusters', 'n_init')",0.03378540114481515,s1.csv,False,3.6538263509282842
+"('affinity', 'n_neighbors')",0.005461934769584907,s1.csv,False,3.6538263509282842
+"('assign_labels', 'n_clusters')",0.003731210682785152,s1.csv,False,3.6538263509282842
+"('n_init', 'n_neighbors')",0.0036037287318878876,s1.csv,False,3.6538263509282842
+"('affinity', 'n_init')",0.0026545999774265517,s1.csv,False,3.6538263509282842
+"('affinity', 'assign_labels')",0.0020153203037583424,s1.csv,False,3.6538263509282842
+"('assign_labels', 'n_neighbors')",0.001651960976414678,s1.csv,False,3.6538263509282842
+"('assign_labels', 'n_init')",0.0002441539050739279,s1.csv,False,3.6538263509282842
+"('n_clusters', 'n_init', 'affinity')",0.006392373482818925,s1.csv,False,3.6538263509282842
+"('n_clusters', 'assign_labels', 'n_neighbors')",0.0011970830608526869,s1.csv,False,3.6538263509282842
+affinity,0.006658183521839463,jain.csv,False,3.7648570029996336
+assign_labels,0.022234248275328626,jain.csv,False,3.7648570029996336
+n_clusters,0.5777034454334664,jain.csv,False,3.7648570029996336
+n_init,0.04237790801403378,jain.csv,False,3.7648570029996336
+n_neighbors,0.03318044450574134,jain.csv,False,3.7648570029996336
+"('n_clusters', 'n_init')",0.052247319570165374,jain.csv,False,3.7648570029996336
+"('n_clusters', 'n_neighbors')",0.03862682772629398,jain.csv,False,3.7648570029996336
+"('assign_labels', 'n_clusters')",0.03678219912568578,jain.csv,False,3.7648570029996336
+"('n_init', 'n_neighbors')",0.024447942546427546,jain.csv,False,3.7648570029996336
+"('affinity', 'n_clusters')",0.021602128248987752,jain.csv,False,3.7648570029996336
+"('assign_labels', 'n_init')",0.02062017589164692,jain.csv,False,3.7648570029996336
+"('affinity', 'n_neighbors')",0.017976171289239572,jain.csv,False,3.7648570029996336
+"('assign_labels', 'n_neighbors')",0.016634985871837392,jain.csv,False,3.7648570029996336
+"('affinity', 'n_init')",0.011398746883465104,jain.csv,False,3.7648570029996336
+"('affinity', 'assign_labels')",0.002724110027984491,jain.csv,False,3.7648570029996336
+"('n_clusters', 'n_init', 'affinity')",0.007226708606279784,jain.csv,False,3.7648570029996336
+"('n_clusters', 'assign_labels', 'n_neighbors')",0.013286713486229625,jain.csv,False,3.7648570029996336
+affinity,0.005307782258276565,3d-25c-no0.csv,False,3.786087002023123
+assign_labels,0.0003114337201550309,3d-25c-no0.csv,False,3.786087002023123
+n_clusters,0.7883307488136079,3d-25c-no0.csv,False,3.786087002023123
+n_init,0.023665051083182495,3d-25c-no0.csv,False,3.786087002023123
+n_neighbors,0.024145353600924756,3d-25c-no0.csv,False,3.786087002023123
+"('n_clusters', 'n_neighbors')",0.04901615804965313,3d-25c-no0.csv,False,3.786087002023123
+"('n_clusters', 'n_init')",0.04716517723760631,3d-25c-no0.csv,False,3.786087002023123
+"('affinity', 'n_clusters')",0.012608979630040743,3d-25c-no0.csv,False,3.786087002023123
+"('affinity', 'n_neighbors')",0.005184849803429625,3d-25c-no0.csv,False,3.786087002023123
+"('assign_labels', 'n_clusters')",0.004939817892001154,3d-25c-no0.csv,False,3.786087002023123
+"('affinity', 'n_init')",0.004798549694832328,3d-25c-no0.csv,False,3.786087002023123
+"('n_init', 'n_neighbors')",0.004787792460477128,3d-25c-no0.csv,False,3.786087002023123
+"('assign_labels', 'n_neighbors')",0.0010701786986754322,3d-25c-no0.csv,False,3.786087002023123
+"('assign_labels', 'n_init')",0.0002508515185436236,3d-25c-no0.csv,False,3.786087002023123
+"('affinity', 'assign_labels')",5.1797533638419144e-05,3d-25c-no0.csv,False,3.786087002023123
+"('n_clusters', 'n_init', 'affinity')",0.007041856046887994,3d-25c-no0.csv,False,3.786087002023123
+"('n_clusters', 'assign_labels', 'n_neighbors')",0.0016137936751237194,3d-25c-no0.csv,False,3.786087002023123
+affinity,0.003897291827212518,dim064.csv,False,3.695169511018321
+assign_labels,0.0023294310519410126,dim064.csv,False,3.695169511018321
+n_clusters,0.33077494089200016,dim064.csv,False,3.695169511018321
+n_init,0.0737863412397858,dim064.csv,False,3.695169511018321
+n_neighbors,0.08986825713155863,dim064.csv,False,3.695169511018321
+"('n_clusters', 'n_neighbors')",0.13635073750511184,dim064.csv,False,3.695169511018321
+"('n_clusters', 'n_init')",0.1192944436984007,dim064.csv,False,3.695169511018321
+"('n_init', 'n_neighbors')",0.06628931392064197,dim064.csv,False,3.695169511018321
+"('affinity', 'n_clusters')",0.019471469220322883,dim064.csv,False,3.695169511018321
+"('assign_labels', 'n_clusters')",0.011722254348313085,dim064.csv,False,3.695169511018321
+"('affinity', 'n_neighbors')",0.007697151450993733,dim064.csv,False,3.695169511018321
+"('affinity', 'n_init')",0.005576212055842607,dim064.csv,False,3.695169511018321
+"('assign_labels', 'n_init')",0.005187976403775507,dim064.csv,False,3.695169511018321
+"('assign_labels', 'n_neighbors')",0.0038203032910680288,dim064.csv,False,3.695169511018321
+"('affinity', 'assign_labels')",0.000527725872432058,dim064.csv,False,3.695169511018321
+"('n_clusters', 'n_init', 'affinity')",0.007895346505263863,dim064.csv,False,3.695169511018321
+"('n_clusters', 'assign_labels', 'n_neighbors')",0.008948303015707294,dim064.csv,False,3.695169511018321
+affinity,0.012122318137390377,2d-12c-no0.csv,False,3.5410753949545324
+assign_labels,0.0015882792993900784,2d-12c-no0.csv,False,3.5410753949545324
+n_clusters,0.7172675003353602,2d-12c-no0.csv,False,3.5410753949545324
+n_init,0.0190574562363724,2d-12c-no0.csv,False,3.5410753949545324
+n_neighbors,0.023914597144986477,2d-12c-no0.csv,False,3.5410753949545324
+"('affinity', 'n_clusters')",0.04978933063958979,2d-12c-no0.csv,False,3.5410753949545324
+"('n_clusters', 'n_init')",0.03958216778082933,2d-12c-no0.csv,False,3.5410753949545324
+"('n_clusters', 'n_neighbors')",0.033750781418741965,2d-12c-no0.csv,False,3.5410753949545324
+"('assign_labels', 'n_clusters')",0.014597266405390328,2d-12c-no0.csv,False,3.5410753949545324
+"('n_init', 'n_neighbors')",0.012494213986636147,2d-12c-no0.csv,False,3.5410753949545324
+"('affinity', 'n_neighbors')",0.007644568137703752,2d-12c-no0.csv,False,3.5410753949545324
+"('assign_labels', 'n_neighbors')",0.005806645569205282,2d-12c-no0.csv,False,3.5410753949545324
+"('affinity', 'n_init')",0.004832040735164734,2d-12c-no0.csv,False,3.5410753949545324
+"('assign_labels', 'n_init')",0.0032325625714415655,2d-12c-no0.csv,False,3.5410753949545324
+"('affinity', 'assign_labels')",0.0024517147560605174,2d-12c-no0.csv,False,3.5410753949545324
+"('n_clusters', 'n_init', 'affinity')",0.012545743688816167,2d-12c-no0.csv,False,3.5410753949545324
+"('n_clusters', 'assign_labels', 'n_neighbors')",0.005338327114339554,2d-12c-no0.csv,False,3.5410753949545324
+affinity,0.005250603131842305,golfball.csv,False,3.853285360033624
+assign_labels,0.0040735541259435595,golfball.csv,False,3.853285360033624
+n_clusters,0.6963244773369726,golfball.csv,False,3.853285360033624
+n_init,0.016952259210195404,golfball.csv,False,3.853285360033624
+n_neighbors,0.04200371614805383,golfball.csv,False,3.853285360033624
+"('assign_labels', 'n_clusters')",0.027472639726871525,golfball.csv,False,3.853285360033624
+"('affinity', 'n_clusters')",0.027060856894365062,golfball.csv,False,3.853285360033624
+"('n_clusters', 'n_neighbors')",0.026772130527527797,golfball.csv,False,3.853285360033624
+"('affinity', 'n_neighbors')",0.02165738898095184,golfball.csv,False,3.853285360033624
+"('n_clusters', 'n_init')",0.020670476546837173,golfball.csv,False,3.853285360033624
+"('assign_labels', 'n_neighbors')",0.018246720202892187,golfball.csv,False,3.853285360033624
+"('n_init', 'n_neighbors')",0.01307478305066958,golfball.csv,False,3.853285360033624
+"('affinity', 'n_init')",0.011657461245804461,golfball.csv,False,3.853285360033624
+"('assign_labels', 'n_init')",0.008692391857029478,golfball.csv,False,3.853285360033624
+"('affinity', 'assign_labels')",0.0021031068520446805,golfball.csv,False,3.853285360033624
+"('n_clusters', 'n_init', 'affinity')",0.006293229408352739,golfball.csv,False,3.853285360033624
+"('n_clusters', 'assign_labels', 'n_neighbors')",0.010569042538439122,golfball.csv,False,3.853285360033624
+affinity,0.0009033999593164939,d31.csv,False,3.6393395189661533
+assign_labels,0.0012671176691824246,d31.csv,False,3.6393395189661533
+n_clusters,0.731297814062869,d31.csv,False,3.6393395189661533
+n_init,0.048906243364836025,d31.csv,False,3.6393395189661533
+n_neighbors,0.024067331243828947,d31.csv,False,3.6393395189661533
+"('n_clusters', 'n_init')",0.08576726670064908,d31.csv,False,3.6393395189661533
+"('n_clusters', 'n_neighbors')",0.04494706508540978,d31.csv,False,3.6393395189661533
+"('n_init', 'n_neighbors')",0.007732193771547437,d31.csv,False,3.6393395189661533
+"('affinity', 'n_clusters')",0.007486498108051468,d31.csv,False,3.6393395189661533
+"('assign_labels', 'n_init')",0.0044874488125721335,d31.csv,False,3.6393395189661533
+"('affinity', 'n_neighbors')",0.003498464006844912,d31.csv,False,3.6393395189661533
+"('affinity', 'n_init')",0.0033684520207600556,d31.csv,False,3.6393395189661533
+"('assign_labels', 'n_clusters')",0.0032174043339815335,d31.csv,False,3.6393395189661533
+"('assign_labels', 'n_neighbors')",0.001729354240043964,d31.csv,False,3.6393395189661533
+"('affinity', 'assign_labels')",0.00042437609721896575,d31.csv,False,3.6393395189661533
+"('n_clusters', 'n_init', 'affinity')",0.0028254532567802896,d31.csv,False,3.6393395189661533
+"('n_clusters', 'assign_labels', 'n_neighbors')",0.00233182331960453,d31.csv,False,3.6393395189661533
+affinity,0.0007186716679260888,cuboids.csv,False,3.63213804399129
+assign_labels,0.0008405825160670502,cuboids.csv,False,3.63213804399129
+n_clusters,0.7689051686226624,cuboids.csv,False,3.63213804399129
+n_init,0.035233676420596605,cuboids.csv,False,3.63213804399129
+n_neighbors,0.013934362090669446,cuboids.csv,False,3.63213804399129
+"('n_clusters', 'n_init')",0.08735182901651976,cuboids.csv,False,3.63213804399129
+"('n_clusters', 'n_neighbors')",0.03417538050401408,cuboids.csv,False,3.63213804399129
+"('n_init', 'n_neighbors')",0.013939808587531344,cuboids.csv,False,3.63213804399129
+"('assign_labels', 'n_clusters')",0.005811540895753268,cuboids.csv,False,3.63213804399129
+"('affinity', 'n_clusters')",0.0033966679429170317,cuboids.csv,False,3.63213804399129
+"('affinity', 'n_neighbors')",0.002649623505405957,cuboids.csv,False,3.63213804399129
+"('assign_labels', 'n_init')",0.0025969828109143342,cuboids.csv,False,3.63213804399129
+"('affinity', 'n_init')",0.0012467879662538097,cuboids.csv,False,3.63213804399129
+"('assign_labels', 'n_neighbors')",0.00039828441943808013,cuboids.csv,False,3.63213804399129
+"('affinity', 'assign_labels')",0.00014060904838740412,cuboids.csv,False,3.63213804399129
+"('n_clusters', 'n_init', 'affinity')",0.0016192315096835454,cuboids.csv,False,3.63213804399129
+"('n_clusters', 'assign_labels', 'n_neighbors')",0.0035144650199727774,cuboids.csv,False,3.63213804399129
+affinity,0.0023174374136687554,disk_4000n.csv,False,3.623125697951764
+assign_labels,0.0021484192964442107,disk_4000n.csv,False,3.623125697951764
+n_clusters,0.8058933025925005,disk_4000n.csv,False,3.623125697951764
+n_init,0.01388311235462073,disk_4000n.csv,False,3.623125697951764
+n_neighbors,0.029827855745857227,disk_4000n.csv,False,3.623125697951764
+"('n_clusters', 'n_init')",0.05204738672684664,disk_4000n.csv,False,3.623125697951764
+"('n_clusters', 'n_neighbors')",0.039150139629843775,disk_4000n.csv,False,3.623125697951764
+"('n_init', 'n_neighbors')",0.009892535349542313,disk_4000n.csv,False,3.623125697951764
+"('affinity', 'n_clusters')",0.006319657546405602,disk_4000n.csv,False,3.623125697951764
+"('assign_labels', 'n_clusters')",0.005118947092206689,disk_4000n.csv,False,3.623125697951764
+"('assign_labels', 'n_init')",0.004783913704459902,disk_4000n.csv,False,3.623125697951764
+"('affinity', 'n_neighbors')",0.003093690919121492,disk_4000n.csv,False,3.623125697951764
+"('assign_labels', 'n_neighbors')",0.0018324251443461836,disk_4000n.csv,False,3.623125697951764
+"('affinity', 'n_init')",0.0003219749038003379,disk_4000n.csv,False,3.623125697951764
+"('affinity', 'assign_labels')",1.1448157288703502e-05,disk_4000n.csv,False,3.623125697951764
+"('n_clusters', 'n_init', 'affinity')",0.000974322203906445,disk_4000n.csv,False,3.623125697951764
+"('n_clusters', 'assign_labels', 'n_neighbors')",0.0011546127514334948,disk_4000n.csv,False,3.623125697951764
+affinity,0.004128190339866388,2d-25c-no0.csv,False,3.4623909540241584
+assign_labels,0.010704676429442592,2d-25c-no0.csv,False,3.4623909540241584
+n_clusters,0.7383823592719598,2d-25c-no0.csv,False,3.4623909540241584
+n_init,0.02625073448640528,2d-25c-no0.csv,False,3.4623909540241584
+n_neighbors,0.031781454522993136,2d-25c-no0.csv,False,3.4623909540241584
+"('n_clusters', 'n_init')",0.04217738495672968,2d-25c-no0.csv,False,3.4623909540241584
+"('n_clusters', 'n_neighbors')",0.03902214403393575,2d-25c-no0.csv,False,3.4623909540241584
+"('affinity', 'n_clusters')",0.01626623308527025,2d-25c-no0.csv,False,3.4623909540241584
+"('assign_labels', 'n_clusters')",0.01617296713401853,2d-25c-no0.csv,False,3.4623909540241584
+"('n_init', 'n_neighbors')",0.012400628166125739,2d-25c-no0.csv,False,3.4623909540241584
+"('assign_labels', 'n_neighbors')",0.0067782495627392815,2d-25c-no0.csv,False,3.4623909540241584
+"('affinity', 'n_neighbors')",0.005735219820239552,2d-25c-no0.csv,False,3.4623909540241584
+"('assign_labels', 'n_init')",0.005159811498219291,2d-25c-no0.csv,False,3.4623909540241584
+"('affinity', 'n_init')",0.002231466921318379,2d-25c-no0.csv,False,3.4623909540241584
+"('affinity', 'assign_labels')",0.0006049300784159617,2d-25c-no0.csv,False,3.4623909540241584
+"('n_clusters', 'n_init', 'affinity')",0.00239834299100026,2d-25c-no0.csv,False,3.4623909540241584
+"('n_clusters', 'assign_labels', 'n_neighbors')",0.01249205865531789,2d-25c-no0.csv,False,3.4623909540241584
+affinity,0.04211586437739305,yeast_RL.csv,False,3.5922219729982316
+assign_labels,0.027429629427347644,yeast_RL.csv,False,3.5922219729982316
+n_clusters,0.5386811040491003,yeast_RL.csv,False,3.5922219729982316
+n_init,0.037173069599808074,yeast_RL.csv,False,3.5922219729982316
+n_neighbors,0.041512143413552804,yeast_RL.csv,False,3.5922219729982316
+"('n_clusters', 'n_init')",0.06928378998102808,yeast_RL.csv,False,3.5922219729982316
+"('n_clusters', 'n_neighbors')",0.04934741683384117,yeast_RL.csv,False,3.5922219729982316
+"('assign_labels', 'n_clusters')",0.020142370605852018,yeast_RL.csv,False,3.5922219729982316
+"('affinity', 'n_clusters')",0.019670702226719176,yeast_RL.csv,False,3.5922219729982316
+"('n_init', 'n_neighbors')",0.018419855225983807,yeast_RL.csv,False,3.5922219729982316
+"('affinity', 'assign_labels')",0.018418530619197543,yeast_RL.csv,False,3.5922219729982316
+"('assign_labels', 'n_init')",0.011436809406559294,yeast_RL.csv,False,3.5922219729982316
+"('assign_labels', 'n_neighbors')",0.010537534566738734,yeast_RL.csv,False,3.5922219729982316
+"('affinity', 'n_neighbors')",0.007824737509413586,yeast_RL.csv,False,3.5922219729982316
+"('affinity', 'n_init')",0.006036247763403353,yeast_RL.csv,False,3.5922219729982316
+"('n_clusters', 'n_init', 'affinity')",0.006355283763616444,yeast_RL.csv,False,3.5922219729982316
+"('n_clusters', 'assign_labels', 'n_neighbors')",0.007482407351261787,yeast_RL.csv,False,3.5922219729982316
+affinity,0.010015344895674655,2d-15c-no0.csv,False,3.7963085169903934
+assign_labels,0.0009168472609517619,2d-15c-no0.csv,False,3.7963085169903934
+n_clusters,0.7727302805966847,2d-15c-no0.csv,False,3.7963085169903934
+n_init,0.03991883983284014,2d-15c-no0.csv,False,3.7963085169903934
+n_neighbors,0.018226054821764627,2d-15c-no0.csv,False,3.7963085169903934
+"('n_clusters', 'n_init')",0.04598953945412672,2d-15c-no0.csv,False,3.7963085169903934
+"('affinity', 'n_clusters')",0.03379218771138088,2d-15c-no0.csv,False,3.7963085169903934
+"('n_clusters', 'n_neighbors')",0.027982660797236183,2d-15c-no0.csv,False,3.7963085169903934
+"('n_init', 'n_neighbors')",0.007866747220438366,2d-15c-no0.csv,False,3.7963085169903934
+"('affinity', 'n_init')",0.007579845108564085,2d-15c-no0.csv,False,3.7963085169903934
+"('affinity', 'n_neighbors')",0.003768111782112195,2d-15c-no0.csv,False,3.7963085169903934
+"('assign_labels', 'n_neighbors')",0.001796779069353242,2d-15c-no0.csv,False,3.7963085169903934
+"('assign_labels', 'n_clusters')",0.0017335723565948139,2d-15c-no0.csv,False,3.7963085169903934
+"('assign_labels', 'n_init')",0.0009988662748449447,2d-15c-no0.csv,False,3.7963085169903934
+"('affinity', 'assign_labels')",0.00025147197610224007,2d-15c-no0.csv,False,3.7963085169903934
+"('n_clusters', 'n_init', 'affinity')",0.008246853106205819,2d-15c-no0.csv,False,3.7963085169903934
+"('n_clusters', 'assign_labels', 'n_neighbors')",0.002350668207847561,2d-15c-no0.csv,False,3.7963085169903934
+affinity,0.0037426527485180643,tetra.csv,False,4.033307787962258
+assign_labels,0.0004681665303552147,tetra.csv,False,4.033307787962258
+n_clusters,0.7941895886318682,tetra.csv,False,4.033307787962258
+n_init,0.012567828387313714,tetra.csv,False,4.033307787962258
+n_neighbors,0.017467028966282723,tetra.csv,False,4.033307787962258
+"('n_clusters', 'n_neighbors')",0.04900864844366255,tetra.csv,False,4.033307787962258
+"('n_clusters', 'n_init')",0.04230337809921618,tetra.csv,False,4.033307787962258
+"('affinity', 'n_clusters')",0.024312597921717735,tetra.csv,False,4.033307787962258
+"('n_init', 'n_neighbors')",0.02076197471214867,tetra.csv,False,4.033307787962258
+"('affinity', 'n_neighbors')",0.003430371317830665,tetra.csv,False,4.033307787962258
+"('assign_labels', 'n_clusters')",0.0030956090140384553,tetra.csv,False,4.033307787962258
+"('affinity', 'n_init')",0.0023248634276403692,tetra.csv,False,4.033307787962258
+"('assign_labels', 'n_neighbors')",0.00034823230444807224,tetra.csv,False,4.033307787962258
+"('assign_labels', 'n_init')",0.00016253968363689488,tetra.csv,False,4.033307787962258
+"('affinity', 'assign_labels')",5.671585566773619e-05,tetra.csv,False,4.033307787962258
+"('n_clusters', 'n_init', 'affinity')",0.005556504958242833,tetra.csv,False,4.033307787962258
+"('n_clusters', 'assign_labels', 'n_neighbors')",0.0005574855686898644,tetra.csv,False,4.033307787962258
+affinity,0.047680868862119336,impossible.csv,False,4.3547674680594355
+assign_labels,0.001881273300776495,impossible.csv,False,4.3547674680594355
+n_clusters,0.5080718688873638,impossible.csv,False,4.3547674680594355
+n_init,0.02110738350838625,impossible.csv,False,4.3547674680594355
+n_neighbors,0.022629367010633616,impossible.csv,False,4.3547674680594355
+"('affinity', 'n_clusters')",0.16498391759150477,impossible.csv,False,4.3547674680594355
+"('n_clusters', 'n_init')",0.05135822574228403,impossible.csv,False,4.3547674680594355
+"('n_clusters', 'n_neighbors')",0.04685746933489788,impossible.csv,False,4.3547674680594355
+"('affinity', 'n_neighbors')",0.014071084615229594,impossible.csv,False,4.3547674680594355
+"('n_init', 'n_neighbors')",0.013554679882465837,impossible.csv,False,4.3547674680594355
+"('assign_labels', 'n_clusters')",0.00855714974398145,impossible.csv,False,4.3547674680594355
+"('affinity', 'n_init')",0.0062581355374331255,impossible.csv,False,4.3547674680594355
+"('assign_labels', 'n_neighbors')",0.004236187134936241,impossible.csv,False,4.3547674680594355
+"('assign_labels', 'n_init')",0.0018252120979607277,impossible.csv,False,4.3547674680594355
+"('affinity', 'assign_labels')",0.001296827171940392,impossible.csv,False,4.3547674680594355
+"('n_clusters', 'n_init', 'affinity')",0.013400018825300421,impossible.csv,False,4.3547674680594355
+"('n_clusters', 'assign_labels', 'n_neighbors')",0.0035474651675794847,impossible.csv,False,4.3547674680594355
+affinity,0.0009111878872833275,disk_1000n.csv,False,3.8982931970385835
+assign_labels,0.0008331383556155885,disk_1000n.csv,False,3.8982931970385835
+n_clusters,0.7389799903621772,disk_1000n.csv,False,3.8982931970385835
+n_init,0.02177339440148978,disk_1000n.csv,False,3.8982931970385835
+n_neighbors,0.03737693863303675,disk_1000n.csv,False,3.8982931970385835
+"('n_clusters', 'n_neighbors')",0.09825958909407798,disk_1000n.csv,False,3.8982931970385835
+"('n_clusters', 'n_init')",0.031398255341567705,disk_1000n.csv,False,3.8982931970385835
+"('n_init', 'n_neighbors')",0.015081947428037177,disk_1000n.csv,False,3.8982931970385835
+"('affinity', 'n_neighbors')",0.004668822026650136,disk_1000n.csv,False,3.8982931970385835
+"('assign_labels', 'n_clusters')",0.004551740408971303,disk_1000n.csv,False,3.8982931970385835
+"('assign_labels', 'n_init')",0.004490732762258663,disk_1000n.csv,False,3.8982931970385835
+"('affinity', 'n_init')",0.0020147955295320335,disk_1000n.csv,False,3.8982931970385835
+"('affinity', 'n_clusters')",0.001826885445905977,disk_1000n.csv,False,3.8982931970385835
+"('assign_labels', 'n_neighbors')",0.001609993568406695,disk_1000n.csv,False,3.8982931970385835
+"('affinity', 'assign_labels')",0.00030227374984880093,disk_1000n.csv,False,3.8982931970385835
+"('n_clusters', 'n_init', 'affinity')",0.0006216336594105177,disk_1000n.csv,False,3.8982931970385835
+"('n_clusters', 'assign_labels', 'n_neighbors')",0.003276008877226956,disk_1000n.csv,False,3.8982931970385835
+affinity,0.0028512045733682955,dim128.csv,False,3.724278255016543
+assign_labels,0.004530302012459558,dim128.csv,False,3.724278255016543
+n_clusters,0.45473353883790746,dim128.csv,False,3.724278255016543
+n_init,0.09704823666680178,dim128.csv,False,3.724278255016543
+n_neighbors,0.03297122812051752,dim128.csv,False,3.724278255016543
+"('n_clusters', 'n_init')",0.17275825441394177,dim128.csv,False,3.724278255016543
+"('n_clusters', 'n_neighbors')",0.05860949988603066,dim128.csv,False,3.724278255016543
+"('assign_labels', 'n_clusters')",0.027525669085700838,dim128.csv,False,3.724278255016543
+"('n_init', 'n_neighbors')",0.020561188274181158,dim128.csv,False,3.724278255016543
+"('affinity', 'n_clusters')",0.011688888303779947,dim128.csv,False,3.724278255016543
+"('assign_labels', 'n_init')",0.009050058602868402,dim128.csv,False,3.724278255016543
+"('assign_labels', 'n_neighbors')",0.004177394813764317,dim128.csv,False,3.724278255016543
+"('affinity', 'n_init')",0.00291103568755923,dim128.csv,False,3.724278255016543
+"('affinity', 'n_neighbors')",0.0024371302015961504,dim128.csv,False,3.724278255016543
+"('affinity', 'assign_labels')",0.0018406984981845882,dim128.csv,False,3.724278255016543
+"('n_clusters', 'n_init', 'affinity')",0.008235759891977038,dim128.csv,False,3.724278255016543
+"('n_clusters', 'assign_labels', 'n_neighbors')",0.01162587765613888,dim128.csv,False,3.724278255016543
+affinity,0.001882527482576194,dim512.csv,False,3.5896098560187966
+assign_labels,0.004939300816513406,dim512.csv,False,3.5896098560187966
+n_clusters,0.49693423700786593,dim512.csv,False,3.5896098560187966
+n_init,0.0648287112361232,dim512.csv,False,3.5896098560187966
+n_neighbors,0.05178456910001303,dim512.csv,False,3.5896098560187966
+"('n_clusters', 'n_init')",0.12836931195317286,dim512.csv,False,3.5896098560187966
+"('n_clusters', 'n_neighbors')",0.08900104137605863,dim512.csv,False,3.5896098560187966
+"('n_init', 'n_neighbors')",0.031150309977466182,dim512.csv,False,3.5896098560187966
+"('assign_labels', 'n_init')",0.011464814666131935,dim512.csv,False,3.5896098560187966
+"('assign_labels', 'n_clusters')",0.01018235222307012,dim512.csv,False,3.5896098560187966
+"('affinity', 'n_clusters')",0.006228362033187827,dim512.csv,False,3.5896098560187966
+"('assign_labels', 'n_neighbors')",0.006202458169432755,dim512.csv,False,3.5896098560187966
+"('affinity', 'n_neighbors')",0.003966741426862177,dim512.csv,False,3.5896098560187966
+"('affinity', 'n_init')",0.0024863688692229376,dim512.csv,False,3.5896098560187966
+"('affinity', 'assign_labels')",0.000348851765694157,dim512.csv,False,3.5896098560187966
+"('n_clusters', 'n_init', 'affinity')",0.005808764728117919,dim512.csv,False,3.5896098560187966
+"('n_clusters', 'assign_labels', 'n_neighbors')",0.0034171836655986663,dim512.csv,False,3.5896098560187966
+affinity,0.2980295519432464,Statlog_RL.csv,False,2.081510707968846
+assign_labels,0.051080460902126736,Statlog_RL.csv,False,2.081510707968846
+n_clusters,0.10213843107151602,Statlog_RL.csv,False,2.081510707968846
+n_init,0.05672082342474869,Statlog_RL.csv,False,2.081510707968846
+n_neighbors,0.07977778907091651,Statlog_RL.csv,False,2.081510707968846
+"('n_clusters', 'n_neighbors')",0.055003242410023065,Statlog_RL.csv,False,2.081510707968846
+"('affinity', 'n_clusters')",0.046943575003112914,Statlog_RL.csv,False,2.081510707968846
+"('affinity', 'n_neighbors')",0.04646772516369643,Statlog_RL.csv,False,2.081510707968846
+"('affinity', 'assign_labels')",0.045796894305553684,Statlog_RL.csv,False,2.081510707968846
+"('n_init', 'n_neighbors')",0.04195890849491019,Statlog_RL.csv,False,2.081510707968846
+"('affinity', 'n_init')",0.03538319731128333,Statlog_RL.csv,False,2.081510707968846
+"('assign_labels', 'n_clusters')",0.02811046712851198,Statlog_RL.csv,False,2.081510707968846
+"('n_clusters', 'n_init')",0.027153094906266995,Statlog_RL.csv,False,2.081510707968846
+"('assign_labels', 'n_neighbors')",0.01973674479075286,Statlog_RL.csv,False,2.081510707968846
+"('assign_labels', 'n_init')",0.012053540599997081,Statlog_RL.csv,False,2.081510707968846
+"('n_clusters', 'n_init', 'affinity')",0.009646944354547642,Statlog_RL.csv,False,2.081510707968846
+"('n_clusters', 'assign_labels', 'n_neighbors')",0.0052088104338728035,Statlog_RL.csv,False,2.081510707968846

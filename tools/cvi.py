@@ -869,7 +869,7 @@ class Validation:
         self.validation = score
         return self.validation
     '''
-    
+
     def s_dbw(self):
         """
         The S_Dbw index, a measure of compactness.

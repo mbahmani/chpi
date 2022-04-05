@@ -1,13 +1,9 @@
 import collections
 import copy
-import json
 import matplotlib
 import matplotlib.pyplot as plt
 from statistics import median
-import numpy as np
-import os
 import pandas as pd
-import pickle
 import scipy.stats
 import seaborn as sns
 import warnings
@@ -15,6 +11,7 @@ import matplotlib.font_manager as fm
 
 """
 Credit to https://github.com/janvanrijn/openml-pimp
+we use this file for visualize the final performance results of fANOVA.
 """
 
 warnings.filterwarnings("ignore")

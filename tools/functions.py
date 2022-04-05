@@ -1,21 +1,25 @@
+
+"""
+In this file, there are all function that the user need to apply fANOVA across
+datasets for clustering algorithms.
+"""
+
 import pandas as pd
 import numpy as np
-import os
-import glob
+import sys
 import warnings
 import time
 from os import listdir
 from os.path import isfile, join
 from sklearn.preprocessing import StandardScaler
 from sklearn.preprocessing import LabelEncoder
-from sklearn.preprocessing import LabelBinarizer
-from sklearn.model_selection import StratifiedKFold
-from sklearn.metrics import adjusted_rand_score, silhouette_score, rand_score, adjusted_mutual_info_score, normalized_mutual_info_score
-from sklearn.cluster import KMeans, AffinityPropagation, AgglomerativeClustering, DBSCAN, MeanShift, SpectralClustering
+from sklearn.metrics import adjusted_rand_score, silhouette_score, rand_score, adjusted_mutual_info_score, \
+    normalized_mutual_info_score, davies_bouldin_score, calinski_harabasz_score
+from sklearn.cluster import KMeans, AffinityPropagation, AgglomerativeClustering, DBSCAN, MeanShift, SpectralClustering, OPTICS
 from sys import stdout
+from tools.cvi import Validation
 
-
-N = 100
+N = 10
 
 params_kmeans = {
     "n_clusters": np.random.choice(np.arange(2, 40, 1), N),
@@ -27,7 +31,7 @@ params_kmeans = {
 }
 
 params_affinitypropagation = {
-    "affinity": np.random.choice(['euclidean', 'precomputed'], N),
+    "affinity": 'euclidean',
     "max_iter": np.random.choice(np.arange(50, 501, 1), N),
     "convergence_iter": np.random.choice(np.arange(2, 30, 1), N),
     'damping': np.random.uniform(0.5, 0.999, N),
@@ -48,6 +52,18 @@ params_dbscan = {
     "algorithm": np.random.choice(['auto', 'ball_tree', 'kd_tree', 'brute'], N),
     "leaf_size": np.random.choice(np.arange(2, 50, 1), N),
 }
+
+params_optics = {
+    'max_eps': np.random.uniform(0.01, sys.maxsize, N),
+    'eps': np.random.uniform(0.01, sys.maxsize, N),
+    "min_samples": np.random.choice(np.arange(2, 20, 1), N),
+    "cluster_method": np.random.choice(['xi', 'dbscan'], N),
+    'xi': np.random.uniform(0.001, 1, N),
+    "metric": np.random.choice(['euclidean', 'l1', 'l2', 'manhattan'], N),
+    "algorithm": np.random.choice(['auto', 'ball_tree', 'kd_tree', 'brute'], N),
+    "leaf_size": np.random.choice(np.arange(2, 50, 1), N),
+}
+
 
 params_meanshift = {
     'bin_seeding': np.random.choice(['True', 'False'], N),
@@ -73,6 +89,7 @@ parameters = {
     "affinitypropagation": params_affinitypropagation,
     "agglomerativeclustering": params_agglomerativeclustering,
     "dbscan": params_dbscan,
+    "optics": params_optics,
     "meanshift": params_meanshift,
     "spectralclustering": params_spectralclustering,
 
@@ -84,6 +101,7 @@ models = {
     "affinitypropagation": AffinityPropagation(),
     "agglomerativeclustering": AgglomerativeClustering(),
     "dbscan": DBSCAN(),
+    "optics": OPTICS(),
     "meanshift": MeanShift(),
     "spectralclustering": SpectralClustering(),
 }
@@ -192,31 +210,31 @@ def clustering_per_dataset(path, file, algorithm, models, parameters):
 
     return final_logs
 
-
+ 
 def get_logs(data, num_imput_type, algorithm, file, combinations, models):
     """
-    Gathers the performance data for each random configuration 
-    on the given dataset for the specified ML algorithm
+    Gathers the performance data for each random configuration
+    on the given dataset for the specified clustering algorithm
 
     Inputs:
-            data - (DataFrame) dataset, where the last column 
-                               contains the response variable 
-            num_imput_type - (str or None) imputation type that takes 
+            data - (DataFrame) dataset, where the last column
+                               contains the response variable
+            num_imput_type - (str or None) imputation type that takes
                               one of the following values
                               {'mean', 'median', 'mode', None}
 
             algorithm - (str) takes one of the following options
-                        {RandomForest, AdaBoost, ExtraTrees, 
+                        {RandomForest, AdaBoost, ExtraTrees,
                          SVM, GradientBoosting}
             file - (str) name of the dataset
 
             combinations - (DataFrame) contains the random configurations
                             of the given algorithm
 
-            models - (dict) key: algorithm, 
+            models - (dict) key: algorithm,
                             value: the class of the algorithms
 
-    Outputs: 
+    Outputs:
             logs - (DataFrame) performance data
 
     """
@@ -233,7 +251,7 @@ def get_logs(data, num_imput_type, algorithm, file, combinations, models):
     y = le.fit_transform(y)
 
     num_labels = len(np.unique(y))
-
+    print(f"number of label is: {num_labels} ")
     # scaling the input
 
     scaler = StandardScaler()
@@ -256,6 +274,7 @@ def get_logs(data, num_imput_type, algorithm, file, combinations, models):
 
     for index in range(n_comb):
         print('{}/{}'.format(index + 1, n_comb))
+        print(f"algo is: {algorithm}")
 
         params = dict(zip(combinations.columns,
                       list(combinations.iloc[index, :])))
@@ -269,7 +288,8 @@ def get_logs(data, num_imput_type, algorithm, file, combinations, models):
             predictions_tr = model.fit_predict(X)
             end_tr = time.perf_counter()
             train_time = end_tr - start_tr
-        except:
+        except Exception as e:
+            print(e)
             start_tr = 0.00
             predictions_tr = 0.00
             end_tr = 0.00
@@ -277,39 +297,99 @@ def get_logs(data, num_imput_type, algorithm, file, combinations, models):
 
         try:
             rnd_score = rand_score(y, predictions_tr)
-        except:
+        except Exception as e:
+            print(e)
             rnd_score = 0
 
         try:
             adj_rnd_score = adjusted_rand_score(y, predictions_tr)
-        except:
+        except Exception as e:
+            print(e)
             adj_rnd_score = 0
-
-        try:
-            sil_score = silhouette_score(X, predictions_tr)
-        except:
-            sil_score = 0
-
         try:
             adj_mut_score = adjusted_mutual_info_score(y, predictions_tr)
-        except:
+        except Exception as e:
+            print(e)
             adj_mut_score = 0
 
         try:
             nrm_mut_score = normalized_mutual_info_score(y, predictions_tr)
-        except:
+        except Exception as e:
+            print(e)
             nrm_mut_score = 0
+        
+        try:
+            sil_score = silhouette_score(X, predictions_tr)
+        except Exception as e:
+            print(e)
+            sil_score = 0
 
+        
+        try:
+            davies_score = davies_bouldin_score(X, predictions_tr)
+        except Exception as e:
+            print(e)
+            davies_score = 0
+        
+        try:
+            calinski_score = calinski_harabasz_score(X, predictions_tr)
+        except Exception as e:
+            print(e)
+            calinski_score = 0
+        try:
+            validation = Validation(data=X, data_raw=X, labels=predictions_tr)
+            dunn_score = validation.dunns_index()
+        except Exception as e:
+            print(e)
+            dunn_score = 0
+        
+        try:
+            validation = Validation(data=X, data_raw=X, labels=predictions_tr)
+            c_index_score = validation.c_index()
+        except Exception as e:
+            print(e)
+            c_index_score = 0
+        
+        # try:
+        #     validation = Validation(data=X, data_raw=X, labels=predictions_tr)
+        #     tau_index_score = validation.tau_index()
+        # except Exception as e:
+        #     print(e)
+        #     tau_index_score = 0
+               
+        try:
+            validation = Validation(data=X, data_raw=X, labels=predictions_tr)
+            ratkowsky_lance_score = validation.ratkowsky_lance()
+        except Exception as e:
+            print(e)
+            ratkowsky_lance_score = 0    
+        
+        try:
+            validation = Validation(data=X, data_raw=X, labels=predictions_tr)
+            mc_clain_rao_score = validation.mc_clain_rao()
+        except Exception as e:
+            print(e)
+            mc_clain_rao_score = 0   
+    
         stdout.flush()
 
         logs.loc[index, "Train_time"] = np.mean(train_time)
         logs.loc[index, 'rand_score'] = np.mean(rnd_score)
         logs.loc[index, 'adjusted_rand_score'] = np.mean(adj_rnd_score)
-        logs.loc[index, 'silhouette_score'] = np.mean(sil_score)
         logs.loc[index, 'adjusted_mutual_info_score'] = np.mean(adj_mut_score)
-        logs.loc[index, 'normalized_mutual_info_score'] = np.mean(
-            nrm_mut_score)
-
+        logs.loc[index, 'normalized_mutual_info_score'] = np.mean(nrm_mut_score)
+        
+        logs.loc[index, 'silhouette_score'] = np.mean(sil_score)
+        # logs.loc[index, 'S_Dbw_score'] = np.mean(S_Dbw_score)
+        # logs.loc[index, 'cdbw_score'] = np.mean(cdbw_score)
+        logs.loc[index, 'davies_bouldin_score'] = np.mean(davies_score)
+        logs.loc[index, 'calinski_harabasz_score'] = np.mean(calinski_score)
+        logs.loc[index, 'dunn_score'] = np.mean(dunn_score)
+        logs.loc[index, 'c_index_score'] = np.mean(c_index_score)
+        # # logs.loc[index, 'tau_index_score'] = np.mean(tau_index_score)
+        logs.loc[index, 'ratkowsky_lance_score'] = np.mean(ratkowsky_lance_score)
+        logs.loc[index, 'mc_clain_rao_score'] = np.mean(mc_clain_rao_score)
+        
         print('\n')
 
     return logs
@@ -338,38 +418,6 @@ def get_combinations(parameters, algorithm):
     return combinations
 
 
-def other_metrics(y_true, predictions, multilabel):
-    """
-    Treating the case of multiple labels for 
-    computing performance measures suitable for 
-    binary labels
-
-    Inputs:
-            y_true - (array or sparse matrix) true values of the 
-                      labels
-            predictions - (array or sparse matrix) predicted values of the 
-                      labels 
-            multilabel - (boolean) specifies if there are 
-                          multiple labels (True)
-    Outputs: 
-            f1, recall, precision, auc - (float) performace metrics
-
-    """
-
-    if multilabel:
-        f1 = f1_score(y_true, predictions, average='micro')
-        recall = recall_score(y_true, predictions, average='micro')
-        precision = precision_score(y_true, predictions, average='micro')
-        auc = roc_auc_score(y_true, predictions, average='micro')
-    else:
-        f1 = f1_score(y_true, predictions)
-        recall = recall_score(y_true, predictions)
-        precision = precision_score(y_true, predictions)
-        auc = roc_auc_score(y_true, predictions)
-
-    return f1, recall, precision, auc
-
-
 def numeric_impute(data, num_cols, method):
     """
     Performs numerical data imputaion based 
@@ -393,3 +441,114 @@ def numeric_impute(data, num_cols, method):
     else:
         output = num_data.fillna(getattr(num_data, method)())
     return output
+
+
+def hp_improtance_verification(path, algorithm):
+
+    all_files = [f for f in listdir(path) if isfile(join(path, f))]
+    all_datasets = len(all_files)
+    
+    for index, file in enumerate(all_files):
+        print('Dataset {}({}) out of {} \n'.format(index + 1, file, all_datasets), flush=True)
+
+        file_path = path+file
+        
+        data = pd.read_csv(file_path, index_col=None, header=0)
+        # making the column names lower case
+        data.columns = map(str.lower, data.columns)
+
+        # removing an id column if exists
+        if 'id' in data.columns:
+            data = data.drop('id', 1)
+
+        # remove columns with only NaN values
+        empty_cols = ~data.isna().all()
+        data = data.loc[:, empty_cols]
+
+        # identifying numerical and categorical features
+        cols = set(data.columns)
+        num_cols = set(data._get_numeric_data().columns)
+        categorical_cols = list(cols.difference(num_cols))
+
+        # data imputation for categorical features
+        categ_data = data[categorical_cols]
+        data[categorical_cols] = categ_data.fillna(categ_data.mode().iloc[0])
+        
+        # data imputation for numeric features
+        num_data = data[data._get_numeric_data().columns]
+        data[data._get_numeric_data().columns] = num_data.fillna(num_data.mean().iloc[0])
+        
+
+        # defining the random configurations
+        combinations = get_combinations(parameters, algorithm)
+
+        # excluding the response variable
+        X = data.iloc[:, :-1]
+
+        # selecting the response variable
+        y = data.iloc[:, -1]
+
+        # one-hot encoding
+        X = pd.get_dummies(X)
+
+        le = LabelEncoder()
+        y = le.fit_transform(y)
+
+        num_labels = len(np.unique(y))
+        print(f"number of label is: {num_labels} ")
+        # scaling the input
+
+        scaler = StandardScaler()
+        X = scaler.fit_transform(X)
+        
+        scaled = True
+
+        logs = combinations.copy()
+        n_comb = logs.shape[0]
+        logs.insert(loc=0, column='dataset', value=file)
+
+        results = pd.DataFrame()
+
+        for index in range(n_comb):
+            print('{}/{}'.format(index + 1, n_comb))
+            print(f"algo is: {algorithm}")
+
+            for hp in combinations.columns:
+                
+                # params = dict(zip(combinations.columns,
+                #             list(combinations.iloc[index, :])))
+
+                model = models[algorithm]
+                model.set_params(**params)
+
+            # fit and prediction
+            try:
+                start_tr = time.perf_counter()
+                predictions_tr = model.fit_predict(X)
+                end_tr = time.perf_counter()
+                train_time = end_tr - start_tr
+            except Exception as e:
+                print(e)
+                start_tr = 0.00
+                predictions_tr = 0.00
+                end_tr = 0.00
+                train_time = end_tr - start_tr
+            
+            try:
+                sil_score = silhouette_score(X, predictions_tr)
+            except Exception as e:
+                print(e)
+                sil_score = 0
+
+            stdout.flush()
+            logs.loc[index, "Train_time"] = np.mean(train_time)
+            logs.loc[index, 'silhouette_score'] = np.mean(sil_score)
+            
+            print('\n')
+
+        results = pd.concat([results, logs], axis=0)
+        results.to_csv('verification_results/{}_verification.csv'.format(algorithm),
+                           header=True,
+                           index=False)
+        
+    return logs
