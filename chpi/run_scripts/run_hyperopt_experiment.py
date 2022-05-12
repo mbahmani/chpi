@@ -1,10 +1,15 @@
+import os
+import sys
+from os import listdir
+from os.path import isfile, join
+dir = os.getcwd()
+sys.path.append(dir)
 from tools import hpi_verification
 from sklearn.cluster import KMeans, AffinityPropagation, \
     AgglomerativeClustering, DBSCAN, MeanShift, SpectralClustering, OPTICS
 import pandas as pd
 import json
-from os import listdir
-from os.path import isfile, join
+
 
 
 if __name__ == '__main__':
@@ -28,7 +33,7 @@ if __name__ == '__main__':
         y = df.iloc[:, -1]
 
         hpiverfication = hpi_verification.HPIVerification(
-            n_iter_opt=40,
+            n_iter_opt=30,
             X=X,
             y=y,
             algorithm="kmeans",
