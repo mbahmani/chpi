@@ -129,14 +129,13 @@ def marginal_plots(sorted_values, keys, fig_title):
     ax = plt.gcf()
 
     plt.xticks(list(range(len(sorted_values))),
-               list(keys), rotation=45, ha='right')
-    plt.ylabel('marginal contribution')
+               list(keys), rotation=30, ha='right')
+    plt.ylabel('Variance Contribution')
     sns.set_palette("RdBu")
     sns.set_style("darkgrid")
-    plt.title(fig_title)
+    # plt.title(fig_title)
     # plt.show()
-    plt.savefig("output_plots/"+fig_title+".jpg",
-                bbox_inches='tight', pad_inches=0)
+    plt.savefig("chpi/output_plots/"+fig_title+".pdf" ,bbox_inches = 'tight',pad_inches = 0.01, format='pdf')
     plt.close()
     print("Plot saved. Finished!")
     return 0
@@ -163,10 +162,59 @@ def format_name(name):
         "('init', 'max_iter')": "init, max_iter",
         "('algorithm', 'max_iter')": "algorithm, max_iter",
         "('algorithm', 'n_init')": "algorithm, n_init",
-        "('algorithm', 'init')": "('algorithm', 'init')",
-        " ('n_clusters', 'init', 'max_iter')": " ('n_clusters', 'init', 'max_iter')",
-        "('n_clusters', 'init', 'algorithm')": "('n_clusters', 'init', 'algorithm')",
-        "('imputation', 'n_clusters', 'algorithm')": "('imputation', 'n_clusters', 'algorithm')",
+        "('algorithm', 'init')": "algorithm, init",
+        " ('n_clusters', 'init', 'max_iter')": "n_clusters, init, max_iter",
+        "('n_clusters', 'init', 'algorithm')": 'n_clus., init, algo.',
+        "('imputation', 'n_clusters', 'algorithm')": 'imput., n_clus., algo.',
+        "('affinity', 'linkage')": "affinity, linkage",
+        "('linkage', 'n_clusters')": "linkage, n_clusters",
+        "('imputation', 'linkage')": "imputation, linkage",
+        "('affinity', 'n_clusters')": "affinity, n_clusters",
+        "('affinity', 'compute_full_tree')": "affinity, comp_f_t",
+        
+        "('n_clusters', 'affinity', 'linkage')": "n_clus., affin., linka.",
+        "('compute_full_tree', 'affinity', 'linkage')": "comp_f_t., affin., linka.",
+        "('eps', 'min_samples')": "eps, min_samp.",
+        "('eps', 'leaf_size')": "eps, leaf_size",
+        "('leaf_size', 'min_samples')": "leaf_size, min_samp.",
+        
+        "('eps', 'metric')": "eps, metric",
+        "('algorithm', 'eps')": "algo., eps",
+        "('imputation', 'n_clusters')": "imputation, n_clus.",
+        "('bandwidth', 'max_iter')": "bandw., max_iter",
+        "('bandwidth', 'cluster_all')": "bandw., clus._all",
+        "('bandwidth', 'bin_seeding')": "bandw., bin_seed.",
+        "('cluster_all', 'max_iter')": "clus._all, max_iter",
+        "('bin_seeding', 'max_iter')": "bin_seed., max_iter",
+        "('cluster_all', 'max_iter', 'bandwidth')": "clus_all, max_iter, bandw.",
+        "('cluster_method', 'xi')": "clus._meth., xi",
+        "('cluster_method', 'min_samples')": "clus_meth., min_samp.",
+        "('cluster_method', 'max_eps')": "clus_meth., max_eps",
+        "('cluster_method', 'eps')": "clus_meth., eps",
+        "('algorithm', 'min_samples')": "algo., min_samp.",
+        "('min_samples', 'xi')": "min_samp., xi",
+        "('eps', 'metric')": "eps, metric",
+        "('eps', 'xi')": "eps, xi",
+        "('leaf_size', 'xi')": "leaf_size, xi",
+        "('metric', 'xi')": "metric, xi",
+        "('max_eps', 'xi')": "max_eps, xi",
+        "('eps', 'max_eps')": "eps, max_eps",
+        "('algorithm', 'leaf_size')": "algo., leaf_size",
+        "('leaf_size', 'max_eps')": "algo., max_eps",
+        "('n_clusters', 'n_neighbors')": "n_clus., n_neigh.",
+        "('affinity', 'n_clusters')": "affinity, n_clusters",
+        "('assign_labels', 'n_clusters')": "assign_labels, n_clus.",
+        "('affinity', 'n_neighbors')": "affinity, n_neigh.",
+        "('n_init', 'n_neighbors')": "n_init, n_neigh.",
+        
+        
+        
+        
+        
+        
+        
+        
+ 
     }
 
     mapping_short = {
@@ -199,6 +247,7 @@ def format_name(name):
         " ('n_clusters', 'init', 'max_iter')": " ('n_clusters', 'init', 'max_iter')",
         "('n_clusters', 'init', 'algorithm')": "('n_clusters', 'init', 'algorithm')",
         "('imputation', 'n_clusters', 'algorithm')": "('imputation', 'n_clusters', 'algorithm')",
+        "('affinity','linkage')": "affinity, linkage",
     }
 
     parts = name.split('__')
